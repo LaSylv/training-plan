@@ -137,6 +137,14 @@ p { margin: 8px 0; }
 .tag.today-tag { background: var(--accent); color: #fff; }
 .srow .meta { font-size: .8rem; color: var(--text-dim); margin-top: 4px; }
 .srow .detail { font-size: .92rem; margin-top: 8px; }
+.steps-list {
+  list-style: none; margin: 10px 0 0; padding: 10px 12px;
+  background: color-mix(in srgb, var(--velo) 6%, var(--surface-2));
+  border: 1px solid color-mix(in srgb, var(--velo) 16%, var(--border));
+  border-radius: 10px;
+}
+.steps-list li { font-size: .85rem; padding: 3px 0; border-bottom: 1px dashed var(--border); }
+.steps-list li:last-child { border-bottom: none; }
 
 /* ---- Muscu detail (exos exacts) ---- */
 .muscu-detail {

@@ -6,6 +6,27 @@ import data from './plan.json'
 
 export type SessionType = 'velo' | 'muscu' | 'repos'
 
+// Bloc d'entraînement vélo. Les intensités sont en % de la FTP (lo/hi, oLo…).
+export interface Block {
+  k: 'wu' | 'cd' | 'rec' | 'steady' | 'int' | 'ou' | 'open'
+  min?: number
+  lo?: number
+  hi?: number
+  label?: string
+  reps?: number
+  on?: number
+  off?: number
+  cad?: string
+  sets?: number
+  onOver?: number
+  onUnder?: number
+  oLo?: number
+  oHi?: number
+  uLo?: number
+  uHi?: number
+  rec?: number
+}
+
 export interface Session {
   id: string
   day: string
@@ -14,6 +35,7 @@ export interface Session {
   duration?: string
   tss?: number
   detail: string
+  steps?: Block[]         // structure vélo en % de FTP → watts calculés depuis athlete.ftp
   seance?: 'A' | 'B'      // pour les séances de muscu : renvoie vers muscuSeances
   mainScheme?: string     // séries×reps de l'exercice principal cette semaine
 }
@@ -75,6 +97,32 @@ export function zoneWatts(z: ZoneDef, ftp: number): string {
   const hi = Math.round((z.hi / 100) * ftp)
   if (z.lo === 0) return `< ${hi} W`
   return `${lo}–${hi} W`
+}
+
+// Formate les blocs d'une séance vélo en lignes lisibles, watts calculés depuis la FTP.
+export function formatBlocks(steps: Block[], ftp: number): string[] {
+  const w = (p?: number) => Math.round(((p ?? 0) / 100) * ftp)
+  const range = (lo?: number, hi?: number) => `${w(lo)}–${w(hi)} W`
+  return steps.map((b) => {
+    switch (b.k) {
+      case 'wu':
+        return `Échauffement ${b.min} min`
+      case 'cd':
+        return `Retour au calme ${b.min} min`
+      case 'rec':
+        return `Récup ${b.min} min`
+      case 'steady':
+        return `${b.label} — ${b.min} min · ${range(b.lo, b.hi)}`
+      case 'int':
+        return `${b.reps} × ${b.on} min · ${range(b.lo, b.hi)} — ${b.label}${b.cad ? ` (${b.cad})` : ''}${b.off ? ` · récup ${b.off} min` : ''}`
+      case 'ou':
+        return `${b.sets} × [${b.reps} × (${b.onOver} min ${range(b.oLo, b.oHi)} / ${b.onUnder} min ${range(b.uLo, b.uHi)})] — Over-unders`
+      case 'open':
+        return `${b.label} — ${b.min} min · effort libre (donne tout)`
+      default:
+        return ''
+    }
+  })
 }
 
 // Toutes les séances "cochables" (vélo + muscu, hors repos)

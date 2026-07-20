@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import type { Session } from '../data/plan'
+import { athlete, formatBlocks } from '../data/plan'
 import { useProgress } from '../lib/progress'
 import { MuscuDetail } from './MuscuDetail'
 
@@ -37,6 +38,13 @@ export function SessionRow({ session, today }: { session: Session; today?: boole
           </div>
         )}
         <div className="detail">{session.detail}</div>
+        {session.steps && session.steps.length > 0 && (
+          <ul className="steps-list">
+            {formatBlocks(session.steps, athlete.ftp).map((line, i) => (
+              <li key={i}>{line}</li>
+            ))}
+          </ul>
+        )}
         {session.type === 'velo' && session.id && session.id !== 'w9-sam' && (
           <a
             className="fit-btn"

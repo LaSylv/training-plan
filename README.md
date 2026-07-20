@@ -17,7 +17,16 @@ Mobile-first, mode sombre/clair.
 
 ## Nature statique
 
-Aucun appel réseau, aucune clé API. **Tout le contenu vit dans [`src/data/plan.ts`](src/data/plan.ts)** (snapshot figé). Pour mettre à jour les stats ou le plan, on édite ce fichier et on rebuild — la régénération passe par une session avec l'assistant.
+Aucun appel réseau, aucune clé API. **Tout le contenu vit dans [`src/data/plan.json`](src/data/plan.json)** (snapshot figé). Pour mettre à jour les stats ou le plan, on édite ce fichier et on rebuild.
+
+### FTP = valeur unique
+
+Les intensités vélo sont exprimées en **% de la FTP** (blocs `steps`), et la FTP est `athlete.ftp`. **Changer uniquement `athlete.ftp`** met à jour tous les watts affichés dans l'app (calcul en direct). Pour recalculer aussi les fichiers Garmin `.FIT`, relancer le générateur :
+
+```bash
+uv venv /tmp/fitenv && uv pip install --python /tmp/fitenv fit-tool
+/tmp/fitenv/bin/python scripts/gen_workouts.py
+```
 
 ## Développement
 
