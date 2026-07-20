@@ -5,6 +5,7 @@ import { Zones } from './pages/Zones'
 import { Strength } from './pages/Strength'
 import { RaceDay } from './pages/RaceDay'
 import { Climbs } from './pages/Climbs'
+import { SeanceGuidee } from './pages/SeanceGuidee'
 
 const TABS = [
   { to: '/', ico: '🏠', label: 'Accueil', end: true },
@@ -33,6 +34,7 @@ export default function App() {
           <Route path="/muscu" element={<Strength />} />
           <Route path="/jour-j" element={<RaceDay />} />
           <Route path="/cols" element={<Climbs />} />
+          <Route path="/seance/:id" element={<SeanceGuidee />} />
         </Routes>
       </main>
 

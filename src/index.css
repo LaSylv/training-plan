@@ -202,3 +202,52 @@ ul.clean li { margin: 8px 0; }
 .fit-help { margin-top: 14px; background: var(--surface-2); border-radius: 12px; padding: 12px 14px; }
 .fit-help summary { cursor: pointer; font-weight: 600; font-size: .9rem; }
 .fit-help code { background: var(--surface); padding: 1px 6px; border-radius: 6px; font-size: .85em; border: 1px solid var(--border); }
+
+/* ---- Lien démo vidéo ---- */
+.demo-link {
+  display: inline-block; margin-top: 6px; font-size: .8rem; font-weight: 600;
+  color: var(--muscu); text-decoration: none;
+}
+.demo-link:hover { text-decoration: underline; }
+
+/* ---- Bouton lancer séance guidée ---- */
+.seance-btn {
+  display: block; text-align: center; margin-top: 12px; padding: 12px;
+  border-radius: 12px; text-decoration: none; font-weight: 700; font-size: .95rem;
+  color: #fff; background: var(--muscu);
+}
+.seance-btn:hover { filter: brightness(1.05); }
+
+/* ---- Chrono (séance guidée) ---- */
+.timer-box {
+  position: sticky; top: 68px; z-index: 10;
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 16px; margin: 16px 0; box-shadow: var(--shadow); text-align: center;
+}
+.timer-display {
+  font-size: 3.2rem; font-weight: 800; line-height: 1; letter-spacing: 1px;
+  font-variant-numeric: tabular-nums; color: var(--text);
+}
+.timer-display.run { color: var(--accent); }
+.timer-presets { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; margin: 12px 0; }
+.chip {
+  border: 1px solid var(--border); background: var(--surface-2); color: var(--text);
+  border-radius: 99px; padding: 6px 12px; font-size: .85rem; font-weight: 600; cursor: pointer;
+  font-variant-numeric: tabular-nums;
+}
+.chip:hover { background: var(--border); }
+.timer-ctrls { display: flex; gap: 8px; justify-content: center; }
+.timer-ctrls .btn:disabled { opacity: .4; cursor: not-allowed; }
+
+/* ---- Cartes d'exercices (séance guidée) ---- */
+.exo-card { padding: 16px; }
+.exo-card.done { opacity: .55; }
+.exo-top { display: flex; gap: 14px; align-items: flex-start; }
+.exo-name { font-weight: 700; font-size: 1.02rem; }
+.exo-cue { font-size: .88rem; color: var(--text-dim); margin: 8px 0; }
+.exo-actions { display: flex; gap: 14px; align-items: center; flex-wrap: wrap; margin-top: 6px; }
+.btn.small { padding: 7px 12px; font-size: .82rem; }
+.finish-btn {
+  display: block; width: 100%; margin: 20px 0; padding: 16px; font-size: 1rem; font-weight: 700;
+  background: var(--accent); color: #fff; border: none;
+}

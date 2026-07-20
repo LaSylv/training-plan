@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import type { Session } from '../data/plan'
 import { useProgress } from '../lib/progress'
 import { MuscuDetail } from './MuscuDetail'
@@ -46,7 +47,12 @@ export function SessionRow({ session, today }: { session: Session; today?: boole
           </a>
         )}
         {session.type === 'muscu' && session.seance && (
-          <MuscuDetail seance={session.seance} mainScheme={session.mainScheme} />
+          <>
+            <Link className="seance-btn" to={`/seance/${session.id}`}>
+              ▶ Faire la séance (guidée + chrono)
+            </Link>
+            <MuscuDetail seance={session.seance} mainScheme={session.mainScheme} />
+          </>
         )}
       </div>
     </div>

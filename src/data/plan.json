@@ -51,25 +51,25 @@
     "A": {
       "title": "Séance A · Force bas du corps",
       "warmup": "10 min vélo ou rameur + mobilité hanches/chevilles",
-      "main": { "name": "Squat (ou presse à cuisses)", "note": "exercice principal — charge selon la semaine" },
+      "main": { "name": "Squat (ou presse à cuisses)", "cue": "Dos droit, pieds largeur épaules. Descends les hanches en poussant les fesses vers l'arrière, genoux dans l'axe des pieds. Pousse dans les talons pour remonter.", "video": "squat barre technique débutant" },
       "accessories": [
-        { "name": "Soulevé de terre jambes tendues (RDL)", "scheme": "3 × 6", "note": "chaîne postérieure, dos gainé" },
-        { "name": "Fentes bulgares", "scheme": "3 × 8 / jambe", "note": "unilatéral, contrôle" },
-        { "name": "Mollets debout", "scheme": "3 × 12", "note": "amplitude complète" },
-        { "name": "Gainage : planche", "scheme": "3 × 45 s" },
-        { "name": "Pallof press (anti-rotation)", "scheme": "3 × 10 / côté" }
+        { "name": "Soulevé de terre jambes tendues (RDL)", "scheme": "3 × 6", "cue": "Jambes quasi tendues, dos bien plat. Descends la barre le long des jambes en poussant les fesses en arrière, tu sens l'étirement des ischios.", "video": "romanian deadlift RDL technique" },
+        { "name": "Fentes bulgares", "scheme": "3 × 8 / jambe", "cue": "Pied arrière posé sur un banc. Descends le genou arrière vers le sol, buste droit, poids sur la jambe avant.", "video": "fentes bulgares technique" },
+        { "name": "Mollets debout", "scheme": "3 × 12", "cue": "Monte sur la pointe des pieds au maximum, marque un temps en haut, redescends lentement.", "video": "extension mollets debout" },
+        { "name": "Gainage : planche", "scheme": "3 × 45 s", "cue": "Appui avant-bras + pointes de pieds. Corps aligné tête-talons, serre abdos et fessiers, ne creuse pas le bas du dos.", "video": "planche gainage technique" },
+        { "name": "Pallof press (anti-rotation)", "scheme": "3 × 10 / côté", "cue": "Élastique fixé sur le côté à hauteur poitrine. Tends les bras devant toi et résiste à la rotation, gainé.", "video": "pallof press technique" }
       ]
     },
     "B": {
       "title": "Séance B · Puissance / durabilité",
       "warmup": "10 min vélo ou rameur + mobilité hanches/chevilles",
-      "main": { "name": "Soulevé de terre trap-bar (ou presse à cuisses)", "note": "exercice principal — charge selon la semaine" },
+      "main": { "name": "Soulevé de terre trap-bar (ou presse à cuisses)", "cue": "Dans la trap-bar, dos plat, poitrine haute. Pousse dans les jambes, hanches et épaules montent ensemble. Ne arrondis jamais le dos.", "video": "trap bar deadlift technique" },
       "accessories": [
-        { "name": "Montées sur banc lestées (step-ups)", "scheme": "3 × 8 / jambe", "note": "banc à hauteur genou" },
-        { "name": "RDL unijambe", "scheme": "3 × 8 / jambe", "note": "équilibre + chaîne postérieure" },
-        { "name": "Hip thrust", "scheme": "3 × 8", "note": "extension de hanche, fessiers" },
-        { "name": "Gainage : planche latérale", "scheme": "3 × 30 s / côté" },
-        { "name": "Dead bug", "scheme": "3 × 10 / côté" }
+        { "name": "Montées sur banc lestées (step-ups)", "scheme": "3 × 8 / jambe", "cue": "Banc à hauteur du genou. Monte en poussant uniquement sur la jambe du dessus, contrôle la descente.", "video": "step up lesté technique" },
+        { "name": "RDL unijambe", "scheme": "3 × 8 / jambe", "cue": "Sur une jambe, penche le buste dos plat en tendant la jambe libre derrière toi. Reviens en serrant la fesse.", "video": "single leg deadlift technique" },
+        { "name": "Hip thrust", "scheme": "3 × 8", "cue": "Haut du dos appuyé sur un banc, barre/poids sur le bassin. Monte les hanches en serrant fort les fessiers, menton rentré.", "video": "hip thrust technique" },
+        { "name": "Gainage : planche latérale", "scheme": "3 × 30 s / côté", "cue": "Sur le côté, appui coude + pied. Corps aligné, monte les hanches et tiens la position.", "video": "planche latérale gainage" },
+        { "name": "Dead bug", "scheme": "3 × 10 / côté", "cue": "Sur le dos, bas du dos plaqué au sol. Éloigne lentement bras et jambe opposés, sans creuser le dos.", "video": "dead bug exercice technique" }
       ]
     }
   },
@@ -126,7 +126,7 @@
         { "id": "", "day": "Lun", "type": "repos", "title": "Repos", "detail": "Récupération complète." },
         { "id": "w1-mar", "day": "Mar", "type": "velo", "title": "Qualité #1 — Sweet Spot", "duration": "1h30", "tss": 75, "detail": "3 × 12 min @ Sweet Spot (180–190 W), 5 min facile entre. Sur un col (Luère ou Yzeron). + Muscu A ensuite." },
         { "id": "w1-mar-m", "day": "Mar", "type": "muscu", "title": "Muscu A — adaptation", "seance": "A", "mainScheme": "3 × 8 modéré", "detail": "Phase adaptation : technique avant tout, charge modérée." },
-        { "id": "w1-mer", "day": "Mer", "type": "velo", "title": "Endurance Z2", "duration": "1h30", "tss": 65, "detail": "Z2 vallonné (Monts d'Or), toutes les bosses en souplesse." },
+        { "id": "w1-mer", "day": "Mer", "type": "velo", "title": "🔬 Test FTP (20 min)", "duration": "1h", "tss": 75, "detail": "Test FTP : 15 min d'échauffement + 3 × 1 min vives, 5 min récup, puis 20 min ALL-OUT à allure régulière (ne pars pas trop fort !). FTP = 95 % de la puissance moyenne des 20 min. Transmets-moi le résultat après → je recale toutes les zones et cibles watts." },
         { "id": "w1-jeu", "day": "Jeu", "type": "velo", "title": "Qualité #2 — Force", "duration": "1h30", "tss": 70, "detail": "Basse cadence : 5 × 5 min à 50–60 rpm, 175–190 W, assis sur une montée régulière. + Muscu B." },
         { "id": "w1-jeu-m", "day": "Jeu", "type": "muscu", "title": "Muscu B — adaptation", "seance": "B", "mainScheme": "3 × 8 modéré", "detail": "Phase adaptation : technique avant tout, charge modérée." },
         { "id": "", "day": "Ven", "type": "repos", "title": "Repos", "detail": "Récupération complète." },

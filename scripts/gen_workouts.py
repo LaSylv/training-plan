@@ -95,6 +95,17 @@ def longride(total):
     return wu() + [step("Sortie longue — Z2, cols en tempo/SS", body, 120, 155, Intensity.ACTIVE)]
 
 
+def ftptest():
+    s = wu(15)
+    for i in range(3):
+        s.append(step("Accélération 1min", 60, 200, 260, Intensity.INTERVAL))
+        s.append(step("Récup 1min", 60, 110, 135, Intensity.RECOVERY))
+    s.append(step("Récup 5min", 5 * 60, 110, 135, Intensity.RECOVERY))
+    # 20 min ALL-OUT : cible ouverte (donne tout, régulier)
+    s.append({'name': "TEST 20min ALL-OUT", 'sec': 20 * 60, 'lo': None, 'hi': None, 'int': Intensity.INTERVAL})
+    return s + cd(10)
+
+
 def openers(base, reps, on_sec, lo, hi, off_sec):
     s = wu() + [step("Endurance Z2", base * 60, 120, 150, Intensity.ACTIVE)]
     for i in range(reps):
@@ -108,7 +119,7 @@ def openers(base, reps, on_sec, lo, hi, off_sec):
 PLAN = {
     # S1
     'w1-mar': ("S1 Mar · Sweet Spot", sweetspot(3, 12, 180, 193, 5)),
-    'w1-mer': ("S1 Mer · Endurance Z2", endurance(90)),
+    'w1-mer': ("S1 Mer · TEST FTP 20min", ftptest()),
     'w1-jeu': ("S1 Jeu · Force basse cadence", lowcadence(5, 5, 175, 190, 3)),
     'w1-sam': ("S1 Sam · Sortie longue 3h", longride(180)),
     'w1-dim': ("S1 Dim · Endurance", endurance(90)),
@@ -185,10 +196,13 @@ def build(wid, name, steps):
         m.intensity = st['int']
         m.duration_type = WorkoutStepDuration.TIME
         m.duration_value = st['sec'] * 1000  # ms
-        m.target_type = WorkoutStepTarget.POWER
-        m.target_value = 0  # cible custom
-        m.custom_target_power_low = st['lo'] + PW_OFFSET
-        m.custom_target_power_high = st['hi'] + PW_OFFSET
+        if st['lo'] is None:
+            m.target_type = WorkoutStepTarget.OPEN  # effort libre (ex : test all-out)
+        else:
+            m.target_type = WorkoutStepTarget.POWER
+            m.target_value = 0  # cible custom
+            m.custom_target_power_low = st['lo'] + PW_OFFSET
+            m.custom_target_power_high = st['hi'] + PW_OFFSET
         builder.add(m)
 
     out = os.path.join(OUT, f"{wid}.fit")

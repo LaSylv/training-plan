@@ -40,13 +40,19 @@ export interface ZoneDef {
 export interface MuscuExercise {
   name: string
   scheme?: string
-  note?: string
+  cue?: string
+  video?: string
 }
 export interface MuscuSeance {
   title: string
   warmup: string
-  main: { name: string; note?: string }
+  main: { name: string; cue?: string; video?: string }
   accessories: MuscuExercise[]
+}
+
+// URL de recherche de démo vidéo pour un exercice.
+export function demoUrl(query: string): string {
+  return `https://www.youtube.com/results?search_query=${encodeURIComponent(query + ' technique')}`
 }
 
 export const planStart: string = data.planStart
@@ -75,3 +81,12 @@ export function zoneWatts(z: ZoneDef, ftp: number): string {
 export const allCheckableIds: string[] = weeks.flatMap((w) =>
   w.sessions.filter((s) => s.type !== 'repos').map((s) => s.id)
 )
+
+// Retrouve une séance (et sa semaine) par id.
+export function findSession(id: string): { session: Session; week: Week } | null {
+  for (const week of weeks) {
+    const session = week.sessions.find((s) => s.id === id)
+    if (session) return { session, week }
+  }
+  return null
+}
