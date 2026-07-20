@@ -1,0 +1,252 @@
+{
+  "_comment": "SOURCE DE VÉRITÉ du plan. Édite CE fichier pour toute modif (stats, séances). L'app le lit tel quel. Régénéré le 2026-07-20 depuis Intervals.icu i520912.",
+  "planStart": "2026-07-20",
+  "athlete": {
+    "ctl": 69,
+    "atlNote": "stable dans la fourchette 60–74 depuis 7+ semaines",
+    "eftp": 207,
+    "ftp": 205,
+    "weight": 57,
+    "snapshotDate": "2026-07-20",
+    "summary": "Base solide et régulière (~6–9 h / ~480 TSS par semaine, 3–4 sorties). eFTP en hausse (202 → 207 W). Avec 57 kg, ton rapport poids/puissance (~3,6 W/kg) est un vrai atout sur un parcours à 2 900 m de D+."
+  },
+  "event": {
+    "name": "Le Vercors — 130 km",
+    "organizer": "La Drômoise · CC Die",
+    "date": "2026-09-19",
+    "distance": "130 km",
+    "elevation": "~2 900 m D+",
+    "duration": "5 h 30 – 7 h estimées",
+    "url": "https://www.cyclodromoise.com/project/le-vercors-130km/",
+    "cols": [
+      { "name": "Col de Rousset", "note": "longue montée régulière, tôt dans le parcours (routes fermées au départ)" },
+      { "name": "Combe Laval", "note": "route balcon panoramique, longue, pente modérée" },
+      { "name": "Col de la Portette", "note": "passages surprenants à forte pente — le juge de paix" },
+      { "name": "Font d'Urle", "note": "longue montée vers ~1 400 m, plateau du Vercors" },
+      { "name": "Plaine de Vassieux", "note": "section de liaison en altitude" }
+    ],
+    "feedStations": "Ravitaillements aux km 40, 72 et 100"
+  },
+  "zoneDefs": [
+    { "key": "z1", "name": "Z1 · Récupération", "lo": 0, "hi": 55, "rpe": "1–2", "use": "Décrassage, jambes légères" },
+    { "key": "z2", "name": "Z2 · Endurance", "lo": 56, "hi": 75, "rpe": "3–4", "use": "Base de chaque sortie longue" },
+    { "key": "z3", "name": "Z3 · Tempo", "lo": 76, "hi": 88, "rpe": "5–6", "use": "Allure de longue montée" },
+    { "key": "ss", "name": "Sweet Spot", "lo": 88, "hi": 94, "rpe": "7", "use": "Le moteur de grimpe — cœur du plan" },
+    { "key": "z4", "name": "Z4 · Seuil", "lo": 95, "hi": 105, "rpe": "8", "use": "Plafond en col" },
+    { "key": "z5", "name": "Z5 · VO2max", "lo": 106, "hi": 120, "rpe": "9", "use": "Affûtage uniquement" }
+  ],
+  "strength": {
+    "intro": "La force lourde (peu de reps) améliore l'économie de pédalage, la durabilité et la puissance sur les rampes raides (coucou Col de la Portette). Deux règles : on soulève LOURD sans aller à la brûlure (gain nerveux, pas hypertrophie), et le vélo passe toujours avant — si une séance de muscu compromet la sortie longue du samedi, on la saute. On place la muscu les jours de qualité vélo (vélo d'abord, muscu ensuite).",
+    "progression": [
+      { "weeks": "S1–2", "freq": "2×/sem", "load": "3 × 8 modéré", "goal": "Adaptation, technique" },
+      { "weeks": "S3", "freq": "2×/sem", "load": "4 × 5 @ ~80% 1RM", "goal": "Force max" },
+      { "weeks": "S4 (récup)", "freq": "1×/sem", "load": "3 × 5 léger", "goal": "Entretien" },
+      { "weeks": "S5–6", "freq": "2×/sem", "load": "4 × 5 @ ~80% 1RM", "goal": "Force max" },
+      { "weeks": "S7", "freq": "1×/sem (début)", "load": "2 × 5 modéré", "goal": "Dernière séance ~13 j avant" },
+      { "weeks": "S8–9", "freq": "❌", "load": "—", "goal": "Jambes fraîches — que du gainage léger" }
+    ],
+    "rules": "Repos 2–3 min entre les séries lourdes. On pousse la charge avec intention (phase concentrique rapide), on s'arrête 1–2 reps avant l'échec. En S5–6 tu peux remplacer une série de squats par 3 × 5 squats sautés ou box jumps pour l'explosivité sur les rampes — seulement si genoux/dos vont bien."
+  },
+  "muscuSeances": {
+    "A": {
+      "title": "Séance A · Force bas du corps",
+      "warmup": "10 min vélo ou rameur + mobilité hanches/chevilles",
+      "main": { "name": "Squat (ou presse à cuisses)", "note": "exercice principal — charge selon la semaine" },
+      "accessories": [
+        { "name": "Soulevé de terre jambes tendues (RDL)", "scheme": "3 × 6", "note": "chaîne postérieure, dos gainé" },
+        { "name": "Fentes bulgares", "scheme": "3 × 8 / jambe", "note": "unilatéral, contrôle" },
+        { "name": "Mollets debout", "scheme": "3 × 12", "note": "amplitude complète" },
+        { "name": "Gainage : planche", "scheme": "3 × 45 s" },
+        { "name": "Pallof press (anti-rotation)", "scheme": "3 × 10 / côté" }
+      ]
+    },
+    "B": {
+      "title": "Séance B · Puissance / durabilité",
+      "warmup": "10 min vélo ou rameur + mobilité hanches/chevilles",
+      "main": { "name": "Soulevé de terre trap-bar (ou presse à cuisses)", "note": "exercice principal — charge selon la semaine" },
+      "accessories": [
+        { "name": "Montées sur banc lestées (step-ups)", "scheme": "3 × 8 / jambe", "note": "banc à hauteur genou" },
+        { "name": "RDL unijambe", "scheme": "3 × 8 / jambe", "note": "équilibre + chaîne postérieure" },
+        { "name": "Hip thrust", "scheme": "3 × 8", "note": "extension de hanche, fessiers" },
+        { "name": "Gainage : planche latérale", "scheme": "3 × 30 s / côté" },
+        { "name": "Dead bug", "scheme": "3 × 10 / côté" }
+      ]
+    }
+  },
+  "lyonClimbs": [
+    {
+      "cat": "Intervalles (10–20 min)",
+      "detail": "Pour le Sweet Spot / seuil.",
+      "spots": ["Col de la Luère", "Col de la Croix du Ban", "Yzeron via Vaugneray", "Col du Fût d'Avenas (Beaujolais)"]
+    },
+    {
+      "cat": "Longs cols (simule Rousset / Font d'Urle)",
+      "detail": "Montées longues et régulières.",
+      "spots": ["Crêt de l'Œillon (Pilat, ~13 km)", "Col de la République (Pilat)"]
+    },
+    {
+      "cat": "Rampes raides / force (simule la Portette)",
+      "detail": "Passages pentus pour le travail en force et à basse cadence.",
+      "spots": ["Mont Cindre / Mont Thou (Monts d'Or)"]
+    },
+    {
+      "cat": "Spécificité maximale",
+      "detail": "1–2 samedis en S5–S7 : rouler les vrais cols.",
+      "spots": ["Die / le Vercors — Col de Rousset depuis Die"]
+    }
+  ],
+  "raceDay": {
+    "fueling": [
+      "60–90 g de glucides / heure dès le km 0 (bidons + gels/barres).",
+      "À ~2 900 m de D+, tu brûles ~3 500–4 500 kcal : le sous-ravitaillement est la cause n°1 de la fringale.",
+      "Avec 57 kg tes réserves de glycogène sont plus petites → discipline nutrition = ta priorité n°1.",
+      "~500–750 ml de liquide / heure (plus s'il fait chaud). Profite des ravitos km 40/72/100.",
+      "Répète exactement ta stratégie nutrition lors de la sortie reine (S7)."
+    ],
+    "pacing": [
+      "Rousset (début) : Z2 / bas Z3 seulement — RPE 6, résiste aux jambes fraîches.",
+      "Garde les cartouches pour Combe Laval / Portette dans la 2ᵉ moitié.",
+      "Ne jamais mettre dans le rouge une montée avant le km 100.",
+      "Tu es un bon grimpeur (3,6 W/kg) : le risque n'est pas la montée, c'est de partir trop fort."
+    ],
+    "checklist": [
+      "Vélo révisé (transmission, freins, pneus) la semaine avant",
+      "Développement adapté : cassette 11-32 ou 11-34 pour les rampes de la Portette",
+      "Bidons + glucides préparés la veille",
+      "Vérifier météo montagne : coupe-vent pour les descentes en altitude",
+      "Repas riche en glucides la veille, petit-déj 3 h avant",
+      "Compteur chargé, plan de pacing en tête"
+    ]
+  },
+  "weeks": [
+    {
+      "n": 1, "dates": "20 – 26 juil", "phase": "Reprise", "focus": "Reprendre le rythme, Sweet Spot",
+      "tss": 500, "longRide": "3 h / ~1 000 m",
+      "sessions": [
+        { "id": "", "day": "Lun", "type": "repos", "title": "Repos", "detail": "Récupération complète." },
+        { "id": "w1-mar", "day": "Mar", "type": "velo", "title": "Qualité #1 — Sweet Spot", "duration": "1h30", "tss": 75, "detail": "3 × 12 min @ Sweet Spot (180–190 W), 5 min facile entre. Sur un col (Luère ou Yzeron). + Muscu A ensuite." },
+        { "id": "w1-mar-m", "day": "Mar", "type": "muscu", "title": "Muscu A — adaptation", "seance": "A", "mainScheme": "3 × 8 modéré", "detail": "Phase adaptation : technique avant tout, charge modérée." },
+        { "id": "w1-mer", "day": "Mer", "type": "velo", "title": "Endurance Z2", "duration": "1h30", "tss": 65, "detail": "Z2 vallonné (Monts d'Or), toutes les bosses en souplesse." },
+        { "id": "w1-jeu", "day": "Jeu", "type": "velo", "title": "Qualité #2 — Force", "duration": "1h30", "tss": 70, "detail": "Basse cadence : 5 × 5 min à 50–60 rpm, 175–190 W, assis sur une montée régulière. + Muscu B." },
+        { "id": "w1-jeu-m", "day": "Jeu", "type": "muscu", "title": "Muscu B — adaptation", "seance": "B", "mainScheme": "3 × 8 modéré", "detail": "Phase adaptation : technique avant tout, charge modérée." },
+        { "id": "", "day": "Ven", "type": "repos", "title": "Repos", "detail": "Récupération complète." },
+        { "id": "w1-sam", "day": "Sam", "type": "velo", "title": "Sortie longue", "duration": "3h", "tss": 150, "detail": "~1 000 m D+, bosses à allure tempo (Z3)." },
+        { "id": "w1-dim", "day": "Dim", "type": "velo", "title": "Endurance", "duration": "1h30", "tss": 65, "detail": "Z2 facile." }
+      ]
+    },
+    {
+      "n": 2, "dates": "27 juil – 2 août", "phase": "Développement", "focus": "Endurance de grimpe",
+      "tss": 560, "longRide": "3 h 30 / ~1 300 m",
+      "sessions": [
+        { "id": "", "day": "Lun", "type": "repos", "title": "Repos", "detail": "Récupération complète." },
+        { "id": "w2-mar", "day": "Mar", "type": "velo", "title": "Qualité #1 — Sweet Spot", "duration": "1h30", "tss": 80, "detail": "4 × 12 min @ 185 W, 5 min facile entre. + Muscu A." },
+        { "id": "w2-mar-m", "day": "Mar", "type": "muscu", "title": "Muscu A — adaptation", "seance": "A", "mainScheme": "3 × 8 modéré", "detail": "Phase adaptation." },
+        { "id": "w2-mer", "day": "Mer", "type": "velo", "title": "Endurance Z2", "duration": "2h", "tss": 85, "detail": "Z2 régulier." },
+        { "id": "w2-jeu", "day": "Jeu", "type": "velo", "title": "Qualité #2 — Over-unders", "duration": "1h30", "tss": 80, "detail": "2 séries × 4 × (2 min @ 205 W / 2 min @ 185 W), 5 min entre. Sur un col. + Muscu B." },
+        { "id": "w2-jeu-m", "day": "Jeu", "type": "muscu", "title": "Muscu B — adaptation", "seance": "B", "mainScheme": "3 × 8 modéré", "detail": "Phase adaptation." },
+        { "id": "", "day": "Ven", "type": "repos", "title": "Repos", "detail": "Récupération complète." },
+        { "id": "w2-sam", "day": "Sam", "type": "velo", "title": "Sortie longue", "duration": "3h30", "tss": 170, "detail": "~1 300 m, enchaîner 2–3 cols au Sweet Spot." },
+        { "id": "w2-dim", "day": "Dim", "type": "velo", "title": "Endurance", "duration": "2h", "tss": 85, "detail": "Z2." }
+      ]
+    },
+    {
+      "n": 3, "dates": "3 – 9 août", "phase": "Développement", "focus": "Seuil",
+      "tss": 600, "longRide": "4 h / ~1 600 m",
+      "sessions": [
+        { "id": "", "day": "Lun", "type": "repos", "title": "Repos", "detail": "Récupération complète." },
+        { "id": "w3-mar", "day": "Mar", "type": "velo", "title": "Qualité #1 — Seuil", "duration": "1h30", "tss": 85, "detail": "3 × 10 min @ 200–210 W sur un col, 5 min facile entre. + Muscu A (force max)." },
+        { "id": "w3-mar-m", "day": "Mar", "type": "muscu", "title": "Muscu A — force max", "seance": "A", "mainScheme": "4 × 5 @ ~80% 1RM", "detail": "Phase force max : charge lourde, 2–3 min de repos." },
+        { "id": "w3-mer", "day": "Mer", "type": "velo", "title": "Endurance Z2", "duration": "2h", "tss": 85, "detail": "Z2." },
+        { "id": "w3-jeu", "day": "Jeu", "type": "velo", "title": "Qualité #2 — Over-unders", "duration": "1h45", "tss": 90, "detail": "3 séries × 4 × (2 min @ 205 W / 2 min @ 185 W). + Muscu B (force max)." },
+        { "id": "w3-jeu-m", "day": "Jeu", "type": "muscu", "title": "Muscu B — force max", "seance": "B", "mainScheme": "4 × 5 @ ~80% 1RM", "detail": "Phase force max : charge lourde, 2–3 min de repos." },
+        { "id": "", "day": "Ven", "type": "repos", "title": "Repos", "detail": "Récupération complète." },
+        { "id": "w3-sam", "day": "Sam", "type": "velo", "title": "Sortie longue — Pilat", "duration": "4h", "tss": 200, "detail": "~1 600 m. Direction le Pilat (Crêt de l'Œillon ~13 km = excellent simulateur Rousset/Font d'Urle). Cols en tempo→SS." },
+        { "id": "w3-dim", "day": "Dim", "type": "velo", "title": "Endurance sur fatigue", "duration": "2h", "tss": 85, "detail": "Z2, durabilité." }
+      ]
+    },
+    {
+      "n": 4, "dates": "10 – 16 août", "phase": "Récupération", "focus": "Absorber (semaine allégée)",
+      "tss": 470, "longRide": "3 h 30 / ~1 400 m",
+      "sessions": [
+        { "id": "", "day": "Lun", "type": "repos", "title": "Repos", "detail": "Récupération complète." },
+        { "id": "w4-mar", "day": "Mar", "type": "velo", "title": "Qualité #1 — Sweet Spot", "duration": "1h15", "tss": 70, "detail": "3 × 15 min @ 185–190 W. + Muscu A légère." },
+        { "id": "w4-mar-m", "day": "Mar", "type": "muscu", "title": "Muscu A — entretien léger", "seance": "A", "mainScheme": "3 × 5 léger", "detail": "Semaine de récup : charge allégée, seule séance muscu de la semaine." },
+        { "id": "w4-mer", "day": "Mer", "type": "velo", "title": "Endurance Z2", "duration": "1h30", "tss": 60, "detail": "Facile." },
+        { "id": "", "day": "Jeu", "type": "repos", "title": "Repos", "detail": "Récupération complète." },
+        { "id": "w4-ven", "day": "Ven", "type": "velo", "title": "Ouverture", "duration": "1h", "tss": 45, "detail": "Z2 + 3 × 3 min tempo pour garder du jus." },
+        { "id": "w4-sam", "day": "Sam", "type": "velo", "title": "Sortie longue", "duration": "3h30", "tss": 165, "detail": "~1 400 m, cols en tempo/SS. Sortie plaisir." },
+        { "id": "w4-dim", "day": "Dim", "type": "velo", "title": "Endurance", "duration": "2h", "tss": 80, "detail": "Z2." }
+      ]
+    },
+    {
+      "n": 5, "dates": "17 – 23 août", "phase": "Spécifique", "focus": "Seuil + over-unders",
+      "tss": 620, "longRide": "4 h 30 / ~1 800 m",
+      "sessions": [
+        { "id": "", "day": "Lun", "type": "repos", "title": "Repos", "detail": "Récupération complète." },
+        { "id": "w5-mar", "day": "Mar", "type": "velo", "title": "Qualité #1 — Sweet Spot long", "duration": "1h45", "tss": 90, "detail": "3 × 20 min @ 185–192 W. + Muscu A (force max)." },
+        { "id": "w5-mar-m", "day": "Mar", "type": "muscu", "title": "Muscu A — force max", "seance": "A", "mainScheme": "4 × 5 @ ~80% 1RM", "detail": "Phase force max. Option : 1 série de squats sautés 3 × 5 pour l'explosivité." },
+        { "id": "w5-mer", "day": "Mer", "type": "velo", "title": "Endurance + relances", "duration": "2h", "tss": 90, "detail": "Z2 + 4 × 30 s en danseuse." },
+        { "id": "w5-jeu", "day": "Jeu", "type": "velo", "title": "Qualité #2 — Over-unders + force", "duration": "2h", "tss": 100, "detail": "3 séries d'over-unders + 3 × 4 min basse cadence. + Muscu B (force max)." },
+        { "id": "w5-jeu-m", "day": "Jeu", "type": "muscu", "title": "Muscu B — force max", "seance": "B", "mainScheme": "4 × 5 @ ~80% 1RM", "detail": "Phase force max." },
+        { "id": "", "day": "Ven", "type": "repos", "title": "Repos", "detail": "Récupération complète." },
+        { "id": "w5-sam", "day": "Sam", "type": "velo", "title": "Sortie longue — Vercors si possible", "duration": "4h30", "tss": 220, "detail": "~1 800 m. Idéalement dans le Vercors (rouler le vrai terrain, Col de Rousset depuis Die)." },
+        { "id": "w5-dim", "day": "Dim", "type": "velo", "title": "Endurance", "duration": "2h", "tss": 85, "detail": "Z2." }
+      ]
+    },
+    {
+      "n": 6, "dates": "24 – 30 août", "phase": "Spécifique", "focus": "Pic de spécificité",
+      "tss": 660, "longRide": "5 h / ~2 000 m",
+      "sessions": [
+        { "id": "", "day": "Lun", "type": "repos", "title": "Repos", "detail": "Récupération complète." },
+        { "id": "w6-mar", "day": "Mar", "type": "velo", "title": "Qualité #1 — Seuil", "duration": "1h45", "tss": 95, "detail": "4 × 10 min @ 205 W. + Muscu A (force max)." },
+        { "id": "w6-mar-m", "day": "Mar", "type": "muscu", "title": "Muscu A — force max", "seance": "A", "mainScheme": "4 × 5 @ ~80% 1RM", "detail": "Phase force max. Option : squats sautés 3 × 5." },
+        { "id": "w6-mer", "day": "Mer", "type": "velo", "title": "Endurance Z2", "duration": "2h", "tss": 85, "detail": "Z2." },
+        { "id": "w6-jeu", "day": "Jeu", "type": "velo", "title": "Qualité #2 — Sweet Spot", "duration": "2h", "tss": 100, "detail": "3 × 15 min @ 188 W sur montée longue. + Muscu B (force max)." },
+        { "id": "w6-jeu-m", "day": "Jeu", "type": "muscu", "title": "Muscu B — force max", "seance": "B", "mainScheme": "4 × 5 @ ~80% 1RM", "detail": "Phase force max." },
+        { "id": "", "day": "Ven", "type": "repos", "title": "Repos", "detail": "Récupération complète." },
+        { "id": "w6-sam", "day": "Sam", "type": "velo", "title": "Sortie longue", "duration": "5h", "tss": 250, "detail": "~2 000 m. Journée à double col (Vercors ou Pilat)." },
+        { "id": "w6-dim", "day": "Dim", "type": "velo", "title": "Récupération", "duration": "1h30", "tss": 55, "detail": "Z1/Z2 très facile." }
+      ]
+    },
+    {
+      "n": 7, "dates": "31 août – 6 sept", "phase": "Pic", "focus": "👑 Sortie reine",
+      "tss": 680, "longRide": "5 h 30 – 6 h / ~2 400 m",
+      "sessions": [
+        { "id": "", "day": "Lun", "type": "repos", "title": "Repos", "detail": "Récupération complète." },
+        { "id": "w7-mar", "day": "Mar", "type": "velo", "title": "Qualité #1 — Seuil", "duration": "1h45", "tss": 95, "detail": "4 × 10 min @ 205 W. + Muscu A (dernière séance lourde, ~13 j avant la course)." },
+        { "id": "w7-mar-m", "day": "Mar", "type": "muscu", "title": "Muscu A — entretien", "seance": "A", "mainScheme": "2 × 5 modéré", "detail": "Dernière séance muscu du bloc (~13 j avant la course)." },
+        { "id": "w7-mer", "day": "Mer", "type": "velo", "title": "Endurance facile", "duration": "1h30", "tss": 60, "detail": "Z2, préparer la reine." },
+        { "id": "w7-jeu", "day": "Jeu", "type": "velo", "title": "Sweet Spot court", "duration": "1h30", "tss": 80, "detail": "3 × 12 min @ 188 W." },
+        { "id": "", "day": "Ven", "type": "repos", "title": "Repos", "detail": "Récupération complète." },
+        { "id": "w7-sam", "day": "Sam", "type": "velo", "title": "👑 SORTIE REINE", "duration": "5h30–6h", "tss": 300, "detail": "~2 400 m. Répétition générale : teste EXACTEMENT ta nutrition course, ton pacing et ta gestion. Vercors ou double col au Pilat." },
+        { "id": "w7-dim", "day": "Dim", "type": "velo", "title": "Récupération", "duration": "2h", "tss": 70, "detail": "Z1/Z2 très facile." }
+      ]
+    },
+    {
+      "n": 8, "dates": "7 – 13 sept", "phase": "Affûtage", "focus": "Volume −35 %, on reste vif",
+      "tss": 450, "longRide": "3 h / ~1 200 m",
+      "sessions": [
+        { "id": "", "day": "Lun", "type": "repos", "title": "Repos", "detail": "Récupération complète." },
+        { "id": "w8-mar", "day": "Mar", "type": "velo", "title": "VO2 court", "duration": "1h", "tss": 65, "detail": "5 × 3 min @ 230 W, 3 min facile. Garde les jambes vives." },
+        { "id": "w8-mer", "day": "Mer", "type": "velo", "title": "Endurance Z2", "duration": "1h30", "tss": 60, "detail": "Z2." },
+        { "id": "w8-jeu", "day": "Jeu", "type": "velo", "title": "Sweet Spot léger", "duration": "1h", "tss": 55, "detail": "2 × 12 min @ 188 W." },
+        { "id": "", "day": "Ven", "type": "repos", "title": "Repos", "detail": "Récupération complète." },
+        { "id": "w8-sam", "day": "Sam", "type": "velo", "title": "Sortie moyenne", "duration": "3h", "tss": 140, "detail": "~1 200 m, majorité Z2 avec 2 cols en tempo." },
+        { "id": "w8-dim", "day": "Dim", "type": "velo", "title": "Endurance facile", "duration": "1h30", "tss": 55, "detail": "Z2." }
+      ]
+    },
+    {
+      "n": 9, "dates": "14 – 20 sept", "phase": "Course", "focus": "Semaine de course 🏁",
+      "tss": 250, "longRide": "LA COURSE (sam 19)",
+      "sessions": [
+        { "id": "", "day": "Lun", "type": "repos", "title": "Repos", "detail": "Récupération complète." },
+        { "id": "w9-mar", "day": "Mar", "type": "velo", "title": "Rappel", "duration": "1h", "tss": 55, "detail": "3 × 3 min @ seuil, sinon Z2." },
+        { "id": "w9-mer", "day": "Mer", "type": "velo", "title": "Endurance facile", "duration": "1h", "tss": 40, "detail": "Z2." },
+        { "id": "", "day": "Jeu", "type": "repos", "title": "Repos", "detail": "Récupération complète." },
+        { "id": "w9-ven", "day": "Ven", "type": "velo", "title": "Ouverture", "duration": "45 min", "tss": 35, "detail": "Facile + 3 × 1 min à allure course pour réveiller les jambes." },
+        { "id": "w9-sam", "day": "Sam", "type": "velo", "title": "🏁 LE VERCORS 130 km", "duration": "5h30–7h", "tss": 0, "detail": "130 km / ~2 900 m. Applique le plan Jour J : pacing prudent sur Rousset, mange dès le km 0." },
+        { "id": "", "day": "Dim", "type": "repos", "title": "Repos", "detail": "Récupération complète." }
+      ]
+    }
+  ]
+}

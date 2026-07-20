@@ -1,0 +1,12 @@
+node_modules
+dist
+dist-ssr
+*.local
+.DS_Store
+.vite
+
+*.tsbuildinfo
+.serve
+.playwright-mcp
+vite.config.js
+vite.config.d.ts

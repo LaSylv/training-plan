@@ -1,0 +1,77 @@
+// ============================================================================
+//  Ce module lit src/data/plan.json (la SOURCE DE VÉRITÉ) et l'expose typé.
+//  Pour modifier le plan / les stats : édite plan.json, PAS ce fichier.
+// ============================================================================
+import data from './plan.json'
+
+export type SessionType = 'velo' | 'muscu' | 'repos'
+
+export interface Session {
+  id: string
+  day: string
+  type: SessionType
+  title: string
+  duration?: string
+  tss?: number
+  detail: string
+  seance?: 'A' | 'B'      // pour les séances de muscu : renvoie vers muscuSeances
+  mainScheme?: string     // séries×reps de l'exercice principal cette semaine
+}
+
+export interface Week {
+  n: number
+  dates: string
+  phase: string
+  focus: string
+  tss: number
+  longRide: string
+  sessions: Session[]
+}
+
+export interface ZoneDef {
+  key: string
+  name: string
+  lo: number
+  hi: number
+  rpe: string
+  use: string
+}
+
+export interface MuscuExercise {
+  name: string
+  scheme?: string
+  note?: string
+}
+export interface MuscuSeance {
+  title: string
+  warmup: string
+  main: { name: string; note?: string }
+  accessories: MuscuExercise[]
+}
+
+export const planStart: string = data.planStart
+
+export const athlete = {
+  ...data.athlete,
+  wkg: +(data.athlete.eftp / data.athlete.weight).toFixed(2),
+}
+
+export const event = data.event
+export const zoneDefs = data.zoneDefs as ZoneDef[]
+export const strength = data.strength
+export const muscuSeances = data.muscuSeances as Record<'A' | 'B', MuscuSeance>
+export const lyonClimbs = data.lyonClimbs
+export const raceDay = data.raceDay
+export const weeks = data.weeks as Week[]
+
+export function zoneWatts(z: ZoneDef, ftp: number): string {
+  const lo = Math.round((z.lo / 100) * ftp)
+  const hi = Math.round((z.hi / 100) * ftp)
+  if (z.lo === 0) return `< ${hi} W`
+  return `${lo}–${hi} W`
+}
+
+// Toutes les séances "cochables" (vélo + muscu, hors repos)
+export const allCheckableIds: string[] = weeks.flatMap((w) =>
+  w.sessions.filter((s) => s.type !== 'repos').map((s) => s.id)
+)
