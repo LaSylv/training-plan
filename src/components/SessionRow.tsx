@@ -36,6 +36,15 @@ export function SessionRow({ session, today }: { session: Session; today?: boole
           </div>
         )}
         <div className="detail">{session.detail}</div>
+        {session.type === 'velo' && session.id && session.id !== 'w9-sam' && (
+          <a
+            className="fit-btn"
+            href={`${import.meta.env.BASE_URL}workouts/${session.id}.fit`}
+            download={`${session.id}.fit`}
+          >
+            📥 Fichier Garmin .FIT
+          </a>
+        )}
         {session.type === 'muscu' && session.seance && (
           <MuscuDetail seance={session.seance} mainScheme={session.mainScheme} />
         )}

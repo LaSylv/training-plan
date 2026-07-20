@@ -187,3 +187,18 @@ ul.clean li { margin: 8px 0; }
 }
 
 .section-title { margin: 24px 4px 4px; font-size: 1.15rem; }
+
+/* ---- Bouton téléchargement .FIT ---- */
+.fit-btn {
+  display: inline-flex; align-items: center; gap: 6px; margin-top: 12px;
+  padding: 8px 14px; border-radius: 10px; text-decoration: none;
+  font-size: .84rem; font-weight: 600;
+  color: var(--velo);
+  background: color-mix(in srgb, var(--velo) 12%, transparent);
+  border: 1px solid color-mix(in srgb, var(--velo) 30%, transparent);
+}
+.fit-btn:hover { background: color-mix(in srgb, var(--velo) 20%, transparent); }
+
+.fit-help { margin-top: 14px; background: var(--surface-2); border-radius: 12px; padding: 12px 14px; }
+.fit-help summary { cursor: pointer; font-weight: 600; font-size: .9rem; }
+.fit-help code { background: var(--surface); padding: 1px 6px; border-radius: 6px; font-size: .85em; border: 1px solid var(--border); }
