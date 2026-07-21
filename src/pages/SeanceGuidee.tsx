@@ -37,28 +37,29 @@ export function SeanceGuidee() {
   const session = found?.session
   const seance = session?.seance ? muscuSeances[session.seance] : null
 
+  const homeAvailable = !!session?.homeOption && !!seance?.main.home
+  const [home, setHome] = useState(false)
+  const useHome = home && homeAvailable
+
   const items: Item[] = useMemo(() => {
     if (!seance) return []
+    const mainV = useHome ? seance.main.home : undefined
     const list: Item[] = [
-      { key: 'wu', name: 'Échauffement', cue: seance.warmup, hold: 600 },
+      { key: 'wu', name: 'Échauffement', cue: useHome && seance.homeWarmup ? seance.homeWarmup : seance.warmup, hold: 600 },
       {
         key: 'main',
-        name: seance.main.name,
-        scheme: session?.mainScheme,
-        cue: seance.main.cue,
-        video: seance.main.video,
+        name: mainV ? mainV.name : seance.main.name,
+        scheme: mainV ? mainV.scheme : session?.mainScheme,
+        cue: mainV ? mainV.cue : seance.main.cue,
+        video: mainV ? mainV.video : seance.main.video,
       },
-      ...seance.accessories.map((a) => ({
-        key: a.name,
-        name: a.name,
-        scheme: a.scheme,
-        cue: a.cue,
-        video: a.video,
-        hold: parseHold(a.scheme),
-      })),
+      ...seance.accessories.map((a) => {
+        const v = useHome && a.home ? a.home : a
+        return { key: a.name, name: v.name, scheme: v.scheme, cue: v.cue, video: v.video, hold: parseHold(v.scheme) }
+      }),
     ]
     return list
-  }, [seance, session])
+  }, [seance, session, useHome])
 
   const runKey = `vercors130.run.${id}`
   const [checks, setChecks] = useState<Record<string, boolean>>(() => {
@@ -98,6 +99,11 @@ export function SeanceGuidee() {
         <p className="small muted">
           {found?.week.phase} · S{found?.week.n} — {session.title}
         </p>
+        {homeAvailable && (
+          <button className={`home-toggle ${useHome ? 'on' : ''}`} onClick={() => setHome((h) => !h)}>
+            🏠 Sans matériel {useHome ? '· activé' : ''}
+          </button>
+        )}
         <div className="pbar" style={{ marginTop: 10 }}>
           <span style={{ width: `${pct}%` }} />
         </div>

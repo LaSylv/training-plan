@@ -38,6 +38,7 @@ export interface Session {
   steps?: Block[]         // structure vélo en % de FTP → watts calculés depuis athlete.ftp
   seance?: 'A' | 'B'      // pour les séances de muscu : renvoie vers muscuSeances
   mainScheme?: string     // séries×reps de l'exercice principal cette semaine
+  homeOption?: boolean    // propose une bascule "sans matériel" dans la séance guidée
 }
 
 export interface Week {
@@ -59,16 +60,24 @@ export interface ZoneDef {
   use: string
 }
 
-export interface MuscuExercise {
+export interface HomeVariant {
   name: string
   scheme?: string
   cue?: string
   video?: string
 }
+export interface MuscuExercise {
+  name: string
+  scheme?: string
+  cue?: string
+  video?: string
+  home?: HomeVariant
+}
 export interface MuscuSeance {
   title: string
   warmup: string
-  main: { name: string; cue?: string; video?: string }
+  homeWarmup?: string
+  main: { name: string; cue?: string; video?: string; home?: HomeVariant }
   accessories: MuscuExercise[]
 }
 
