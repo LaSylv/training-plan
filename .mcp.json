@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "intervals-icu": {
+      "type": "stdio",
+      "command": "/home/sylvain/.local/bin/uv",
+      "args": [
+        "run",
+        "--with",
+        "mcp[cli]",
+        "--with-editable",
+        "/home/sylvain/sandbox/intervals-mcp-server",
+        "mcp",
+        "run",
+        "/home/sylvain/sandbox/intervals-mcp-server/src/intervals_mcp_server/server.py"
+      ],
+      "env": {
+        "API_KEY": "${INTERVALS_ICU_API_KEY}",
+        "ATHLETE_ID": "${INTERVALS_ICU_ATHLETE_ID}"
+      }
+    }
+  }
+}
