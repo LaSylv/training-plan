@@ -37,7 +37,7 @@ export function SeanceGuidee() {
   const session = found?.session
   const seance = session?.seance ? muscuSeances[session.seance] : null
 
-  const homeAvailable = !!session?.homeOption && !!seance?.main.home
+  const homeAvailable = !!seance?.main.home
   const [home, setHome] = useState(false)
   const useHome = home && homeAvailable
 
