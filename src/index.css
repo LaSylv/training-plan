@@ -134,6 +134,7 @@ p { margin: 8px 0; }
 .srow .tag { font-size: .64rem; padding: 2px 9px; border-radius: 99px; font-weight: 700; text-transform: uppercase; letter-spacing: .3px; }
 .tag.velo { background: color-mix(in srgb, var(--velo) 15%, transparent); color: var(--velo); }
 .tag.muscu { background: color-mix(in srgb, var(--muscu) 15%, transparent); color: var(--muscu); }
+.tag.course { background: color-mix(in srgb, var(--warn) 16%, transparent); color: var(--warn); }
 .tag.today-tag { background: var(--accent); color: #fff; }
 .srow .meta { font-size: .8rem; color: var(--text-dim); margin-top: 4px; }
 .srow .detail { font-size: .92rem; margin-top: 8px; }

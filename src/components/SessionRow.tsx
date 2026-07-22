@@ -28,6 +28,7 @@ export function SessionRow({ session, today }: { session: Session; today?: boole
           <span className="ttl">{session.title}</span>
           {session.type === 'velo' && <span className="tag velo">vélo</span>}
           {session.type === 'muscu' && <span className="tag muscu">muscu</span>}
+          {session.type === 'course' && <span className="tag course">course</span>}
           {today && <span className="tag today-tag">aujourd'hui</span>}
         </div>
         {(session.duration || session.tss) && (

@@ -4,7 +4,7 @@
 // ============================================================================
 import data from './plan.json'
 
-export type SessionType = 'velo' | 'muscu' | 'repos'
+export type SessionType = 'velo' | 'muscu' | 'course' | 'repos'
 
 // Bloc d'entraînement vélo. Les intensités sont en % de la FTP (lo/hi, oLo…).
 export interface Block {
