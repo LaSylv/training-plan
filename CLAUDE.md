@@ -46,6 +46,7 @@ Cols : Rousset, Combe Laval, Col de la Portette (raide), Font d'Urle. Objectif :
 - **Mar 21/07 : SS 3×12 + Muscu A → FAIT** (analysé : 185 W en pédalant = 90 % FTP, pénalisé par les feux rouges).
 - **Mer 22/07 : Grand Colombier + Col de la Biche → FAIT** (a remplacé le test FTP). 82 km / **2 443 m D+** / 4h23. Colombier versant Anglefort 15 km/1 260 m à **187 W** moy (~84 min, HR 158) ; **heure pleine à 193 W** en fin de sortie → **FTP confirmée à 205 W, inchangée** (pas de régé FTP-driven). Analysé via **strava-mcp** (`get_activity_performance` + `get_activity_streams`, `has_device_watts:true`).
 - **Jeu 23/07 : journée souple** (adaptée après le gros mercredi) — pas d'intervalles Force ; footing/muscu léger ou vélo facile au choix.
+- **Sam 25/07 : séance courte 1h (2× sweet spot)** au lieu de la sortie longue 3h/1 500 m (volume déjà couvert par le mercredi + peu de temps dispo). Dim 26 endurance facile inchangé. → S1 réelle ~430 TSS (au lieu de ~585 en gardant la longue).
 - **Test FTP 20 min reprogrammé → mar 28/07 (S2)**, jambes fraîches. ⚠️ **À FAIRE : récupérer le résultat, mettre à jour `athlete.ftp`/`eftp`, régénérer les `.FIT`.**
 
 ## 🏗️ Architecture technique
