@@ -8,6 +8,7 @@ export function SessionRow({ session, today }: { session: Session; today?: boole
   const { done, toggle } = useProgress()
   const isRepos = session.type === 'repos'
   const checked = !!done[session.id]
+  const frozen = !!session.done // séance réalisée figée dans plan.json (mémoire du repo)
 
   return (
     <div className={`srow ${isRepos ? 'repos' : ''} ${checked ? 'done' : ''} ${today ? 'today' : ''}`}>
@@ -17,7 +18,9 @@ export function SessionRow({ session, today }: { session: Session; today?: boole
         <button
           className={`check ${checked ? 'on' : ''}`}
           onClick={() => toggle(session.id)}
-          aria-label={checked ? 'Marquer non fait' : 'Marquer fait'}
+          disabled={frozen}
+          title={frozen ? 'Séance réalisée — figée dans le plan' : undefined}
+          aria-label={frozen ? 'Séance réalisée (figée)' : checked ? 'Marquer non fait' : 'Marquer fait'}
         >
           {checked ? '✓' : ''}
         </button>
@@ -30,6 +33,7 @@ export function SessionRow({ session, today }: { session: Session; today?: boole
           {session.type === 'muscu' && <span className="tag muscu">muscu</span>}
           {session.type === 'course' && <span className="tag course">course</span>}
           {today && <span className="tag today-tag">aujourd'hui</span>}
+          {frozen && <span className="tag done-tag">✓ réalisé</span>}
         </div>
         {(session.duration || session.tss) && (
           <div className="meta">
@@ -46,7 +50,10 @@ export function SessionRow({ session, today }: { session: Session; today?: boole
             ))}
           </ul>
         )}
-        {session.type === 'velo' && session.id && session.id !== 'w9-sam' && (
+        {/* Un .FIT n'existe que pour les séances vélo structurées (mêmes règles que
+            scripts/gen_workouts.py) : pas de fichier pour les séances déjà réalisées
+            ou libres, qui n'ont pas de blocs `steps`. */}
+        {session.type === 'velo' && session.id && session.steps?.length && session.id !== 'w9-sam' ? (
           <a
             className="fit-btn"
             href={`${import.meta.env.BASE_URL}workouts/${session.id}.fit`}
@@ -54,7 +61,7 @@ export function SessionRow({ session, today }: { session: Session; today?: boole
           >
             📥 Fichier Garmin .FIT
           </a>
-        )}
+        ) : null}
         {session.type === 'muscu' && session.seance && (
           <>
             <Link className="seance-btn" to={`/seance/${session.id}`}>

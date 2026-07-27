@@ -38,6 +38,7 @@ export function WeekCard({ week, isCurrent, defaultOpen }: { week: Week; isCurre
           <div style={{ padding: '8px 4px' }}>
             <ProgressBar value={doneCount} total={checkable.length} />
           </div>
+          {week.note && <div className="week-note">{week.note}</div>}
           {week.sessions.map((s, i) => (
             <SessionRow key={s.id || `${week.n}-repos-${i}`} session={s} today={isToday(week.n, s.day)} />
           ))}

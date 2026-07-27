@@ -24,7 +24,7 @@ App web **statique** de consultation d'un plan d'entraînement cycliste, pour l'
 ## 🚴 L'athlète (calibration durement acquise — NE PAS sous-estimer)
 
 - **Grimpeur costaud + coureur à pied** (athlète mixte). Basé à **Lyon**. Accès **salle de muscu**.
-- 57 kg · **eFTP 207 W** (FTP retenue 205, confirmée 204–207) → ~**3,6 W/kg**. CTL ~69.
+- 57 kg · **FTP 230 W** (test 20 min du 25/07, cf. État d'avancement) → **4,04 W/kg**. CTL ~73.
 - Grosses sorties montagne régulières : **Col de la Loze**, Pilat 7h41/156 km, **~5 800 m D+/semaine**.
   Sortie longue habituelle **1 500–2 500 m**, plafond **~4 000 m**, distances **110–140 km**.
   → Les 2 900 m du Vercors sont une **sortie normale** pour lui, pas un défi.
@@ -43,11 +43,29 @@ Cols : Rousset, Combe Laval, Col de la Portette (raide), Font d'Urle. Objectif :
 - Affûtage S8, semaine de course S9.
 
 ### État d'avancement
-- **Mar 21/07 : SS 3×12 + Muscu A → FAIT** (analysé : 185 W en pédalant = 90 % FTP, pénalisé par les feux rouges).
-- **Mer 22/07 : Grand Colombier + Col de la Biche → FAIT** (a remplacé le test FTP). 82 km / **2 443 m D+** / 4h23. Colombier versant Anglefort 15 km/1 260 m à **187 W** moy (~84 min, HR 158) ; **heure pleine à 193 W** en fin de sortie → **FTP confirmée à 205 W, inchangée** (pas de régé FTP-driven). Analysé via **strava-mcp** (`get_activity_performance` + `get_activity_streams`, `has_device_watts:true`).
-- **Jeu 23/07 : journée souple** (adaptée après le gros mercredi) — pas d'intervalles Force ; footing/muscu léger ou vélo facile au choix.
-- **Sam 25/07 : séance courte 1h (2× sweet spot)** au lieu de la sortie longue 3h/1 500 m (volume déjà couvert par le mercredi + peu de temps dispo). Dim 26 endurance facile inchangé. → S1 réelle ~430 TSS (au lieu de ~585 en gardant la longue).
-- **Test FTP 20 min reprogrammé → mar 28/07 (S2)**, jambes fraîches. ⚠️ **À FAIRE : récupérer le résultat, mettre à jour `athlete.ftp`/`eftp`, régénérer les `.FIT`.**
+
+#### ⚡ FTP = 230 W (test du 25/07) — remplace les 205 W estimés
+Test 20 min au **col de Portes** : **243 W** sur 20 min (HR max 182) → FTP = 95 % = **230 W**, soit **4,04 W/kg** à 57 kg.
+Courbe de puissance très plate (259 W à 5' · 252 W à 8' · 250 W à 10' · 245 W à 15' · **243 W à 20'**) = test régulier, bien pacé, chiffre fiable.
+Confirmé le lendemain : 218 W sur 20 min *à l'intérieur* d'une sortie de 3h45. `athlete.ftp`/`eftp` = 230, **les 31 `.FIT` ont été régénérés**.
+> ⚠️ Si la séance Seuil 3×10' du mar. 28/07 (221–235 W) casse au 3ᵉ bloc → redescendre la FTP à ~225 W et régénérer.
+
+#### S1 (20–26 juil) — **terminée et figée** dans `plan.json` (`done: true`)
+Réalisé **~630 TSS / 12 h 10 de vélo / ~4 800 m D+**, contre 430 TSS et ~8 h prévus (+47 %). Il a écrasé le plan.
+| Jour | Réalisé |
+|---|---|
+| Mar 21 | SS 3×12 — 36 km / 130 m / 1h17 (185 W en pédalant) + **Muscu A** |
+| Mer 22 | 🏔️ Grand Colombier + Biche — 82 km / **2 443 m** / 4h23 (Colombier 187 W sur 84 min = seulement 81 % de la vraie FTP) |
+| Jeu 23 | rien (off) — **Muscu B sautée → reportée en S2** |
+| Ven 24 | 30 km / 89 m / 1h17 facile + footing Dawex 5,2 km |
+| Sam 25 | 🔬 **Test FTP** col de Portes — 31 km / 708 m / 1h29 |
+| Dim 26 | Monts du Lyonnais — 88 km / **1 423 m** / 3h45 (au lieu de 1h30 d'endurance) |
+
+#### S2 (27 juil – 2 août) — **réécrite : semaine allégée**
+~**300 TSS / 5 h 30 de vélo** (au lieu de 460 TSS + sortie longue 3h30). Deux raisons : digérer la surcharge de S1, et **peu de temps le week-end** (demande explicite).
+Mar Seuil 3×10' @ 96–102 % + Muscu A · Mer footing 45' · Jeu Over-unders + Muscu B · **Sam 1h15 court** · **Dim 1h15–1h30 modulable**. Pas de sortie longue — elle revient en S3 (Pilat, 4 h / ~2 300 m, inchangée).
+
+> 🔁 **Tendance à surveiller** : il fait systématiquement plus que prévu (S1 +47 %). Le facteur limitant est la fraîcheur, pas le foncier — tenir la ligne sur les semaines allégées.
 
 ## 🏗️ Architecture technique
 

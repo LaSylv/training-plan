@@ -39,6 +39,8 @@ export interface Session {
   seance?: 'A' | 'B'      // pour les séances de muscu : renvoie vers muscuSeances
   mainScheme?: string     // séries×reps de l'exercice principal cette semaine
   homeOption?: boolean    // propose une bascule "sans matériel" dans la séance guidée
+  done?: boolean          // séance RÉALISÉE, figée dans plan.json : toujours "faite"
+                          // (survit au changement de navigateur / vidage du localStorage)
 }
 
 export interface Week {
@@ -48,6 +50,7 @@ export interface Week {
   focus: string
   tss: number
   longRide: string
+  note?: string           // encart affiché en tête de semaine (bilan, adaptation…)
   sessions: Session[]
 }
 
