@@ -47,8 +47,13 @@ Cols : Rousset, Combe Laval, Col de la Portette (raide), Font d'Urle. Objectif :
 #### ⚡ FTP = 230 W (test du 25/07) — remplace les 205 W estimés
 Test 20 min au **col de Portes** : **243 W** sur 20 min (HR max 182) → FTP = 95 % = **230 W**, soit **4,04 W/kg** à 57 kg.
 Courbe de puissance très plate (259 W à 5' · 252 W à 8' · 250 W à 10' · 245 W à 15' · **243 W à 20'**) = test régulier, bien pacé, chiffre fiable.
-Confirmé le lendemain : 218 W sur 20 min *à l'intérieur* d'une sortie de 3h45. `athlete.ftp`/`eftp` = 230, **les 31 `.FIT` ont été régénérés**.
-> ⚠️ Si la séance Seuil 3×10' du mar. 28/07 (221–235 W) casse au 3ᵉ bloc → redescendre la FTP à ~225 W et régénérer.
+Confirmé le lendemain : 218 W sur 20 min *à l'intérieur* d'une sortie de 3h45. `athlete.ftp`/`eftp` = 230, **les `.FIT` ont été régénérés**.
+
+✅ **FTP 230 W VALIDÉE** par la séance Seuil 3×10' du mar. 28/07 (col du Verdun, ~5,3 %) :
+**217 → 219 → 220 W**, aucun décrochage, la puissance monte bloc après bloc. On ne redescend pas à 225.
+> ⚠️ **Coût cardiaque élevé à surveiller** : HR moy 166 → 166 → 169, max 173 → 177 → **181** sur le 3ᵉ bloc,
+> soit quasi le coût du test FTP à 243 W. C'est de la fatigue résiduelle de S1 (630 TSS), pas une FTP fausse.
+> Si ce découplage puissance/HR persiste en S3, envisager une semaine de récup anticipée.
 
 #### S1 (20–26 juil) — **terminée et figée** dans `plan.json` (`done: true`)
 Réalisé **~630 TSS / 12 h 10 de vélo / ~4 800 m D+**, contre 430 TSS et ~8 h prévus (+47 %). Il a écrasé le plan.
@@ -61,9 +66,16 @@ Réalisé **~630 TSS / 12 h 10 de vélo / ~4 800 m D+**, contre 430 TSS et ~8 h 
 | Sam 25 | 🔬 **Test FTP** col de Portes — 31 km / 708 m / 1h29 |
 | Dim 26 | Monts du Lyonnais — 88 km / **1 423 m** / 3h45 (au lieu de 1h30 d'endurance) |
 
-#### S2 (27 juil – 2 août) — **réécrite : semaine allégée**
-~**300 TSS / 5 h 30 de vélo** (au lieu de 460 TSS + sortie longue 3h30). Deux raisons : digérer la surcharge de S1, et **peu de temps le week-end** (demande explicite).
-Mar Seuil 3×10' @ 96–102 % + Muscu A · Mer footing 45' · Jeu Over-unders + Muscu B · **Sam 1h15 court** · **Dim 1h15–1h30 modulable**. Pas de sortie longue — elle revient en S3 (Pilat, 4 h / ~2 300 m, inchangée).
+#### S2 (27 juil – 2 août) — **semaine allégée**, ~335 TSS
+Au lieu de 460 TSS + sortie longue 3h30. Deux raisons : digérer la surcharge de S1, et **peu de temps le week-end** (demande explicite). Pas de sortie longue — elle revient en S3 (Pilat, 4 h / ~2 300 m, inchangée).
+
+| Jour | État |
+|---|---|
+| Mar 28 | ✅ **figé** — Seuil 3×10' col du Verdun, 44 km / 789 m / 2h04 (217/219/220 W) |
+| Mer 29 | ✅ **figé** — « à la fraîche » 33,8 km / 195 m / 1h27 à ~120 W. **Footing remplacé par du vélo facile** (bon choix au lendemain d'un seuil à 181 de HR) |
+| Jeu 30 | Over-unders **allégés : 1 série de 5** (au lieu de 2×4) + règle d'arrêt HR > 178. Muscu B optionnelle |
+| Sam 1/08 | 1h15 court — Sweet Spot 2×12' |
+| Dim 2/08 | 1h15–1h30 endurance modulable |
 
 > 🔁 **Tendance à surveiller** : il fait systématiquement plus que prévu (S1 +47 %). Le facteur limitant est la fraîcheur, pas le foncier — tenir la ligne sur les semaines allégées.
 

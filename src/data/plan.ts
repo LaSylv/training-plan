@@ -127,8 +127,12 @@ export function formatBlocks(steps: Block[], ftp: number): string[] {
         return `${b.label} — ${b.min} min · ${range(b.lo, b.hi)}`
       case 'int':
         return `${b.reps} × ${b.on} min · ${range(b.lo, b.hi)} — ${b.label}${b.cad ? ` (${b.cad})` : ''}${b.off ? ` · récup ${b.off} min` : ''}`
-      case 'ou':
-        return `${b.sets} × [${b.reps} × (${b.onOver} min ${range(b.oLo, b.oHi)} / ${b.onUnder} min ${range(b.uLo, b.uHi)})] — Over-unders`
+      case 'ou': {
+        // Série unique : on écrit « 5 × (…) » plutôt que « 1 × [5 × (…)] ».
+        const rep = `${b.reps} × (${b.onOver} min ${range(b.oLo, b.oHi)} / ${b.onUnder} min ${range(b.uLo, b.uHi)})`
+        const body = b.sets === 1 ? rep : `${b.sets} × [${rep}]`
+        return `${body} — Over-unders`
+      }
       case 'open':
         return `${b.label} — ${b.min} min · effort libre (donne tout)`
       default:
