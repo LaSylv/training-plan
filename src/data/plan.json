@@ -19,31 +19,118 @@
     "duration": "5 h 30 – 7 h estimées",
     "url": "https://www.cyclodromoise.com/project/le-vercors-130km/",
     "cols": [
-      { "name": "Col de Rousset", "note": "longue montée régulière, tôt dans le parcours (routes fermées au départ)" },
-      { "name": "Combe Laval", "note": "route balcon panoramique, longue, pente modérée" },
-      { "name": "Col de la Portette", "note": "passages surprenants à forte pente — le juge de paix" },
-      { "name": "Font d'Urle", "note": "longue montée vers ~1 400 m, plateau du Vercors" },
-      { "name": "Plaine de Vassieux", "note": "section de liaison en altitude" }
+      {
+        "name": "Col de Rousset",
+        "note": "longue montée régulière, tôt dans le parcours (routes fermées au départ)"
+      },
+      {
+        "name": "Combe Laval",
+        "note": "route balcon panoramique, longue, pente modérée"
+      },
+      {
+        "name": "Col de la Portette",
+        "note": "passages surprenants à forte pente — le juge de paix"
+      },
+      {
+        "name": "Font d'Urle",
+        "note": "longue montée vers ~1 400 m, plateau du Vercors"
+      },
+      {
+        "name": "Plaine de Vassieux",
+        "note": "section de liaison en altitude"
+      }
     ],
     "feedStations": "Ravitaillements aux km 40, 72 et 100"
   },
   "zoneDefs": [
-    { "key": "z1", "name": "Z1 · Récupération", "lo": 0, "hi": 55, "rpe": "1–2", "use": "Décrassage, jambes légères" },
-    { "key": "z2", "name": "Z2 · Endurance", "lo": 56, "hi": 75, "rpe": "3–4", "use": "Base de chaque sortie longue" },
-    { "key": "z3", "name": "Z3 · Tempo", "lo": 76, "hi": 88, "rpe": "5–6", "use": "Allure de longue montée" },
-    { "key": "ss", "name": "Sweet Spot", "lo": 88, "hi": 94, "rpe": "7", "use": "Le moteur de grimpe — cœur du plan" },
-    { "key": "z4", "name": "Z4 · Seuil", "lo": 95, "hi": 105, "rpe": "8", "use": "Plafond en col" },
-    { "key": "z5", "name": "Z5 · VO2max", "lo": 106, "hi": 120, "rpe": "9", "use": "Affûtage uniquement" }
+    {
+      "key": "z1",
+      "name": "Z1 · Récupération",
+      "lo": 0,
+      "hi": 55,
+      "rpe": "1–2",
+      "use": "Décrassage, jambes légères"
+    },
+    {
+      "key": "z2",
+      "name": "Z2 · Endurance",
+      "lo": 56,
+      "hi": 75,
+      "rpe": "3–4",
+      "use": "Base de chaque sortie longue"
+    },
+    {
+      "key": "z3",
+      "name": "Z3 · Tempo",
+      "lo": 76,
+      "hi": 88,
+      "rpe": "5–6",
+      "use": "Allure de longue montée"
+    },
+    {
+      "key": "ss",
+      "name": "Sweet Spot",
+      "lo": 88,
+      "hi": 94,
+      "rpe": "7",
+      "use": "Le moteur de grimpe — cœur du plan"
+    },
+    {
+      "key": "z4",
+      "name": "Z4 · Seuil",
+      "lo": 95,
+      "hi": 105,
+      "rpe": "8",
+      "use": "Plafond en col"
+    },
+    {
+      "key": "z5",
+      "name": "Z5 · VO2max",
+      "lo": 106,
+      "hi": 120,
+      "rpe": "9",
+      "use": "Affûtage uniquement"
+    }
   ],
   "strength": {
     "intro": "La force lourde (peu de reps) améliore l'économie de pédalage, la durabilité et la puissance sur les rampes raides (coucou Col de la Portette). Deux règles : on soulève LOURD sans aller à la brûlure (gain nerveux, pas hypertrophie), et le vélo passe toujours avant — si une séance de muscu compromet la sortie longue du samedi, on la saute. On place la muscu les jours de qualité vélo (vélo d'abord, muscu ensuite).",
     "progression": [
-      { "weeks": "S1–2", "freq": "2×/sem", "load": "3 × 8 modéré", "goal": "Adaptation, technique" },
-      { "weeks": "S3", "freq": "2×/sem", "load": "4 × 5 @ ~80% 1RM", "goal": "Force max" },
-      { "weeks": "S4 (récup)", "freq": "1×/sem", "load": "3 × 5 léger", "goal": "Entretien" },
-      { "weeks": "S5–6", "freq": "2×/sem", "load": "4 × 5 @ ~80% 1RM", "goal": "Force max" },
-      { "weeks": "S7", "freq": "1×/sem (début)", "load": "2 × 5 modéré", "goal": "Dernière séance ~13 j avant" },
-      { "weeks": "S8–9", "freq": "❌", "load": "—", "goal": "Jambes fraîches — que du gainage léger" }
+      {
+        "weeks": "S1–2",
+        "freq": "2×/sem",
+        "load": "3 × 8 modéré",
+        "goal": "Adaptation, technique"
+      },
+      {
+        "weeks": "S3",
+        "freq": "2×/sem",
+        "load": "4 × 5 @ ~80% 1RM",
+        "goal": "Force max"
+      },
+      {
+        "weeks": "S4 (récup)",
+        "freq": "1×/sem",
+        "load": "3 × 5 léger",
+        "goal": "Entretien"
+      },
+      {
+        "weeks": "S5–6",
+        "freq": "2×/sem",
+        "load": "4 × 5 @ ~80% 1RM",
+        "goal": "Force max"
+      },
+      {
+        "weeks": "S7",
+        "freq": "1×/sem (début)",
+        "load": "2 × 5 modéré",
+        "goal": "Dernière séance ~13 j avant"
+      },
+      {
+        "weeks": "S8–9",
+        "freq": "❌",
+        "load": "—",
+        "goal": "Jambes fraîches — que du gainage léger"
+      }
     ],
     "rules": "Repos 2–3 min entre les séries lourdes. On pousse la charge avec intention (phase concentrique rapide), on s'arrête 1–2 reps avant l'échec. En S5–6 tu peux remplacer une série de squats par 3 × 5 squats sautés ou box jumps pour l'explosivité sur les rampes — seulement si genoux/dos vont bien."
   },
@@ -52,26 +139,126 @@
       "title": "Séance A · Force bas du corps",
       "warmup": "10 min vélo/rameur facile, puis mobilité (~3 min) : 10 cercles de hanches par jambe · 10 fentes marchées avec rotation du buste · 10 flexions « genou vers le mur » par cheville · 10 squats à vide.",
       "homeWarmup": "5 min pour chauffer : 30 s montées de genoux + 30 s jumping jacks, puis mobilité : 10 cercles de hanches/jambe · 10 fentes marchées avec rotation · 10 « genou vers le mur »/cheville · 10 squats à vide.",
-      "main": { "name": "Squat (ou presse à cuisses)", "cue": "Dos droit, pieds largeur épaules. Descends les hanches en poussant les fesses vers l'arrière, genoux dans l'axe des pieds. Pousse dans les talons pour remonter.", "video": "squat barre technique débutant", "home": { "name": "Squat au poids du corps (tempo)", "scheme": "3 × 15", "cue": "Descends en 3 secondes, contrôle en bas, remonte. Pour ajouter de la résistance : sac à dos rempli de bouteilles d'eau ou de livres sur les épaules.", "video": "squat poids du corps tempo technique" } },
+      "main": {
+        "name": "Squat (ou presse à cuisses)",
+        "cue": "Dos droit, pieds largeur épaules. Descends les hanches en poussant les fesses vers l'arrière, genoux dans l'axe des pieds. Pousse dans les talons pour remonter.",
+        "video": "squat barre technique débutant",
+        "home": {
+          "name": "Squat au poids du corps (tempo)",
+          "scheme": "3 × 15",
+          "cue": "Descends en 3 secondes, contrôle en bas, remonte. Pour ajouter de la résistance : sac à dos rempli de bouteilles d'eau ou de livres sur les épaules.",
+          "video": "squat poids du corps tempo technique"
+        }
+      },
       "accessories": [
-        { "name": "Soulevé de terre jambes tendues (RDL)", "scheme": "3 × 6", "cue": "Jambes quasi tendues, dos bien plat. Descends la barre le long des jambes en poussant les fesses en arrière, tu sens l'étirement des ischios.", "video": "romanian deadlift RDL technique", "home": { "name": "Soulevé de terre sur 1 jambe", "scheme": "3 × 10 / jambe", "cue": "Sur une jambe, penche le buste dos plat, jambe libre tendue derrière toi, mains vers le sol. Reviens en serrant la fesse. (Sac à dos en main pour charger.)", "video": "single leg deadlift poids du corps" } },
-        { "name": "Fentes bulgares", "scheme": "3 × 8 / jambe", "cue": "Pied arrière posé sur un banc. Descends le genou arrière vers le sol, buste droit, poids sur la jambe avant.", "video": "fentes bulgares technique", "home": { "name": "Fentes bulgares (pied sur chaise)", "scheme": "3 × 10 / jambe", "cue": "Pied arrière posé sur une chaise ou le canapé. Descends le genou vers le sol, buste droit, poids sur la jambe avant.", "video": "fentes bulgares maison" } },
-        { "name": "Mollets debout", "scheme": "3 × 12", "cue": "Monte sur la pointe des pieds au maximum, marque un temps en haut, redescends lentement.", "video": "extension mollets debout", "home": { "name": "Mollets sur une marche (1 pied)", "scheme": "3 × 15 / jambe", "cue": "Sur le bord d'une marche, sur un pied, monte haut sur la pointe puis descends le talon lentement sous le niveau de la marche.", "video": "extension mollet une jambe marche" } },
-        { "name": "Gainage : planche", "scheme": "3 × 45 s", "cue": "Appui avant-bras + pointes de pieds. Corps aligné tête-talons, serre abdos et fessiers, ne creuse pas le bas du dos.", "video": "planche gainage technique" },
-        { "name": "Chien d'arrêt (bird dog)", "scheme": "3 × 10 / côté", "cue": "À quatre pattes, dos bien plat. Tends lentement le bras et la jambe OPPOSÉS à l'horizontale sans bouger le bassin, tiens 1–2 s, reviens et alterne. Le bassin ne doit pas tourner.", "video": "bird dog exercice technique" }
+        {
+          "name": "Soulevé de terre jambes tendues (RDL)",
+          "scheme": "3 × 6",
+          "cue": "Jambes quasi tendues, dos bien plat. Descends la barre le long des jambes en poussant les fesses en arrière, tu sens l'étirement des ischios.",
+          "video": "romanian deadlift RDL technique",
+          "home": {
+            "name": "Soulevé de terre sur 1 jambe",
+            "scheme": "3 × 10 / jambe",
+            "cue": "Sur une jambe, penche le buste dos plat, jambe libre tendue derrière toi, mains vers le sol. Reviens en serrant la fesse. (Sac à dos en main pour charger.)",
+            "video": "single leg deadlift poids du corps"
+          }
+        },
+        {
+          "name": "Fentes bulgares",
+          "scheme": "3 × 8 / jambe",
+          "cue": "Pied arrière posé sur un banc. Descends le genou arrière vers le sol, buste droit, poids sur la jambe avant.",
+          "video": "fentes bulgares technique",
+          "home": {
+            "name": "Fentes bulgares (pied sur chaise)",
+            "scheme": "3 × 10 / jambe",
+            "cue": "Pied arrière posé sur une chaise ou le canapé. Descends le genou vers le sol, buste droit, poids sur la jambe avant.",
+            "video": "fentes bulgares maison"
+          }
+        },
+        {
+          "name": "Mollets debout",
+          "scheme": "3 × 12",
+          "cue": "Monte sur la pointe des pieds au maximum, marque un temps en haut, redescends lentement.",
+          "video": "extension mollets debout",
+          "home": {
+            "name": "Mollets sur une marche (1 pied)",
+            "scheme": "3 × 15 / jambe",
+            "cue": "Sur le bord d'une marche, sur un pied, monte haut sur la pointe puis descends le talon lentement sous le niveau de la marche.",
+            "video": "extension mollet une jambe marche"
+          }
+        },
+        {
+          "name": "Gainage : planche",
+          "scheme": "3 × 45 s",
+          "cue": "Appui avant-bras + pointes de pieds. Corps aligné tête-talons, serre abdos et fessiers, ne creuse pas le bas du dos.",
+          "video": "planche gainage technique"
+        },
+        {
+          "name": "Chien d'arrêt (bird dog)",
+          "scheme": "3 × 10 / côté",
+          "cue": "À quatre pattes, dos bien plat. Tends lentement le bras et la jambe OPPOSÉS à l'horizontale sans bouger le bassin, tiens 1–2 s, reviens et alterne. Le bassin ne doit pas tourner.",
+          "video": "bird dog exercice technique"
+        }
       ]
     },
     "B": {
       "title": "Séance B · Puissance / durabilité",
       "warmup": "10 min vélo/rameur facile, puis mobilité (~3 min) : 10 cercles de hanches par jambe · 10 fentes marchées avec rotation du buste · 10 flexions « genou vers le mur » par cheville · 10 squats à vide.",
       "homeWarmup": "5 min pour chauffer : 30 s montées de genoux + 30 s jumping jacks, puis mobilité : 10 cercles de hanches/jambe · 10 fentes marchées avec rotation · 10 « genou vers le mur »/cheville · 10 squats à vide.",
-      "main": { "name": "Soulevé de terre trap-bar (ou presse à cuisses)", "cue": "Dans la trap-bar, dos plat, poitrine haute. Pousse dans les jambes, hanches et épaules montent ensemble. Ne arrondis jamais le dos.", "video": "trap bar deadlift technique", "home": { "name": "Squat sauté (jump squat)", "scheme": "3 × 10", "cue": "Descends en squat puis saute. Réception souple, genoux fléchis. Explosif vers le haut, contrôlé à la descente. (Trop dur ? Squat classique tempo.)", "video": "jump squat technique débutant" } },
+      "main": {
+        "name": "Soulevé de terre trap-bar (ou presse à cuisses)",
+        "cue": "Dans la trap-bar, dos plat, poitrine haute. Pousse dans les jambes, hanches et épaules montent ensemble. Ne arrondis jamais le dos.",
+        "video": "trap bar deadlift technique",
+        "home": {
+          "name": "Squat sauté (jump squat)",
+          "scheme": "3 × 10",
+          "cue": "Descends en squat puis saute. Réception souple, genoux fléchis. Explosif vers le haut, contrôlé à la descente. (Trop dur ? Squat classique tempo.)",
+          "video": "jump squat technique débutant"
+        }
+      },
       "accessories": [
-        { "name": "Montées sur banc lestées (step-ups)", "scheme": "3 × 8 / jambe", "cue": "Banc à hauteur du genou. Monte en poussant uniquement sur la jambe du dessus, contrôle la descente.", "video": "step up lesté technique", "home": { "name": "Montées sur une chaise / marche", "scheme": "3 × 10 / jambe", "cue": "Sur une chaise stable ou une marche, monte en poussant sur la jambe du dessus, descends lentement. Sac à dos pour charger.", "video": "step up maison chaise" } },
-        { "name": "RDL unijambe", "scheme": "3 × 8 / jambe", "cue": "Sur une jambe, penche le buste dos plat en tendant la jambe libre derrière toi. Reviens en serrant la fesse.", "video": "single leg deadlift technique" },
-        { "name": "Hip thrust", "scheme": "3 × 8", "cue": "Haut du dos appuyé sur un banc, barre/poids sur le bassin. Monte les hanches en serrant fort les fessiers, menton rentré.", "video": "hip thrust technique", "home": { "name": "Pont fessier au sol", "scheme": "3 × 15", "cue": "Sur le dos, pieds au sol proches des fesses. Monte le bassin en serrant fort les fessiers, épaules au sol. (1 jambe pour plus dur.)", "video": "pont fessier glute bridge" } },
-        { "name": "Gainage : planche latérale", "scheme": "3 × 30 s / côté", "cue": "Sur le côté, appui coude + pied. Corps aligné, monte les hanches et tiens la position.", "video": "planche latérale gainage" },
-        { "name": "Dead bug", "scheme": "3 × 10 / côté", "cue": "Sur le dos, bas du dos plaqué au sol. Éloigne lentement bras et jambe opposés, sans creuser le dos.", "video": "dead bug exercice technique" }
+        {
+          "name": "Montées sur banc lestées (step-ups)",
+          "scheme": "3 × 8 / jambe",
+          "cue": "Banc à hauteur du genou. Monte en poussant uniquement sur la jambe du dessus, contrôle la descente.",
+          "video": "step up lesté technique",
+          "home": {
+            "name": "Montées sur une chaise / marche",
+            "scheme": "3 × 10 / jambe",
+            "cue": "Sur une chaise stable ou une marche, monte en poussant sur la jambe du dessus, descends lentement. Sac à dos pour charger.",
+            "video": "step up maison chaise"
+          }
+        },
+        {
+          "name": "RDL unijambe",
+          "scheme": "3 × 8 / jambe",
+          "cue": "Sur une jambe, penche le buste dos plat en tendant la jambe libre derrière toi. Reviens en serrant la fesse.",
+          "video": "single leg deadlift technique"
+        },
+        {
+          "name": "Hip thrust",
+          "scheme": "3 × 8",
+          "cue": "Haut du dos appuyé sur un banc, barre/poids sur le bassin. Monte les hanches en serrant fort les fessiers, menton rentré.",
+          "video": "hip thrust technique",
+          "home": {
+            "name": "Pont fessier au sol",
+            "scheme": "3 × 15",
+            "cue": "Sur le dos, pieds au sol proches des fesses. Monte le bassin en serrant fort les fessiers, épaules au sol. (1 jambe pour plus dur.)",
+            "video": "pont fessier glute bridge"
+          }
+        },
+        {
+          "name": "Gainage : planche latérale",
+          "scheme": "3 × 30 s / côté",
+          "cue": "Sur le côté, appui coude + pied. Corps aligné, monte les hanches et tiens la position.",
+          "video": "planche latérale gainage"
+        },
+        {
+          "name": "Dead bug",
+          "scheme": "3 × 10 / côté",
+          "cue": "Sur le dos, bas du dos plaqué au sol. Éloigne lentement bras et jambe opposés, sans creuser le dos.",
+          "video": "dead bug exercice technique"
+        }
       ]
     }
   },
@@ -79,22 +266,34 @@
     {
       "cat": "Intervalles (10–20 min)",
       "detail": "Pour le Sweet Spot / seuil.",
-      "spots": ["Col de la Luère", "Col de la Croix du Ban", "Yzeron via Vaugneray", "Col du Fût d'Avenas (Beaujolais)"]
+      "spots": [
+        "Col de la Luère",
+        "Col de la Croix du Ban",
+        "Yzeron via Vaugneray",
+        "Col du Fût d'Avenas (Beaujolais)"
+      ]
     },
     {
       "cat": "Longs cols (simule Rousset / Font d'Urle)",
       "detail": "Montées longues et régulières.",
-      "spots": ["Crêt de l'Œillon (Pilat, ~13 km)", "Col de la République (Pilat)"]
+      "spots": [
+        "Crêt de l'Œillon (Pilat, ~13 km)",
+        "Col de la République (Pilat)"
+      ]
     },
     {
       "cat": "Rampes raides / force (simule la Portette)",
       "detail": "Passages pentus pour le travail en force et à basse cadence.",
-      "spots": ["Mont Cindre / Mont Thou (Monts d'Or)"]
+      "spots": [
+        "Mont Cindre / Mont Thou (Monts d'Or)"
+      ]
     },
     {
       "cat": "Spécificité maximale",
       "detail": "1–2 samedis en S5–S7 : rouler les vrais cols.",
-      "spots": ["Die / le Vercors — Col de Rousset depuis Die"]
+      "spots": [
+        "Die / le Vercors — Col de Rousset depuis Die"
+      ]
     }
   ],
   "raceDay": {
@@ -122,134 +321,1250 @@
   },
   "weeks": [
     {
-      "n": 1, "dates": "20 – 26 juil", "phase": "Reprise", "focus": "Semaine terminée — réalisé bien au-dessus du prévu",
-      "tss": 630, "longRide": "4 h 23 / 2 443 m (réalisée mer.)",
+      "n": 1,
+      "dates": "20 – 26 juil",
+      "phase": "Reprise",
+      "focus": "Semaine terminée — réalisé bien au-dessus du prévu",
+      "tss": 630,
+      "longRide": "4 h 23 / 2 443 m (réalisée mer.)",
       "note": "✅ Semaine bouclée et figée. Réalisé : 12 h 10 de vélo, ~4 800 m D+, ~630 TSS — contre 430 TSS et ~8 h prévus. Tu as pris de l'avance sur le plan… et une vraie fatigue. S2 est allégée en conséquence.",
       "sessions": [
-        { "id": "", "day": "Lun", "type": "repos", "title": "Repos", "detail": "Récupération complète. ✅" },
-        { "id": "w1-mar", "day": "Mar", "type": "velo", "done": true, "title": "Qualité #1 — Sweet Spot 3×12'", "duration": "1h17", "tss": 75, "detail": "✅ Réalisé mar. 21/07 — 36 km / 130 m D+ / 1 h 17. 185 W en pédalant (90 % de l'ancienne FTP), pénalisé par les feux rouges." },
-        { "id": "w1-mar-m", "day": "Mar", "type": "muscu", "done": true, "title": "Muscu A — adaptation", "seance": "A", "mainScheme": "3 × 8 modéré", "homeOption": true, "detail": "✅ Réalisé mar. 21/07 — phase adaptation : technique avant tout, charge modérée." },
-        { "id": "w1-mer", "day": "Mer", "type": "velo", "done": true, "title": "🏔️ Grand Colombier + Col de la Biche", "duration": "4h23", "tss": 240, "detail": "✅ Réalisé mer. 22/07 — 82 km / 2 443 m D+ / 4 h 23. Colombier versant Anglefort : 15 km / 1 260 m à 187 W moy (~84 min, HR 158). Heure pleine à 193 W en fin de sortie. Rétrospectivement, avec la FTP réelle à 230 W, cette montée était à seulement 81 % FTP — tu avais de la marge." },
-        { "id": "", "day": "Jeu", "type": "repos", "title": "Repos", "detail": "✅ Journée off après les 2 443 m de mercredi. La récup active et la Muscu B prévues n'ont pas été faites — la Muscu B est reportée en S2." },
-        { "id": "w1-ven", "day": "Ven", "type": "velo", "done": true, "title": "Endurance facile + footing", "duration": "1h17", "tss": 35, "detail": "✅ Réalisé ven. 24/07 — 30 km / 89 m D+ / 1 h 17 en Z1–Z2 le matin, puis footing Dawex 5,2 km / 33 min le midi. Journée souple bien placée." },
-        { "id": "w1-sam", "day": "Sam", "type": "velo", "done": true, "title": "🔬 Test FTP 20 min — col de Portes", "duration": "1h29", "tss": 90, "detail": "✅ Réalisé sam. 25/07 (avancé depuis le mardi de S2) — 31 km / 708 m D+ / 1 h 29, puis passage au col de Fay pour éviter l'orage. 🎯 20 min à 243 W, HR max 182 → FTP 230 W (4,04 W/kg). Courbe très plate : 259 W à 5 min, 252 W à 8 min, 250 W à 10 min, 245 W à 15 min, 243 W à 20 min — test parfaitement régulier, pas de départ en fanfare. C'est +25 W sur la FTP estimée." },
-        { "id": "w1-dim", "day": "Dim", "type": "velo", "done": true, "title": "Monts du Lyonnais", "duration": "3h45", "tss": 190, "detail": "✅ Réalisé dim. 26/07 — 88 km / 1 423 m D+ / 3 h 45. Sortie longue non prévue (l'endurance courte de 1 h 30 s'est transformée en 3 h 45). Le lendemain du test FTP tu tenais encore 218 W sur 20 min et 225 W sur 15 min : la durabilité est là. C'est aussi ce qui explique les ~630 TSS de la semaine." }
+        {
+          "id": "",
+          "day": "Lun",
+          "type": "repos",
+          "title": "Repos",
+          "detail": "Récupération complète. ✅"
+        },
+        {
+          "id": "w1-mar",
+          "day": "Mar",
+          "type": "velo",
+          "done": true,
+          "title": "Qualité #1 — Sweet Spot 3×12'",
+          "duration": "1h17",
+          "tss": 75,
+          "detail": "✅ Réalisé mar. 21/07 — 36 km / 130 m D+ / 1 h 17. 185 W en pédalant (90 % de l'ancienne FTP), pénalisé par les feux rouges."
+        },
+        {
+          "id": "w1-mar-m",
+          "day": "Mar",
+          "type": "muscu",
+          "done": true,
+          "title": "Muscu A — adaptation",
+          "seance": "A",
+          "mainScheme": "3 × 8 modéré",
+          "homeOption": true,
+          "detail": "✅ Réalisé mar. 21/07 — phase adaptation : technique avant tout, charge modérée."
+        },
+        {
+          "id": "w1-mer",
+          "day": "Mer",
+          "type": "velo",
+          "done": true,
+          "title": "🏔️ Grand Colombier + Col de la Biche",
+          "duration": "4h23",
+          "tss": 240,
+          "detail": "✅ Réalisé mer. 22/07 — 82 km / 2 443 m D+ / 4 h 23. Colombier versant Anglefort : 15 km / 1 260 m à 187 W moy (~84 min, HR 158). Heure pleine à 193 W en fin de sortie. Rétrospectivement, avec la FTP réelle à 230 W, cette montée était à seulement 81 % FTP — tu avais de la marge."
+        },
+        {
+          "id": "",
+          "day": "Jeu",
+          "type": "repos",
+          "title": "Repos",
+          "detail": "✅ Journée off après les 2 443 m de mercredi. La récup active et la Muscu B prévues n'ont pas été faites — la Muscu B est reportée en S2."
+        },
+        {
+          "id": "w1-ven",
+          "day": "Ven",
+          "type": "velo",
+          "done": true,
+          "title": "Endurance facile + footing",
+          "duration": "1h17",
+          "tss": 35,
+          "detail": "✅ Réalisé ven. 24/07 — 30 km / 89 m D+ / 1 h 17 en Z1–Z2 le matin, puis footing Dawex 5,2 km / 33 min le midi. Journée souple bien placée."
+        },
+        {
+          "id": "w1-sam",
+          "day": "Sam",
+          "type": "velo",
+          "done": true,
+          "title": "🔬 Test FTP 20 min — col de Portes",
+          "duration": "1h29",
+          "tss": 90,
+          "detail": "✅ Réalisé sam. 25/07 (avancé depuis le mardi de S2) — 31 km / 708 m D+ / 1 h 29, puis passage au col de Fay pour éviter l'orage. 🎯 20 min à 243 W, HR max 182 → FTP 230 W (4,04 W/kg). Courbe très plate : 259 W à 5 min, 252 W à 8 min, 250 W à 10 min, 245 W à 15 min, 243 W à 20 min — test parfaitement régulier, pas de départ en fanfare. C'est +25 W sur la FTP estimée."
+        },
+        {
+          "id": "w1-dim",
+          "day": "Dim",
+          "type": "velo",
+          "done": true,
+          "title": "Monts du Lyonnais",
+          "duration": "3h45",
+          "tss": 190,
+          "detail": "✅ Réalisé dim. 26/07 — 88 km / 1 423 m D+ / 3 h 45. Sortie longue non prévue (l'endurance courte de 1 h 30 s'est transformée en 3 h 45). Le lendemain du test FTP tu tenais encore 218 W sur 20 min et 225 W sur 15 min : la durabilité est là. C'est aussi ce qui explique les ~630 TSS de la semaine."
+        }
       ]
     },
     {
-      "n": 2, "dates": "27 juil – 2 août", "phase": "Développement", "focus": "Absorber S1 + caler les nouvelles zones",
-      "tss": 335, "longRide": "1 h 15 (week-end court volontairement)",
-      "note": "✅ FTP 230 W CONFIRMÉE par la séance de mardi : 3×10' à 217 / 219 / 220 W, sans le moindre décrochage — au contraire, la puissance monte bloc après bloc. Le chiffre est bon, on ne touche à rien. ⚠️ Mais le coût cardiaque était élevé (HR max 181 sur le 3ᵉ bloc, quasi le niveau du test à 243 W) : signe que la semaine à 630 TSS est encore dans les jambes. Du coup les over-unders de jeudi passent de 2 séries à 1, avec une règle d'arrêt claire. Le reste de la semaine ne change pas : week-end court (2 h 30 au total), la sortie longue revient en S3 au Pilat.",
+      "n": 2,
+      "dates": "27 juil – 2 août",
+      "phase": "Développement",
+      "focus": "Payer la dette de S1 — récupération réelle",
+      "tss": 250,
+      "longRide": "aucune (week-end de repos)",
+      "note": "✅ FTP 230 W confirmée par le 3×10' de mardi (217 / 219 / 220 W, la puissance monte bloc après bloc). 🛑 Mais la semaine se termine en récup, pas en séance : les over-unders de jeudi ont été sautées et le week-end passe en repos. Bilan réel : ~5 h 30 de vélo / ~1 510 m / ~215 TSS, contre 12 h 10 / 4 800 m / 630 TSS en S1. C'est exactement le ratio qu'il fallait — et ça ne suffit pas encore, d'où le samedi off. Bonne nouvelle dans les chiffres : aucun signe de dérive cardiaque (vendredi, 165 W dans le Verdun à 139 de HR moyenne, HR max 161 sur toute la sortie). Le moteur aérobie va bien ; c'est la fraîcheur qui manque.",
       "sessions": [
-        { "id": "", "day": "Lun", "type": "repos", "title": "Repos", "detail": "Récupération complète. Après 12 h de vélo et 4 800 m D+ la semaine dernière, c'est non négociable." },
-        { "id": "w2-mar", "day": "Mar", "type": "velo", "done": true, "title": "✅ Seuil 3×10' — col du Verdun", "duration": "2h04", "tss": 110, "detail": "✅ Réalisé mar. 28/07 au soir avec les copains — 44 km / 789 m D+ / 2 h 04, les 3 blocs dans le col du Verdun (Monts d'Or, ~5,3 %). 🎯 VERDICT FTP : 217 W → 219 W → 220 W. Aucun décrochage, la puissance MONTE bloc après bloc — la FTP de 230 W est validée, on ne redescend pas à 225. Tu t'es calé 2–4 W sous la cible basse (221 W) : c'est du bruit, pas un échec. ⚠️ Le seul bémol est cardiaque : HR moyenne 166 → 166 → 169 et max 173 → 177 → **181** sur le 3ᵉ bloc, soit quasi le même coût cardiaque que le test FTP à 243 W. Séance le soir + fin d'une semaine à 630 TSS = coût élevé pour la puissance produite. C'est de la fatigue accumulée, pas une FTP fausse." },
-        { "id": "w2-mar-m", "day": "Mar", "type": "muscu", "title": "Muscu A — adaptation", "seance": "A", "mainScheme": "3 × 8 modéré", "homeOption": true, "detail": "Dernière semaine d'adaptation : technique et amplitude avant tout, charge modérée. La force max arrive en S3. (Coche la case si tu l'as faite mardi — je ne peux pas le voir depuis Strava.)" },
-        { "id": "w2-mer", "day": "Mer", "type": "velo", "done": true, "title": "✅ Récup active « à la fraîche » (au lieu du footing)", "duration": "1h27", "tss": 40, "detail": "✅ Réalisé mer. 29/07 au petit matin — 33,8 km / 195 m D+ / 1 h 27 à ~120 W (52 % FTP). Footing remplacé par du vélo très facile : pour une fois, le choix est bon — au lendemain d'une séance de seuil à 181 de HR max, le vélo léger drainera mieux que l'impact de la course. Seule remarque : 1 h 27 au lieu de 45 min. À cette intensité c'est sans conséquence." },
-        { "id": "w2-jeu", "day": "Jeu", "type": "velo", "title": "Qualité #2 — Over-unders (allégée)", "duration": "1h05", "tss": 65, "detail": "🔧 Ramenée de 2 séries à 1 série de 5 répétitions, vu le coût cardiaque de mardi (181 de HR max) et les 1 h 27 de ce matin. 5 × (2 min à 228–235 W / 2 min à 202–212 W) sans coupure, sur un col. C'est LA séance qui prépare la Portette : recycler le lactate quand la pente change sans arrêt. 🛑 Règle d'arrêt : si ta HR dépasse 178 avant la 4ᵉ répétition, tu coupes là et tu rentres tranquille — la séance aura fait son travail. + Muscu B ensuite si tu te sens bien, sinon tu la sautes.", "steps": [ {"k":"wu","min":12}, {"k":"ou","sets":1,"reps":5,"onOver":2,"onUnder":2,"oLo":99,"oHi":102,"uLo":88,"uHi":92,"rec":5}, {"k":"cd","min":10} ] },
-        { "id": "w2-jeu-m", "day": "Jeu", "type": "muscu", "title": "Muscu B — adaptation (optionnelle)", "seance": "B", "mainScheme": "3 × 8 modéré", "homeOption": true, "detail": "La séance B non faite en S1, replacée ici. Charge modérée, on reste sur l'adaptation. Cette semaine elle est vraiment optionnelle : si les jambes tirent après les over-unders, saute-la — la muscu lourde commence en S3, il n'y a rien à gagner à la forcer maintenant." },
-        { "id": "", "day": "Ven", "type": "repos", "title": "Repos", "detail": "Récupération complète." },
-        { "id": "w2-sam", "day": "Sam", "type": "velo", "title": "Court — Sweet Spot 2×12'", "duration": "1h15", "tss": 60, "detail": "⏱️ Format court assumé (peu de temps ce week-end). 2 blocs de sweet spot sur une bosse près de chez toi : 202–216 W. Si vraiment tu n'as qu'une heure, coupe le 2ᵉ bloc à 8 min — l'essentiel est de sortir. Pas de sortie longue cette semaine, elle revient en S3.", "steps": [ {"k":"wu","min":12}, {"k":"int","reps":2,"on":12,"off":5,"lo":88,"hi":94,"label":"Sweet Spot"}, {"k":"cd","min":10} ] },
-        { "id": "w2-dim", "day": "Dim", "type": "velo", "title": "Endurance modulable", "duration": "1h15 – 1h30", "tss": 60, "detail": "Z2 franchement facile, à ajuster selon le temps dispo — 1 h suffit si la matinée est courte. Reste bas : la tentation après un gros bloc, c'est de transformer ça en 3 h. Cette semaine, non. Le bénéfice de S1 se récolte au repos.", "steps": [ {"k":"wu","min":10}, {"k":"steady","min":60,"lo":56,"hi":70,"label":"Endurance Z2"}, {"k":"cd","min":5} ] },
-        { "id": "", "day": "—", "type": "repos", "title": "💡 Rappel", "detail": "Si tu te sens bien samedi et que l'envie d'allonger te prend : garde-la pour S3, où la sortie longue du Pilat (4 h / ~2 300 m) est déjà au programme. Tu as déjà de l'avance sur le volume prévu — le facteur limitant maintenant, c'est la fraîcheur, pas le foncier." }
+        {
+          "id": "",
+          "day": "Lun",
+          "type": "repos",
+          "title": "Repos",
+          "detail": "Récupération complète. Après 12 h de vélo et 4 800 m D+ la semaine dernière, c'est non négociable."
+        },
+        {
+          "id": "w2-mar",
+          "day": "Mar",
+          "type": "velo",
+          "done": true,
+          "title": "✅ Seuil 3×10' — col du Verdun",
+          "duration": "2h04",
+          "tss": 110,
+          "detail": "✅ Réalisé mar. 28/07 au soir avec les copains — 44 km / 789 m D+ / 2 h 04, les 3 blocs dans le col du Verdun (Monts d'Or, ~5,3 %). 🎯 VERDICT FTP : 217 W → 219 W → 220 W. Aucun décrochage, la puissance MONTE bloc après bloc — la FTP de 230 W est validée, on ne redescend pas à 225. Tu t'es calé 2–4 W sous la cible basse (221 W) : c'est du bruit, pas un échec. ⚠️ Le seul bémol est cardiaque : HR moyenne 166 → 166 → 169 et max 173 → 177 → **181** sur le 3ᵉ bloc, soit quasi le même coût cardiaque que le test FTP à 243 W. Séance le soir + fin d'une semaine à 630 TSS = coût élevé pour la puissance produite. C'est de la fatigue accumulée, pas une FTP fausse."
+        },
+        {
+          "id": "w2-mar-m",
+          "day": "Mar",
+          "type": "muscu",
+          "title": "Muscu A — adaptation",
+          "seance": "A",
+          "mainScheme": "3 × 8 modéré",
+          "homeOption": true,
+          "detail": "Dernière semaine d'adaptation : technique et amplitude avant tout, charge modérée. La force max arrive en S3. (Coche la case si tu l'as faite mardi — je ne peux pas le voir depuis Strava.)"
+        },
+        {
+          "id": "w2-mer",
+          "day": "Mer",
+          "type": "velo",
+          "done": true,
+          "title": "✅ Récup active « à la fraîche » (au lieu du footing)",
+          "duration": "1h27",
+          "tss": 40,
+          "detail": "✅ Réalisé mer. 29/07 au petit matin — 33,8 km / 195 m D+ / 1 h 27 à ~120 W (52 % FTP). Footing remplacé par du vélo très facile : pour une fois, le choix est bon — au lendemain d'une séance de seuil à 181 de HR max, le vélo léger drainera mieux que l'impact de la course. Seule remarque : 1 h 27 au lieu de 45 min. À cette intensité c'est sans conséquence."
+        },
+        {
+          "id": "w2-jeu",
+          "day": "Jeu",
+          "type": "velo",
+          "title": "⏭️ Over-unders — non faite (jeudi off)",
+          "duration": "—",
+          "tss": 0,
+          "detail": "Séance sautée jeudi 30/07 — et c'est le bon choix. Après un seuil à 181 de HR max le mardi et 1 h 27 le mercredi, un deuxième bloc de qualité dans la semaine n'aurait rien construit. Les over-unders ne sont pas « perdues » : elles reviennent en S3 (jeudi), c'est là qu'elles comptent vraiment pour préparer la Portette.",
+          "done": false
+        },
+        {
+          "id": "w2-jeu-m",
+          "day": "Jeu",
+          "type": "muscu",
+          "title": "Muscu B — adaptation (optionnelle)",
+          "seance": "B",
+          "mainScheme": "3 × 8 modéré",
+          "homeOption": true,
+          "detail": "La séance B non faite en S1, replacée ici. Charge modérée, on reste sur l'adaptation. Cette semaine elle est vraiment optionnelle : si les jambes tirent après les over-unders, saute-la — la muscu lourde commence en S3, il n'y a rien à gagner à la forcer maintenant."
+        },
+        {
+          "id": "w2-ven",
+          "day": "Ven",
+          "type": "velo",
+          "done": true,
+          "title": "✅ Endurance Monts d'Or + Mont Verdun",
+          "duration": "2h11",
+          "tss": 68,
+          "detail": "✅ Réalisé ven. 31/07 au matin — 43,8 km / 526 m D+ / 1 h 56 en mouvement, 113 W de moyenne, HR moy 121 / max 161. Mont Verdun par Poleymieux : 8,4 km / 442 m à 165 W (72 % FTP) pour 139 de HR moyenne, avec les 3,5 derniers km à 192 W / 150 de HR. Meilleurs 20 min de la sortie : 181 W — donc vraiment une sortie facile, aucune intensité cachée. 🎯 C'est le point important de l'analyse : à puissance égale, ta HR est plus basse que mardi. Le système aérobie n'est pas cramé. Ce qui est cramé, c'est le général : 8 sorties, ~17 h 40 et ~6 300 m D+ en 12 jours pour un budget de 8–10 h/sem. La fatigue est réelle mais elle se règle avec des jours off, pas avec un deload de 2 semaines."
+        },
+        {
+          "id": "",
+          "day": "Sam",
+          "type": "repos",
+          "title": "🛑 Repos total — non négociable",
+          "duration": "—",
+          "tss": 0,
+          "detail": "Le Sweet Spot 2×12' est annulé. Tu es cramé, et les chiffres te donnent raison de couper : rien à gagner à faire 60 TSS de plus dans une semaine dont le seul objectif est d'absorber S1. Zéro vélo, zéro course, zéro muscu. Marche, mange, dors."
+        },
+        {
+          "id": "w2-dim",
+          "day": "Dim",
+          "type": "velo",
+          "title": "Facultatif — 1 h très facile, ou rien",
+          "duration": "0 – 1h",
+          "tss": 30,
+          "detail": "Par défaut : rien. Si tu as une heure et l'envie, une sortie de récup vraiment plate — 115–143 W, HR sous 135, pas un seul coup de pédale au-dessus. Aucune bosse, aucun sprint de panneau. 🚦 Règle simple : si au réveil tu hésites, c'est non. Rater 30 TSS ne change rien à ta forme du 19 septembre ; arriver cuit en S3 la change beaucoup.",
+          "steps": [
+            {
+              "k": "wu",
+              "min": 10
+            },
+            {
+              "k": "steady",
+              "min": 40,
+              "lo": 50,
+              "hi": 62,
+              "label": "Récup Z1–Z2 basse"
+            },
+            {
+              "k": "cd",
+              "min": 5
+            }
+          ]
+        },
+        {
+          "id": "",
+          "day": "—",
+          "type": "repos",
+          "title": "💡 Rappel",
+          "detail": "Ce qu'on a appris cette semaine : ton moteur aérobie encaisse (FTP 230 W validée, pas de dérive cardiaque), mais tu enchaînes sans jamais rendre les jours de repos — le vendredi prévu off est devenu 2 h de vélo. En S3, le repos du lundi et du vendredi n'est pas une suggestion : c'est ce qui rend la sortie du Pilat possible."
+        }
       ]
     },
     {
-      "n": 3, "dates": "3 – 9 août", "phase": "Développement", "focus": "Seuil",
-      "tss": 500, "longRide": "4 h / ~2 300 m",
+      "n": 3,
+      "dates": "3 – 9 août",
+      "phase": "Développement",
+      "focus": "Seuil — mais démarrage conditionnel",
+      "tss": 430,
+      "longRide": "4 h / ~2 300 m",
       "sessions": [
-        { "id": "", "day": "Lun", "type": "repos", "title": "Repos", "detail": "Récupération complète." },
-        { "id": "w3-mar", "day": "Mar", "type": "velo", "title": "Qualité #1 — Seuil", "duration": "1h30", "tss": 85, "detail": "Sur un col. + Muscu A (force max).", "steps": [ {"k":"wu","min":10}, {"k":"int","reps":3,"on":10,"off":5,"lo":98,"hi":102,"label":"Seuil"}, {"k":"cd","min":8} ] },
-        { "id": "w3-mar-m", "day": "Mar", "type": "muscu", "title": "Muscu A — force max", "seance": "A", "mainScheme": "4 × 5 @ ~80% 1RM", "detail": "Phase force max : charge lourde, 2–3 min de repos." },
-        { "id": "w3-mer", "day": "Mer", "type": "course", "title": "Footing facile", "duration": "45 min", "detail": "Course à pied facile en Z2, terrain souple. Reste très easy." },
-        { "id": "w3-jeu", "day": "Jeu", "type": "velo", "title": "Qualité #2 — Over-unders", "duration": "1h45", "tss": 90, "detail": "+ Muscu B (force max).", "steps": [ {"k":"wu","min":10}, {"k":"ou","sets":3,"reps":4,"onOver":2,"onUnder":2,"oLo":99,"oHi":102,"uLo":88,"uHi":92,"rec":5}, {"k":"cd","min":8} ] },
-        { "id": "w3-jeu-m", "day": "Jeu", "type": "muscu", "title": "Muscu B — force max", "seance": "B", "mainScheme": "4 × 5 @ ~80% 1RM", "detail": "Phase force max : charge lourde, 2–3 min de repos." },
-        { "id": "", "day": "Ven", "type": "repos", "title": "Repos", "detail": "Récupération complète." },
-        { "id": "w3-sam", "day": "Sam", "type": "velo", "title": "Sortie longue — Pilat", "duration": "4h", "tss": 200, "detail": "~2 300 m. Pilat (Crêt de l'Œillon) ou Vercors.", "steps": [ {"k":"wu","min":10}, {"k":"steady","min":230,"lo":58,"hi":75,"label":"Sortie longue — cols en tempo/SS"} ] },
-        { "id": "w3-dim", "day": "Dim", "type": "velo", "title": "Endurance sur fatigue", "duration": "1h30", "tss": 65, "detail": "Z2, durabilité.", "steps": [ {"k":"wu","min":10}, {"k":"steady","min":72,"lo":58,"hi":73,"label":"Endurance Z2"}, {"k":"cd","min":8} ] }
+        {
+          "id": "",
+          "day": "Lun",
+          "type": "repos",
+          "title": "Repos",
+          "detail": "Récupération complète."
+        },
+        {
+          "id": "w3-mar",
+          "day": "Mar",
+          "type": "velo",
+          "title": "Qualité #1 — Seuil",
+          "duration": "1h20",
+          "tss": 70,
+          "detail": "Sur un col. 🔧 Ramenée à 2 blocs de 10' (au lieu de 3), premier retour à l'intensité après un week-end off. 🟢 Tu n'ajoutes le 3ᵉ bloc que si la HR moyenne du 2ᵉ est restée sous 165 — sinon tu rentres, c'est déjà la bonne séance. + Muscu A.",
+          "steps": [
+            {
+              "k": "wu",
+              "min": 10
+            },
+            {
+              "k": "int",
+              "reps": 2,
+              "on": 10,
+              "off": 5,
+              "lo": 98,
+              "hi": 102,
+              "label": "Seuil"
+            },
+            {
+              "k": "cd",
+              "min": 8
+            }
+          ]
+        },
+        {
+          "id": "w3-mar-m",
+          "day": "Mar",
+          "type": "muscu",
+          "title": "Muscu A — force max",
+          "seance": "A",
+          "mainScheme": "4 × 5 @ ~80% 1RM",
+          "detail": "Phase force max : charge lourde, 2–3 min de repos. ⚠️ Si lundi les jambes sont encore lourdes, garde une semaine d'adaptation (3 × 8 modéré) : la force max attendra S4, elle ne se perd pas."
+        },
+        {
+          "id": "w3-mer",
+          "day": "Mer",
+          "type": "course",
+          "title": "Footing facile",
+          "duration": "45 min",
+          "detail": "Course à pied facile en Z2, terrain souple. Reste très easy."
+        },
+        {
+          "id": "w3-jeu",
+          "day": "Jeu",
+          "type": "velo",
+          "title": "Qualité #2 — Over-unders",
+          "duration": "1h25",
+          "tss": 72,
+          "detail": "🔧 2 séries de 4 (au lieu de 3), pour laisser du jus pour le Pilat samedi. C'est la séance clé pour la Portette : recycler le lactate quand la pente change sans arrêt. 🛑 Même règle d'arrêt : au-dessus de 178 de HR avant la fin de la 1ʳᵉ série, tu coupes. + Muscu B si les jambes suivent.",
+          "steps": [
+            {
+              "k": "wu",
+              "min": 10
+            },
+            {
+              "k": "ou",
+              "sets": 2,
+              "reps": 4,
+              "onOver": 2,
+              "onUnder": 2,
+              "oLo": 99,
+              "oHi": 102,
+              "uLo": 88,
+              "uHi": 92,
+              "rec": 5
+            },
+            {
+              "k": "cd",
+              "min": 8
+            }
+          ]
+        },
+        {
+          "id": "w3-jeu-m",
+          "day": "Jeu",
+          "type": "muscu",
+          "title": "Muscu B — force max",
+          "seance": "B",
+          "mainScheme": "4 × 5 @ ~80% 1RM",
+          "detail": "Phase force max : charge lourde, 2–3 min de repos."
+        },
+        {
+          "id": "",
+          "day": "Ven",
+          "type": "repos",
+          "title": "Repos",
+          "detail": "Récupération complète."
+        },
+        {
+          "id": "w3-sam",
+          "day": "Sam",
+          "type": "velo",
+          "title": "Sortie longue — Pilat",
+          "duration": "4h",
+          "tss": 200,
+          "detail": "~2 300 m. Pilat (Crêt de l'Œillon) ou Vercors. 🎯 C'EST LA SÉANCE DE LA SEMAINE — celle qui ressemble le plus au 19 septembre. Les cols en tempo/sweet spot, pas à bloc : l'objectif est de finir les 4 h en pouvant encore pousser dans la dernière montée.",
+          "steps": [
+            {
+              "k": "wu",
+              "min": 10
+            },
+            {
+              "k": "steady",
+              "min": 230,
+              "lo": 58,
+              "hi": 75,
+              "label": "Sortie longue — cols en tempo/SS"
+            }
+          ]
+        },
+        {
+          "id": "w3-dim",
+          "day": "Dim",
+          "type": "velo",
+          "title": "Endurance sur fatigue",
+          "duration": "1h30",
+          "tss": 65,
+          "detail": "Z2, durabilité — rouler fatigué, c'est le but. À couper à 1 h si le Pilat a été gros la veille.",
+          "steps": [
+            {
+              "k": "wu",
+              "min": 10
+            },
+            {
+              "k": "steady",
+              "min": 72,
+              "lo": 58,
+              "hi": 73,
+              "label": "Endurance Z2"
+            },
+            {
+              "k": "cd",
+              "min": 8
+            }
+          ]
+        }
+      ],
+      "note": "⚠️ S3 est réécrite à la baisse (500 → ~430 TSS) : passer de ~215 TSS (S2) à 500 d'un coup après avoir été cuit tout le week-end, c'est le meilleur moyen de casser le bloc. La priorité de la semaine, c'est LA SORTIE LONGUE DU PILAT — pas les deux séances de qualité. Si quelque chose doit sauter, ce sont mardi/jeudi, jamais samedi. 🩺 Point de contrôle lundi : si tu te réveilles encore lourd, tu décales la qualité du mardi au mercredi et tu gardes le reste."
+    },
+    {
+      "n": 4,
+      "dates": "10 – 16 août",
+      "phase": "Récupération",
+      "focus": "Absorber (semaine allégée)",
+      "tss": 380,
+      "longRide": "3 h / ~1 500 m",
+      "sessions": [
+        {
+          "id": "",
+          "day": "Lun",
+          "type": "repos",
+          "title": "Repos",
+          "detail": "Récupération complète."
+        },
+        {
+          "id": "w4-mar",
+          "day": "Mar",
+          "type": "velo",
+          "title": "Qualité #1 — Sweet Spot",
+          "duration": "1h15",
+          "tss": 70,
+          "detail": "+ Muscu A légère.",
+          "steps": [
+            {
+              "k": "wu",
+              "min": 10
+            },
+            {
+              "k": "int",
+              "reps": 3,
+              "on": 15,
+              "off": 5,
+              "lo": 88,
+              "hi": 94,
+              "label": "Sweet Spot"
+            },
+            {
+              "k": "cd",
+              "min": 8
+            }
+          ]
+        },
+        {
+          "id": "w4-mar-m",
+          "day": "Mar",
+          "type": "muscu",
+          "title": "Muscu A — entretien léger",
+          "seance": "A",
+          "mainScheme": "3 × 5 léger",
+          "detail": "Semaine de récup : charge allégée, seule séance muscu de la semaine."
+        },
+        {
+          "id": "w4-mer",
+          "day": "Mer",
+          "type": "course",
+          "title": "Footing facile",
+          "duration": "40 min",
+          "detail": "Course à pied très facile, décrassage."
+        },
+        {
+          "id": "",
+          "day": "Jeu",
+          "type": "repos",
+          "title": "Repos",
+          "detail": "Récupération complète."
+        },
+        {
+          "id": "w4-ven",
+          "day": "Ven",
+          "type": "velo",
+          "title": "Ouverture",
+          "duration": "1h",
+          "tss": 45,
+          "detail": "Garder du jus.",
+          "steps": [
+            {
+              "k": "wu",
+              "min": 10
+            },
+            {
+              "k": "steady",
+              "min": 25,
+              "lo": 58,
+              "hi": 70,
+              "label": "Endurance Z2"
+            },
+            {
+              "k": "int",
+              "reps": 3,
+              "on": 3,
+              "off": 3,
+              "lo": 82,
+              "hi": 90,
+              "label": "Tempo"
+            },
+            {
+              "k": "cd",
+              "min": 8
+            }
+          ]
+        },
+        {
+          "id": "w4-sam",
+          "day": "Sam",
+          "type": "velo",
+          "title": "Sortie longue",
+          "duration": "3h",
+          "tss": 150,
+          "detail": "~1 500 m, sortie plaisir (semaine allégée).",
+          "steps": [
+            {
+              "k": "wu",
+              "min": 10
+            },
+            {
+              "k": "steady",
+              "min": 170,
+              "lo": 58,
+              "hi": 75,
+              "label": "Sortie longue — cols en tempo/SS"
+            }
+          ]
+        },
+        {
+          "id": "w4-dim",
+          "day": "Dim",
+          "type": "velo",
+          "title": "Endurance",
+          "duration": "1h30",
+          "tss": 65,
+          "detail": "Z2.",
+          "steps": [
+            {
+              "k": "wu",
+              "min": 10
+            },
+            {
+              "k": "steady",
+              "min": 72,
+              "lo": 58,
+              "hi": 73,
+              "label": "Endurance Z2"
+            },
+            {
+              "k": "cd",
+              "min": 8
+            }
+          ]
+        }
       ]
     },
     {
-      "n": 4, "dates": "10 – 16 août", "phase": "Récupération", "focus": "Absorber (semaine allégée)",
-      "tss": 380, "longRide": "3 h / ~1 500 m",
+      "n": 5,
+      "dates": "17 – 23 août",
+      "phase": "Spécifique",
+      "focus": "Seuil + over-unders",
+      "tss": 520,
+      "longRide": "4 h / ~2 500 m",
       "sessions": [
-        { "id": "", "day": "Lun", "type": "repos", "title": "Repos", "detail": "Récupération complète." },
-        { "id": "w4-mar", "day": "Mar", "type": "velo", "title": "Qualité #1 — Sweet Spot", "duration": "1h15", "tss": 70, "detail": "+ Muscu A légère.", "steps": [ {"k":"wu","min":10}, {"k":"int","reps":3,"on":15,"off":5,"lo":88,"hi":94,"label":"Sweet Spot"}, {"k":"cd","min":8} ] },
-        { "id": "w4-mar-m", "day": "Mar", "type": "muscu", "title": "Muscu A — entretien léger", "seance": "A", "mainScheme": "3 × 5 léger", "detail": "Semaine de récup : charge allégée, seule séance muscu de la semaine." },
-        { "id": "w4-mer", "day": "Mer", "type": "course", "title": "Footing facile", "duration": "40 min", "detail": "Course à pied très facile, décrassage." },
-        { "id": "", "day": "Jeu", "type": "repos", "title": "Repos", "detail": "Récupération complète." },
-        { "id": "w4-ven", "day": "Ven", "type": "velo", "title": "Ouverture", "duration": "1h", "tss": 45, "detail": "Garder du jus.", "steps": [ {"k":"wu","min":10}, {"k":"steady","min":25,"lo":58,"hi":70,"label":"Endurance Z2"}, {"k":"int","reps":3,"on":3,"off":3,"lo":82,"hi":90,"label":"Tempo"}, {"k":"cd","min":8} ] },
-        { "id": "w4-sam", "day": "Sam", "type": "velo", "title": "Sortie longue", "duration": "3h", "tss": 150, "detail": "~1 500 m, sortie plaisir (semaine allégée).", "steps": [ {"k":"wu","min":10}, {"k":"steady","min":170,"lo":58,"hi":75,"label":"Sortie longue — cols en tempo/SS"} ] },
-        { "id": "w4-dim", "day": "Dim", "type": "velo", "title": "Endurance", "duration": "1h30", "tss": 65, "detail": "Z2.", "steps": [ {"k":"wu","min":10}, {"k":"steady","min":72,"lo":58,"hi":73,"label":"Endurance Z2"}, {"k":"cd","min":8} ] }
+        {
+          "id": "",
+          "day": "Lun",
+          "type": "repos",
+          "title": "Repos",
+          "detail": "Récupération complète."
+        },
+        {
+          "id": "w5-mar",
+          "day": "Mar",
+          "type": "velo",
+          "title": "Qualité #1 — Sweet Spot long",
+          "duration": "1h45",
+          "tss": 90,
+          "detail": "+ Muscu A (force max).",
+          "steps": [
+            {
+              "k": "wu",
+              "min": 10
+            },
+            {
+              "k": "int",
+              "reps": 3,
+              "on": 20,
+              "off": 5,
+              "lo": 88,
+              "hi": 94,
+              "label": "Sweet Spot"
+            },
+            {
+              "k": "cd",
+              "min": 8
+            }
+          ]
+        },
+        {
+          "id": "w5-mar-m",
+          "day": "Mar",
+          "type": "muscu",
+          "title": "Muscu A — force max",
+          "seance": "A",
+          "mainScheme": "4 × 5 @ ~80% 1RM",
+          "detail": "Phase force max. Option : 1 série de squats sautés 3 × 5 pour l'explosivité."
+        },
+        {
+          "id": "w5-mer",
+          "day": "Mer",
+          "type": "course",
+          "title": "Footing facile",
+          "duration": "45 min",
+          "detail": "Course à pied facile en Z2, terrain souple."
+        },
+        {
+          "id": "w5-jeu",
+          "day": "Jeu",
+          "type": "velo",
+          "title": "Qualité #2 — Over-unders + force",
+          "duration": "1h45",
+          "tss": 95,
+          "detail": "+ Muscu B (force max).",
+          "steps": [
+            {
+              "k": "wu",
+              "min": 10
+            },
+            {
+              "k": "ou",
+              "sets": 3,
+              "reps": 4,
+              "onOver": 2,
+              "onUnder": 2,
+              "oLo": 99,
+              "oHi": 102,
+              "uLo": 88,
+              "uHi": 92,
+              "rec": 5
+            },
+            {
+              "k": "int",
+              "reps": 3,
+              "on": 4,
+              "off": 3,
+              "lo": 85,
+              "hi": 93,
+              "label": "Force",
+              "cad": "basse cadence"
+            },
+            {
+              "k": "cd",
+              "min": 8
+            }
+          ]
+        },
+        {
+          "id": "w5-jeu-m",
+          "day": "Jeu",
+          "type": "muscu",
+          "title": "Muscu B — force max",
+          "seance": "B",
+          "mainScheme": "4 × 5 @ ~80% 1RM",
+          "detail": "Phase force max."
+        },
+        {
+          "id": "",
+          "day": "Ven",
+          "type": "repos",
+          "title": "Repos",
+          "detail": "Récupération complète."
+        },
+        {
+          "id": "w5-sam",
+          "day": "Sam",
+          "type": "velo",
+          "title": "Sortie longue — Vercors si possible",
+          "duration": "4h",
+          "tss": 200,
+          "detail": "~2 500 m. Vercors idéalement (Col de Rousset depuis Die).",
+          "steps": [
+            {
+              "k": "wu",
+              "min": 10
+            },
+            {
+              "k": "steady",
+              "min": 230,
+              "lo": 58,
+              "hi": 75,
+              "label": "Sortie longue — vrai terrain"
+            }
+          ]
+        },
+        {
+          "id": "w5-dim",
+          "day": "Dim",
+          "type": "velo",
+          "title": "Endurance",
+          "duration": "1h30",
+          "tss": 65,
+          "detail": "Z2.",
+          "steps": [
+            {
+              "k": "wu",
+              "min": 10
+            },
+            {
+              "k": "steady",
+              "min": 72,
+              "lo": 58,
+              "hi": 73,
+              "label": "Endurance Z2"
+            },
+            {
+              "k": "cd",
+              "min": 8
+            }
+          ]
+        }
       ]
     },
     {
-      "n": 5, "dates": "17 – 23 août", "phase": "Spécifique", "focus": "Seuil + over-unders",
-      "tss": 520, "longRide": "4 h / ~2 500 m",
+      "n": 6,
+      "dates": "24 – 30 août",
+      "phase": "Spécifique",
+      "focus": "Pic de spécificité",
+      "tss": 540,
+      "longRide": "4 h 30 / ~2 800 m",
       "sessions": [
-        { "id": "", "day": "Lun", "type": "repos", "title": "Repos", "detail": "Récupération complète." },
-        { "id": "w5-mar", "day": "Mar", "type": "velo", "title": "Qualité #1 — Sweet Spot long", "duration": "1h45", "tss": 90, "detail": "+ Muscu A (force max).", "steps": [ {"k":"wu","min":10}, {"k":"int","reps":3,"on":20,"off":5,"lo":88,"hi":94,"label":"Sweet Spot"}, {"k":"cd","min":8} ] },
-        { "id": "w5-mar-m", "day": "Mar", "type": "muscu", "title": "Muscu A — force max", "seance": "A", "mainScheme": "4 × 5 @ ~80% 1RM", "detail": "Phase force max. Option : 1 série de squats sautés 3 × 5 pour l'explosivité." },
-        { "id": "w5-mer", "day": "Mer", "type": "course", "title": "Footing facile", "duration": "45 min", "detail": "Course à pied facile en Z2, terrain souple." },
-        { "id": "w5-jeu", "day": "Jeu", "type": "velo", "title": "Qualité #2 — Over-unders + force", "duration": "1h45", "tss": 95, "detail": "+ Muscu B (force max).", "steps": [ {"k":"wu","min":10}, {"k":"ou","sets":3,"reps":4,"onOver":2,"onUnder":2,"oLo":99,"oHi":102,"uLo":88,"uHi":92,"rec":5}, {"k":"int","reps":3,"on":4,"off":3,"lo":85,"hi":93,"label":"Force","cad":"basse cadence"}, {"k":"cd","min":8} ] },
-        { "id": "w5-jeu-m", "day": "Jeu", "type": "muscu", "title": "Muscu B — force max", "seance": "B", "mainScheme": "4 × 5 @ ~80% 1RM", "detail": "Phase force max." },
-        { "id": "", "day": "Ven", "type": "repos", "title": "Repos", "detail": "Récupération complète." },
-        { "id": "w5-sam", "day": "Sam", "type": "velo", "title": "Sortie longue — Vercors si possible", "duration": "4h", "tss": 200, "detail": "~2 500 m. Vercors idéalement (Col de Rousset depuis Die).", "steps": [ {"k":"wu","min":10}, {"k":"steady","min":230,"lo":58,"hi":75,"label":"Sortie longue — vrai terrain"} ] },
-        { "id": "w5-dim", "day": "Dim", "type": "velo", "title": "Endurance", "duration": "1h30", "tss": 65, "detail": "Z2.", "steps": [ {"k":"wu","min":10}, {"k":"steady","min":72,"lo":58,"hi":73,"label":"Endurance Z2"}, {"k":"cd","min":8} ] }
+        {
+          "id": "",
+          "day": "Lun",
+          "type": "repos",
+          "title": "Repos",
+          "detail": "Récupération complète."
+        },
+        {
+          "id": "w6-mar",
+          "day": "Mar",
+          "type": "velo",
+          "title": "Qualité #1 — Seuil",
+          "duration": "1h45",
+          "tss": 95,
+          "detail": "+ Muscu A (force max).",
+          "steps": [
+            {
+              "k": "wu",
+              "min": 10
+            },
+            {
+              "k": "int",
+              "reps": 4,
+              "on": 10,
+              "off": 5,
+              "lo": 98,
+              "hi": 102,
+              "label": "Seuil"
+            },
+            {
+              "k": "cd",
+              "min": 8
+            }
+          ]
+        },
+        {
+          "id": "w6-mar-m",
+          "day": "Mar",
+          "type": "muscu",
+          "title": "Muscu A — force max",
+          "seance": "A",
+          "mainScheme": "4 × 5 @ ~80% 1RM",
+          "detail": "Phase force max. Option : squats sautés 3 × 5."
+        },
+        {
+          "id": "w6-mer",
+          "day": "Mer",
+          "type": "course",
+          "title": "Footing facile",
+          "duration": "45 min",
+          "detail": "Course à pied facile en Z2, terrain souple."
+        },
+        {
+          "id": "w6-jeu",
+          "day": "Jeu",
+          "type": "velo",
+          "title": "Qualité #2 — Sweet Spot",
+          "duration": "1h30",
+          "tss": 90,
+          "detail": "Sur montée longue. + Muscu B (force max).",
+          "steps": [
+            {
+              "k": "wu",
+              "min": 10
+            },
+            {
+              "k": "int",
+              "reps": 3,
+              "on": 15,
+              "off": 5,
+              "lo": 88,
+              "hi": 94,
+              "label": "Sweet Spot"
+            },
+            {
+              "k": "cd",
+              "min": 8
+            }
+          ]
+        },
+        {
+          "id": "w6-jeu-m",
+          "day": "Jeu",
+          "type": "muscu",
+          "title": "Muscu B — force max",
+          "seance": "B",
+          "mainScheme": "4 × 5 @ ~80% 1RM",
+          "detail": "Phase force max."
+        },
+        {
+          "id": "",
+          "day": "Ven",
+          "type": "repos",
+          "title": "Repos",
+          "detail": "Récupération complète."
+        },
+        {
+          "id": "w6-sam",
+          "day": "Sam",
+          "type": "velo",
+          "title": "Sortie longue",
+          "duration": "4h30",
+          "tss": 230,
+          "detail": "~2 800 m, gros enchaînement de cols (Vercors ou Pilat).",
+          "steps": [
+            {
+              "k": "wu",
+              "min": 10
+            },
+            {
+              "k": "steady",
+              "min": 260,
+              "lo": 58,
+              "hi": 75,
+              "label": "Sortie longue — double col"
+            }
+          ]
+        },
+        {
+          "id": "w6-dim",
+          "day": "Dim",
+          "type": "velo",
+          "title": "Récupération",
+          "duration": "1h15",
+          "tss": 50,
+          "detail": "Très facile.",
+          "steps": [
+            {
+              "k": "wu",
+              "min": 8
+            },
+            {
+              "k": "steady",
+              "min": 59,
+              "lo": 50,
+              "hi": 62,
+              "label": "Récup Z1/Z2"
+            },
+            {
+              "k": "cd",
+              "min": 8
+            }
+          ]
+        }
       ]
     },
     {
-      "n": 6, "dates": "24 – 30 août", "phase": "Spécifique", "focus": "Pic de spécificité",
-      "tss": 540, "longRide": "4 h 30 / ~2 800 m",
+      "n": 7,
+      "dates": "31 août – 6 sept",
+      "phase": "Pic",
+      "focus": "👑 Sortie reine",
+      "tss": 560,
+      "longRide": "5 h / ~3 000 m",
       "sessions": [
-        { "id": "", "day": "Lun", "type": "repos", "title": "Repos", "detail": "Récupération complète." },
-        { "id": "w6-mar", "day": "Mar", "type": "velo", "title": "Qualité #1 — Seuil", "duration": "1h45", "tss": 95, "detail": "+ Muscu A (force max).", "steps": [ {"k":"wu","min":10}, {"k":"int","reps":4,"on":10,"off":5,"lo":98,"hi":102,"label":"Seuil"}, {"k":"cd","min":8} ] },
-        { "id": "w6-mar-m", "day": "Mar", "type": "muscu", "title": "Muscu A — force max", "seance": "A", "mainScheme": "4 × 5 @ ~80% 1RM", "detail": "Phase force max. Option : squats sautés 3 × 5." },
-        { "id": "w6-mer", "day": "Mer", "type": "course", "title": "Footing facile", "duration": "45 min", "detail": "Course à pied facile en Z2, terrain souple." },
-        { "id": "w6-jeu", "day": "Jeu", "type": "velo", "title": "Qualité #2 — Sweet Spot", "duration": "1h30", "tss": 90, "detail": "Sur montée longue. + Muscu B (force max).", "steps": [ {"k":"wu","min":10}, {"k":"int","reps":3,"on":15,"off":5,"lo":88,"hi":94,"label":"Sweet Spot"}, {"k":"cd","min":8} ] },
-        { "id": "w6-jeu-m", "day": "Jeu", "type": "muscu", "title": "Muscu B — force max", "seance": "B", "mainScheme": "4 × 5 @ ~80% 1RM", "detail": "Phase force max." },
-        { "id": "", "day": "Ven", "type": "repos", "title": "Repos", "detail": "Récupération complète." },
-        { "id": "w6-sam", "day": "Sam", "type": "velo", "title": "Sortie longue", "duration": "4h30", "tss": 230, "detail": "~2 800 m, gros enchaînement de cols (Vercors ou Pilat).", "steps": [ {"k":"wu","min":10}, {"k":"steady","min":260,"lo":58,"hi":75,"label":"Sortie longue — double col"} ] },
-        { "id": "w6-dim", "day": "Dim", "type": "velo", "title": "Récupération", "duration": "1h15", "tss": 50, "detail": "Très facile.", "steps": [ {"k":"wu","min":8}, {"k":"steady","min":59,"lo":50,"hi":62,"label":"Récup Z1/Z2"}, {"k":"cd","min":8} ] }
+        {
+          "id": "",
+          "day": "Lun",
+          "type": "repos",
+          "title": "Repos",
+          "detail": "Récupération complète."
+        },
+        {
+          "id": "w7-mar",
+          "day": "Mar",
+          "type": "velo",
+          "title": "Qualité #1 — Seuil",
+          "duration": "1h45",
+          "tss": 95,
+          "detail": "+ Muscu A (dernière séance lourde, ~13 j avant la course).",
+          "steps": [
+            {
+              "k": "wu",
+              "min": 10
+            },
+            {
+              "k": "int",
+              "reps": 4,
+              "on": 10,
+              "off": 5,
+              "lo": 98,
+              "hi": 102,
+              "label": "Seuil"
+            },
+            {
+              "k": "cd",
+              "min": 8
+            }
+          ]
+        },
+        {
+          "id": "w7-mar-m",
+          "day": "Mar",
+          "type": "muscu",
+          "title": "Muscu A — entretien",
+          "seance": "A",
+          "mainScheme": "2 × 5 modéré",
+          "detail": "Dernière séance muscu du bloc (~13 j avant la course)."
+        },
+        {
+          "id": "w7-mer",
+          "day": "Mer",
+          "type": "course",
+          "title": "Footing facile",
+          "duration": "40 min",
+          "detail": "Course à pied facile, jambes légères avant la reine."
+        },
+        {
+          "id": "w7-jeu",
+          "day": "Jeu",
+          "type": "velo",
+          "title": "Sweet Spot court",
+          "duration": "1h30",
+          "tss": 80,
+          "detail": "Sur montée.",
+          "steps": [
+            {
+              "k": "wu",
+              "min": 10
+            },
+            {
+              "k": "int",
+              "reps": 3,
+              "on": 12,
+              "off": 5,
+              "lo": 88,
+              "hi": 94,
+              "label": "Sweet Spot"
+            },
+            {
+              "k": "cd",
+              "min": 8
+            }
+          ]
+        },
+        {
+          "id": "",
+          "day": "Ven",
+          "type": "repos",
+          "title": "Repos",
+          "detail": "Récupération complète."
+        },
+        {
+          "id": "w7-sam",
+          "day": "Sam",
+          "type": "velo",
+          "title": "👑 SORTIE REINE",
+          "duration": "5h",
+          "tss": 270,
+          "detail": "~3 000 m — au-dessus des 2 900 m de la course (dans ta zone Col de la Loze). Répétition générale : teste EXACTEMENT ta nutrition course, ton pacing et ta gestion.",
+          "steps": [
+            {
+              "k": "wu",
+              "min": 10
+            },
+            {
+              "k": "steady",
+              "min": 290,
+              "lo": 58,
+              "hi": 75,
+              "label": "Sortie reine — pacing course"
+            }
+          ]
+        },
+        {
+          "id": "w7-dim",
+          "day": "Dim",
+          "type": "velo",
+          "title": "Récupération",
+          "duration": "1h30",
+          "tss": 55,
+          "detail": "Très facile.",
+          "steps": [
+            {
+              "k": "wu",
+              "min": 8
+            },
+            {
+              "k": "steady",
+              "min": 74,
+              "lo": 50,
+              "hi": 62,
+              "label": "Récup Z1/Z2"
+            },
+            {
+              "k": "cd",
+              "min": 8
+            }
+          ]
+        }
       ]
     },
     {
-      "n": 7, "dates": "31 août – 6 sept", "phase": "Pic", "focus": "👑 Sortie reine",
-      "tss": 560, "longRide": "5 h / ~3 000 m",
+      "n": 8,
+      "dates": "7 – 13 sept",
+      "phase": "Affûtage",
+      "focus": "Volume −35 %, on reste vif",
+      "tss": 360,
+      "longRide": "3 h / ~1 500 m",
       "sessions": [
-        { "id": "", "day": "Lun", "type": "repos", "title": "Repos", "detail": "Récupération complète." },
-        { "id": "w7-mar", "day": "Mar", "type": "velo", "title": "Qualité #1 — Seuil", "duration": "1h45", "tss": 95, "detail": "+ Muscu A (dernière séance lourde, ~13 j avant la course).", "steps": [ {"k":"wu","min":10}, {"k":"int","reps":4,"on":10,"off":5,"lo":98,"hi":102,"label":"Seuil"}, {"k":"cd","min":8} ] },
-        { "id": "w7-mar-m", "day": "Mar", "type": "muscu", "title": "Muscu A — entretien", "seance": "A", "mainScheme": "2 × 5 modéré", "detail": "Dernière séance muscu du bloc (~13 j avant la course)." },
-        { "id": "w7-mer", "day": "Mer", "type": "course", "title": "Footing facile", "duration": "40 min", "detail": "Course à pied facile, jambes légères avant la reine." },
-        { "id": "w7-jeu", "day": "Jeu", "type": "velo", "title": "Sweet Spot court", "duration": "1h30", "tss": 80, "detail": "Sur montée.", "steps": [ {"k":"wu","min":10}, {"k":"int","reps":3,"on":12,"off":5,"lo":88,"hi":94,"label":"Sweet Spot"}, {"k":"cd","min":8} ] },
-        { "id": "", "day": "Ven", "type": "repos", "title": "Repos", "detail": "Récupération complète." },
-        { "id": "w7-sam", "day": "Sam", "type": "velo", "title": "👑 SORTIE REINE", "duration": "5h", "tss": 270, "detail": "~3 000 m — au-dessus des 2 900 m de la course (dans ta zone Col de la Loze). Répétition générale : teste EXACTEMENT ta nutrition course, ton pacing et ta gestion.", "steps": [ {"k":"wu","min":10}, {"k":"steady","min":290,"lo":58,"hi":75,"label":"Sortie reine — pacing course"} ] },
-        { "id": "w7-dim", "day": "Dim", "type": "velo", "title": "Récupération", "duration": "1h30", "tss": 55, "detail": "Très facile.", "steps": [ {"k":"wu","min":8}, {"k":"steady","min":74,"lo":50,"hi":62,"label":"Récup Z1/Z2"}, {"k":"cd","min":8} ] }
+        {
+          "id": "",
+          "day": "Lun",
+          "type": "repos",
+          "title": "Repos",
+          "detail": "Récupération complète."
+        },
+        {
+          "id": "w8-mar",
+          "day": "Mar",
+          "type": "velo",
+          "title": "VO2 court",
+          "duration": "1h",
+          "tss": 65,
+          "detail": "Garde les jambes vives.",
+          "steps": [
+            {
+              "k": "wu",
+              "min": 10
+            },
+            {
+              "k": "int",
+              "reps": 5,
+              "on": 3,
+              "off": 3,
+              "lo": 110,
+              "hi": 114,
+              "label": "VO2max"
+            },
+            {
+              "k": "cd",
+              "min": 8
+            }
+          ]
+        },
+        {
+          "id": "w8-mer",
+          "day": "Mer",
+          "type": "course",
+          "title": "Footing léger",
+          "duration": "30 min",
+          "detail": "Course à pied courte et facile, décrassage d'affûtage."
+        },
+        {
+          "id": "w8-jeu",
+          "day": "Jeu",
+          "type": "velo",
+          "title": "Sweet Spot léger",
+          "duration": "1h",
+          "tss": 55,
+          "detail": "Léger.",
+          "steps": [
+            {
+              "k": "wu",
+              "min": 10
+            },
+            {
+              "k": "int",
+              "reps": 2,
+              "on": 12,
+              "off": 5,
+              "lo": 88,
+              "hi": 94,
+              "label": "Sweet Spot"
+            },
+            {
+              "k": "cd",
+              "min": 8
+            }
+          ]
+        },
+        {
+          "id": "",
+          "day": "Ven",
+          "type": "repos",
+          "title": "Repos",
+          "detail": "Récupération complète."
+        },
+        {
+          "id": "w8-sam",
+          "day": "Sam",
+          "type": "velo",
+          "title": "Sortie moyenne",
+          "duration": "3h",
+          "tss": 140,
+          "detail": "~1 500 m, majorité Z2 (affûtage).",
+          "steps": [
+            {
+              "k": "wu",
+              "min": 10
+            },
+            {
+              "k": "steady",
+              "min": 170,
+              "lo": 58,
+              "hi": 73,
+              "label": "Sortie — 2 cols en tempo"
+            }
+          ]
+        },
+        {
+          "id": "w8-dim",
+          "day": "Dim",
+          "type": "velo",
+          "title": "Endurance facile",
+          "duration": "1h30",
+          "tss": 55,
+          "detail": "Facile.",
+          "steps": [
+            {
+              "k": "wu",
+              "min": 10
+            },
+            {
+              "k": "steady",
+              "min": 72,
+              "lo": 56,
+              "hi": 68,
+              "label": "Endurance facile"
+            },
+            {
+              "k": "cd",
+              "min": 8
+            }
+          ]
+        }
       ]
     },
     {
-      "n": 8, "dates": "7 – 13 sept", "phase": "Affûtage", "focus": "Volume −35 %, on reste vif",
-      "tss": 360, "longRide": "3 h / ~1 500 m",
+      "n": 9,
+      "dates": "14 – 20 sept",
+      "phase": "Course",
+      "focus": "Semaine de course 🏁",
+      "tss": 250,
+      "longRide": "LA COURSE (sam 19)",
       "sessions": [
-        { "id": "", "day": "Lun", "type": "repos", "title": "Repos", "detail": "Récupération complète." },
-        { "id": "w8-mar", "day": "Mar", "type": "velo", "title": "VO2 court", "duration": "1h", "tss": 65, "detail": "Garde les jambes vives.", "steps": [ {"k":"wu","min":10}, {"k":"int","reps":5,"on":3,"off":3,"lo":110,"hi":114,"label":"VO2max"}, {"k":"cd","min":8} ] },
-        { "id": "w8-mer", "day": "Mer", "type": "course", "title": "Footing léger", "duration": "30 min", "detail": "Course à pied courte et facile, décrassage d'affûtage." },
-        { "id": "w8-jeu", "day": "Jeu", "type": "velo", "title": "Sweet Spot léger", "duration": "1h", "tss": 55, "detail": "Léger.", "steps": [ {"k":"wu","min":10}, {"k":"int","reps":2,"on":12,"off":5,"lo":88,"hi":94,"label":"Sweet Spot"}, {"k":"cd","min":8} ] },
-        { "id": "", "day": "Ven", "type": "repos", "title": "Repos", "detail": "Récupération complète." },
-        { "id": "w8-sam", "day": "Sam", "type": "velo", "title": "Sortie moyenne", "duration": "3h", "tss": 140, "detail": "~1 500 m, majorité Z2 (affûtage).", "steps": [ {"k":"wu","min":10}, {"k":"steady","min":170,"lo":58,"hi":73,"label":"Sortie — 2 cols en tempo"} ] },
-        { "id": "w8-dim", "day": "Dim", "type": "velo", "title": "Endurance facile", "duration": "1h30", "tss": 55, "detail": "Facile.", "steps": [ {"k":"wu","min":10}, {"k":"steady","min":72,"lo":56,"hi":68,"label":"Endurance facile"}, {"k":"cd","min":8} ] }
-      ]
-    },
-    {
-      "n": 9, "dates": "14 – 20 sept", "phase": "Course", "focus": "Semaine de course 🏁",
-      "tss": 250, "longRide": "LA COURSE (sam 19)",
-      "sessions": [
-        { "id": "", "day": "Lun", "type": "repos", "title": "Repos", "detail": "Récupération complète." },
-        { "id": "w9-mar", "day": "Mar", "type": "velo", "title": "Rappel", "duration": "1h", "tss": 55, "detail": "Rappel court.", "steps": [ {"k":"wu","min":10}, {"k":"int","reps":3,"on":3,"off":3,"lo":98,"hi":102,"label":"Seuil"}, {"k":"cd","min":8} ] },
-        { "id": "w9-mer", "day": "Mer", "type": "velo", "title": "Endurance facile", "duration": "1h", "tss": 40, "detail": "Facile.", "steps": [ {"k":"wu","min":8}, {"k":"steady","min":44,"lo":56,"hi":68,"label":"Endurance facile"}, {"k":"cd","min":8} ] },
-        { "id": "", "day": "Jeu", "type": "repos", "title": "Repos", "detail": "Récupération complète." },
-        { "id": "w9-ven", "day": "Ven", "type": "velo", "title": "Ouverture", "duration": "45 min", "tss": 35, "detail": "Réveille les jambes.", "steps": [ {"k":"wu","min":10}, {"k":"steady","min":20,"lo":56,"hi":68,"label":"Endurance"}, {"k":"int","reps":3,"on":1,"off":2,"lo":100,"hi":112,"label":"Allure course"}, {"k":"cd","min":8} ] },
-        { "id": "w9-sam", "day": "Sam", "type": "velo", "title": "🏁 LE VERCORS 130 km", "duration": "5h30–7h", "tss": 0, "detail": "130 km / ~2 900 m. Applique le plan Jour J : pacing prudent sur Rousset, mange dès le km 0." },
-        { "id": "", "day": "Dim", "type": "repos", "title": "Repos", "detail": "Récupération complète." }
+        {
+          "id": "",
+          "day": "Lun",
+          "type": "repos",
+          "title": "Repos",
+          "detail": "Récupération complète."
+        },
+        {
+          "id": "w9-mar",
+          "day": "Mar",
+          "type": "velo",
+          "title": "Rappel",
+          "duration": "1h",
+          "tss": 55,
+          "detail": "Rappel court.",
+          "steps": [
+            {
+              "k": "wu",
+              "min": 10
+            },
+            {
+              "k": "int",
+              "reps": 3,
+              "on": 3,
+              "off": 3,
+              "lo": 98,
+              "hi": 102,
+              "label": "Seuil"
+            },
+            {
+              "k": "cd",
+              "min": 8
+            }
+          ]
+        },
+        {
+          "id": "w9-mer",
+          "day": "Mer",
+          "type": "velo",
+          "title": "Endurance facile",
+          "duration": "1h",
+          "tss": 40,
+          "detail": "Facile.",
+          "steps": [
+            {
+              "k": "wu",
+              "min": 8
+            },
+            {
+              "k": "steady",
+              "min": 44,
+              "lo": 56,
+              "hi": 68,
+              "label": "Endurance facile"
+            },
+            {
+              "k": "cd",
+              "min": 8
+            }
+          ]
+        },
+        {
+          "id": "",
+          "day": "Jeu",
+          "type": "repos",
+          "title": "Repos",
+          "detail": "Récupération complète."
+        },
+        {
+          "id": "w9-ven",
+          "day": "Ven",
+          "type": "velo",
+          "title": "Ouverture",
+          "duration": "45 min",
+          "tss": 35,
+          "detail": "Réveille les jambes.",
+          "steps": [
+            {
+              "k": "wu",
+              "min": 10
+            },
+            {
+              "k": "steady",
+              "min": 20,
+              "lo": 56,
+              "hi": 68,
+              "label": "Endurance"
+            },
+            {
+              "k": "int",
+              "reps": 3,
+              "on": 1,
+              "off": 2,
+              "lo": 100,
+              "hi": 112,
+              "label": "Allure course"
+            },
+            {
+              "k": "cd",
+              "min": 8
+            }
+          ]
+        },
+        {
+          "id": "w9-sam",
+          "day": "Sam",
+          "type": "velo",
+          "title": "🏁 LE VERCORS 130 km",
+          "duration": "5h30–7h",
+          "tss": 0,
+          "detail": "130 km / ~2 900 m. Applique le plan Jour J : pacing prudent sur Rousset, mange dès le km 0."
+        },
+        {
+          "id": "",
+          "day": "Dim",
+          "type": "repos",
+          "title": "Repos",
+          "detail": "Récupération complète."
+        }
       ]
     }
   ]

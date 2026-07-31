@@ -66,18 +66,29 @@ Réalisé **~630 TSS / 12 h 10 de vélo / ~4 800 m D+**, contre 430 TSS et ~8 h 
 | Sam 25 | 🔬 **Test FTP** col de Portes — 31 km / 708 m / 1h29 |
 | Dim 26 | Monts du Lyonnais — 88 km / **1 423 m** / 3h45 (au lieu de 1h30 d'endurance) |
 
-#### S2 (27 juil – 2 août) — **semaine allégée**, ~335 TSS
-Au lieu de 460 TSS + sortie longue 3h30. Deux raisons : digérer la surcharge de S1, et **peu de temps le week-end** (demande explicite). Pas de sortie longue — elle revient en S3 (Pilat, 4 h / ~2 300 m, inchangée).
+#### S2 (27 juil – 2 août) — **semaine de récup**, ~250 TSS (réalisé ~215 + dimanche facultatif)
+Prévue à 335 TSS, ramenée à ~250 : **il s'est déclaré « cramé » le vendredi 31/07**. Pas de sortie longue — elle revient en S3.
 
 | Jour | État |
 |---|---|
 | Mar 28 | ✅ **figé** — Seuil 3×10' col du Verdun, 44 km / 789 m / 2h04 (217/219/220 W) |
-| Mer 29 | ✅ **figé** — « à la fraîche » 33,8 km / 195 m / 1h27 à ~120 W. **Footing remplacé par du vélo facile** (bon choix au lendemain d'un seuil à 181 de HR) |
-| Jeu 30 | Over-unders **allégés : 1 série de 5** (au lieu de 2×4) + règle d'arrêt HR > 178. Muscu B optionnelle |
-| Sam 1/08 | 1h15 court — Sweet Spot 2×12' |
-| Dim 2/08 | 1h15–1h30 endurance modulable |
+| Mer 29 | ✅ **figé** — « à la fraîche » 33,8 km / 195 m / 1h27 à ~101 W moy. **Footing remplacé par du vélo facile** (bon choix au lendemain d'un seuil à 181 de HR) |
+| Jeu 30 | ⏭️ **Over-unders sautée** (jour off complet) — reportées en S3 |
+| Ven 31 | ✅ **figé** — Monts d'Or + Mont Verdun, 43,8 km / 526 m / 2h11 (113 W moy, HR 121/161). Verdun par Poleymieux : 442 m à **165 W pour 139 de HR** — **pas de dérive cardiaque**. Meilleurs 20 min : 181 W → sortie vraiment facile |
+| Sam 1/08 | 🛑 **Repos total** (Sweet Spot 2×12' annulé) |
+| Dim 2/08 | Facultatif — 1 h très facile (115–143 W, HR < 135) **ou rien** |
 
-> 🔁 **Tendance à surveiller** : il fait systématiquement plus que prévu (S1 +47 %). Le facteur limitant est la fraîcheur, pas le foncier — tenir la ligne sur les semaines allégées.
+**Diagnostic du « cramé » (31/07)** : ce n'est pas la charge de S2 (~5 h 30 / 1 510 m / 215 TSS) mais la dette de S1.
+Sur 12 jours : **8 sorties, ~17 h 40, ~6 300 m D+** pour un budget de 8–10 h/sem. Le moteur aérobie va bien
+(HR/puissance meilleure vendredi que mardi) → fatigue générale, ça se règle en **jours off**, pas en deload de 2 semaines.
+
+#### S3 (3 – 9 août) — réécrite à la baisse : **500 → ~430 TSS**
+Passer de 215 à 500 TSS après un week-end cuit = casser le bloc. Changements : Mar seuil **2×10'** (3ᵉ bloc seulement si HR moy du 2ᵉ < 165), Jeu over-unders **2×4** (au lieu de 3×4), Muscu A/B en adaptation si les jambes sont encore lourdes lundi.
+**Priorité intacte = la sortie longue du Pilat (4 h / ~2 300 m).** Si quelque chose saute, c'est mardi/jeudi, jamais samedi.
+🩺 **Point de contrôle lundi 3/08** : encore lourd → décaler la qualité du mardi au mercredi.
+
+> 🔁 **Tendance à surveiller** : il fait systématiquement plus que prévu (S1 +47 %) et **rend rarement ses jours de repos**
+> (le vendredi 31/07 prévu off = 2 h de vélo). Le facteur limitant est la fraîcheur, pas le foncier.
 
 ## 🏗️ Architecture technique
 
