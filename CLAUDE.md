@@ -82,10 +82,25 @@ Prévue à 335 TSS, ramenée à ~250 : **il s'est déclaré « cramé » le vend
 Sur 12 jours : **8 sorties, ~17 h 40, ~6 300 m D+** pour un budget de 8–10 h/sem. Le moteur aérobie va bien
 (HR/puissance meilleure vendredi que mardi) → fatigue générale, ça se règle en **jours off**, pas en deload de 2 semaines.
 
-#### S3 (3 – 9 août) — réécrite à la baisse : **500 → ~430 TSS**
-Passer de 215 à 500 TSS après un week-end cuit = casser le bloc. Changements : Mar seuil **2×10'** (3ᵉ bloc seulement si HR moy du 2ᵉ < 165), Jeu over-unders **2×4** (au lieu de 3×4), Muscu A/B en adaptation si les jambes sont encore lourdes lundi.
-**Priorité intacte = la sortie longue du Pilat (4 h / ~2 300 m).** Si quelque chose saute, c'est mardi/jeudi, jamais samedi.
-🩺 **Point de contrôle lundi 3/08** : encore lourd → décaler la qualité du mardi au mercredi.
+#### S3 (3 – 9 août) — en cours, ~425 TSS
+Réécrite de 500 → 430 avant le début (week-end de récup), puis ajustée jeudi 6/08 : **over-unders annulées**.
+
+| Jour | État |
+|---|---|
+| Lun 3 | ⚠️ **figé** — « Dombes avec le bro » 59 km / 396 m / 2h20 (112 W moy, HR 128/160, meilleurs 20 min 136 W). Sortie facile mais **c'était le jour de repos** |
+| Mar 4 | ✅ **figé** — Seuil 2×10' Mont Verdun, 33 km / 506 m / 1h23. **Bloc 1 : 221 W** (HR 167/177) · **Bloc 2 : 207 W** (HR 164/175). Récup à 190 W entre les blocs → ~25 min quasi continues, **208 W sur 30 min**. 3ᵉ bloc non lancé (bon choix) |
+| Mer 5 | ✅ Muscu (A supposée) faite « pas trop forcé », décalée du mardi. **Footing sauté** |
+| Jeu 6 | ⏭️ **Over-unders annulées** pour protéger le Pilat (option : 45 min–1 h < 130 W). **Muscu B reportée en S4** |
+| Sam 8 | 🏔️ **Pilat 4 h / ~2 300 m — seule séance non négociable** |
+| Dim 9 | 1h30 Z2 sur fatigue (couper à 1 h si le Pilat a été gros) |
+
+**Lecture du seuil du 4/08** : 🟢 coût cardiaque en baisse vs 28/07 (HR max 177 contre 181) → le week-end off a payé.
+🟠 mais la puissance décroche de 14 W entre les 2 blocs alors qu'elle *montait* le 28/07 — explication : « récup » à 190 W + les 2 h 20 de la veille.
+📌 **Signal à suivre** : 2 séances de seuil d'affilée il atterrit à **207–221 W** alors que la cible est 225–235 W.
+FTP laissée à 230 (le coût cardiaque baisse, incohérent avec une FTP trop haute). **Si ça se reproduit à froid en S5 → redescendre à 225.**
+
+> 🔁 **Tendance confirmée (3 semaines de suite)** : le jour de repos du lundi/vendredi devient systématiquement 2 h de vélo,
+> et ça se paie le lendemain sur la séance de qualité. Le levier n'est pas d'ajouter de la charge, c'est de **faire respecter les jours off**.
 
 > 🔁 **Tendance à surveiller** : il fait systématiquement plus que prévu (S1 +47 %) et **rend rarement ses jours de repos**
 > (le vendredi 31/07 prévu off = 2 h de vélo). Le facteur limitant est la fraîcheur, pas le foncier.

@@ -530,25 +530,28 @@
       "n": 3,
       "dates": "3 – 9 août",
       "phase": "Développement",
-      "focus": "Seuil — mais démarrage conditionnel",
-      "tss": 430,
+      "focus": "Seuil + sortie longue Pilat",
+      "tss": 425,
       "longRide": "4 h / ~2 300 m",
       "sessions": [
         {
-          "id": "",
+          "id": "w3-lun",
           "day": "Lun",
-          "type": "repos",
-          "title": "Repos",
-          "detail": "Récupération complète."
+          "type": "velo",
+          "done": true,
+          "title": "⚠️ Dombes avec le bro (jour de repos prévu)",
+          "duration": "2h20",
+          "tss": 70,
+          "detail": "Réalisé lun. 3/08 — 59 km / 396 m / 2 h 20, 112 W moy, HR 128 / max 160. Meilleurs 20 min : 136 W, donc vraiment une sortie sociale facile, rien à redire sur l'intensité. ⚠️ Le problème n'est pas la sortie, c'est le jour : c'était le repos, et c'est la 3ᵉ semaine de suite que le jour off devient 2 h de vélo. Ça se paie le lendemain sur la séance de qualité (cf. mardi)."
         },
         {
           "id": "w3-mar",
           "day": "Mar",
           "type": "velo",
-          "title": "Qualité #1 — Seuil",
-          "duration": "1h20",
-          "tss": 70,
-          "detail": "Sur un col. 🔧 Ramenée à 2 blocs de 10' (au lieu de 3), premier retour à l'intensité après un week-end off. 🟢 Tu n'ajoutes le 3ᵉ bloc que si la HR moyenne du 2ᵉ est restée sous 165 — sinon tu rentres, c'est déjà la bonne séance. + Muscu A.",
+          "title": "✅ Seuil 2×10' — Mont Verdun",
+          "duration": "1h23",
+          "tss": 90,
+          "detail": "✅ Réalisé mar. 4/08 au soir — 33 km / 506 m / 1 h 23. 🎯 Bloc 1 : **221 W** (HR moy 167 / max 177). Bloc 2 : **207 W** (HR moy 164 / max 175). Entre les deux, 5 min à 190 W au lieu d'une vraie récup → en pratique tu as fait ~25 min quasi continues au seuil, et tenu **208 W sur 30 min pleines**. 🟢 Le bon signe : à puissance comparable, la HR est PLUS BASSE que le 28/07 (max 177 contre 181). Le week-end off a payé. 🟠 Le moins bon : la puissance décroche de 14 W entre les deux blocs, alors qu'elle montait le 28/07. Explication la plus probable = la « récup » à 190 W + les 2 h 20 de la veille. Tu as eu raison de ne pas lancer le 3ᵉ bloc. 📌 À noter quand même : 2 séances de seuil de suite tu atterris à 207–221 W alors que la cible est 225–235 W. Je ne touche pas à la FTP (le coût cardiaque baisse, c'est incohérent avec une FTP trop haute) — mais si ça se reproduit fraîchement en S5, on redescendra à 225.",
           "steps": [
             {
               "k": "wu",
@@ -567,80 +570,61 @@
               "k": "cd",
               "min": 8
             }
-          ]
-        },
-        {
-          "id": "w3-mar-m",
-          "day": "Mar",
-          "type": "muscu",
-          "title": "Muscu A — force max",
-          "seance": "A",
-          "mainScheme": "4 × 5 @ ~80% 1RM",
-          "detail": "Phase force max : charge lourde, 2–3 min de repos. ⚠️ Si lundi les jambes sont encore lourdes, garde une semaine d'adaptation (3 × 8 modéré) : la force max attendra S4, elle ne se perd pas."
+          ],
+          "done": true
         },
         {
           "id": "w3-mer",
           "day": "Mer",
           "type": "course",
-          "title": "Footing facile",
+          "title": "⏭️ Footing — remplacé par la muscu",
           "duration": "45 min",
-          "detail": "Course à pied facile en Z2, terrain souple. Reste très easy."
+          "detail": "Le footing de 45 min a laissé la place à la séance de muscu. Aucun souci : à ce stade du bloc, la course à pied n'est là que pour l'entretien.",
+          "done": false
+        },
+        {
+          "id": "w3-mar-m",
+          "day": "Mer",
+          "type": "muscu",
+          "title": "✅ Muscu A — faite mercredi 5/08",
+          "seance": "A",
+          "mainScheme": "charge modérée (pas de force max)",
+          "detail": "✅ Faite mer. 5/08 sans forcer, décalée du mardi. Bon arbitrage : empiler la force max sur une séance de seuil le même jour, en pleine semaine à 425 TSS, n'aurait servi à rien. La force max n'est pas perdue — elle reprend en S4, avec un lundi vraiment off devant. ℹ️ Si c'était la B et pas la A, coche l'autre, ça ne change rien au reste.",
+          "done": true
         },
         {
           "id": "w3-jeu",
           "day": "Jeu",
           "type": "velo",
-          "title": "Qualité #2 — Over-unders",
-          "duration": "1h25",
-          "tss": 72,
-          "detail": "🔧 2 séries de 4 (au lieu de 3), pour laisser du jus pour le Pilat samedi. C'est la séance clé pour la Portette : recycler le lactate quand la pente change sans arrêt. 🛑 Même règle d'arrêt : au-dessus de 178 de HR avant la fin de la 1ʳᵉ série, tu coupes. + Muscu B si les jambes suivent.",
-          "steps": [
-            {
-              "k": "wu",
-              "min": 10
-            },
-            {
-              "k": "ou",
-              "sets": 2,
-              "reps": 4,
-              "onOver": 2,
-              "onUnder": 2,
-              "oLo": 99,
-              "oHi": 102,
-              "uLo": 88,
-              "uHi": 92,
-              "rec": 5
-            },
-            {
-              "k": "cd",
-              "min": 8
-            }
-          ]
+          "title": "⏭️ Over-unders — annulées (protéger le Pilat)",
+          "duration": "—",
+          "tss": 0,
+          "detail": "🛑 Annulées, et c'est un choix, pas un renoncement. Tu as déjà 160 TSS dans les jambes en 2 jours, la puissance décrochait déjà en fin de séance mardi, et samedi tu as 4 h / 2 300 m au Pilat — LA séance qui ressemble au Vercors. Une 2ᵉ séance de qualité aujourd'hui te coûterait le samedi pour un gain nul. 🚲 Si tu as vraiment besoin de tourner les jambes : 45 min à 1 h à moins de 130 W, HR sous 135, terrain plat, zéro bosse. Sinon : rien du tout, c'est mieux. Les over-unders reviennent en S5 (elles y sont déjà au programme)."
         },
         {
           "id": "w3-jeu-m",
           "day": "Jeu",
           "type": "muscu",
-          "title": "Muscu B — force max",
+          "title": "⏭️ Muscu B — reportée en S4",
           "seance": "B",
-          "mainScheme": "4 × 5 @ ~80% 1RM",
-          "detail": "Phase force max : charge lourde, 2–3 min de repos."
+          "mainScheme": "—",
+          "detail": "Sautée cette semaine. De la force max lourde 2 jours avant une sortie de 4 h / 2 300 m, c'est le meilleur moyen d'arriver au Pilat avec des jambes de bois pour zéro bénéfice. Elle reprend en S4."
         },
         {
           "id": "",
           "day": "Ven",
           "type": "repos",
           "title": "Repos",
-          "detail": "Récupération complète."
+          "detail": "Récupération complète — vraiment. C'est ce repos qui rend les 4 h du Pilat possibles demain."
         },
         {
           "id": "w3-sam",
           "day": "Sam",
           "type": "velo",
-          "title": "Sortie longue — Pilat",
+          "title": "🏔️ Sortie longue — Pilat (LA séance de la semaine)",
           "duration": "4h",
           "tss": 200,
-          "detail": "~2 300 m. Pilat (Crêt de l'Œillon) ou Vercors. 🎯 C'EST LA SÉANCE DE LA SEMAINE — celle qui ressemble le plus au 19 septembre. Les cols en tempo/sweet spot, pas à bloc : l'objectif est de finir les 4 h en pouvant encore pousser dans la dernière montée.",
+          "detail": "~2 300 m. Pilat (Crêt de l'Œillon) ou Vercors. 🎯 Tout le reste de la semaine a été aménagé pour que tu arrives frais ici : jeudi annulé, vendredi off. Les cols en tempo/sweet spot (133–172 W en fond, les montées jusqu'à ~190 W), **jamais à bloc**. Le but est de finir les 4 h en pouvant encore pousser dans la dernière montée — c'est exactement la compétence à avoir sur la Portette le 19 septembre. Mange et bois dès la 1ʳᵉ heure, ne pas attendre d'avoir faim.",
           "steps": [
             {
               "k": "wu",
@@ -662,7 +646,7 @@
           "title": "Endurance sur fatigue",
           "duration": "1h30",
           "tss": 65,
-          "detail": "Z2, durabilité — rouler fatigué, c'est le but. À couper à 1 h si le Pilat a été gros la veille.",
+          "detail": "Z2, durabilité — rouler sur la fatigue de la veille, c'est le but. À couper à 1 h si le Pilat a été gros.",
           "steps": [
             {
               "k": "wu",
@@ -682,7 +666,7 @@
           ]
         }
       ],
-      "note": "⚠️ S3 est réécrite à la baisse (500 → ~430 TSS) : passer de ~215 TSS (S2) à 500 d'un coup après avoir été cuit tout le week-end, c'est le meilleur moyen de casser le bloc. La priorité de la semaine, c'est LA SORTIE LONGUE DU PILAT — pas les deux séances de qualité. Si quelque chose doit sauter, ce sont mardi/jeudi, jamais samedi. 🩺 Point de contrôle lundi : si tu te réveilles encore lourd, tu décales la qualité du mardi au mercredi et tu gardes le reste."
+      "note": "📊 Bilan à jeudi soir : ~160 TSS déjà faits (lundi 70 + mardi 90). ⚠️ Le lundi de repos est encore devenu 2 h 20 de vélo — 3ᵉ fois d'affilée. Conséquence directe et assumée : **les over-unders de jeudi sautent**. La semaine atterrit quand même à ~425 TSS (160 + Pilat 200 + dimanche 65) parce que le vélo de lundi a déjà payé la facture. Le vrai gain, c'est que le Pilat arrive avec **2 jours de fraîcheur** au lieu d'un. 🎯 Samedi est la seule séance non négociable de la semaine."
     },
     {
       "n": 4,
