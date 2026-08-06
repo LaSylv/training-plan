@@ -90,9 +90,13 @@ Réécrite de 500 → 430 avant le début (week-end de récup), puis ajustée je
 | Lun 3 | ⚠️ **figé** — « Dombes avec le bro » 59 km / 396 m / 2h20 (112 W moy, HR 128/160, meilleurs 20 min 136 W). Sortie facile mais **c'était le jour de repos** |
 | Mar 4 | ✅ **figé** — Seuil 2×10' Mont Verdun, 33 km / 506 m / 1h23. **Bloc 1 : 221 W** (HR 167/177) · **Bloc 2 : 207 W** (HR 164/175). Récup à 190 W entre les blocs → ~25 min quasi continues, **208 W sur 30 min**. 3ᵉ bloc non lancé (bon choix) |
 | Mer 5 | ✅ Muscu (A supposée) faite « pas trop forcé », décalée du mardi. **Footing sauté** |
-| Jeu 6 | ⏭️ **Over-unders annulées** pour protéger le Pilat (option : 45 min–1 h < 130 W). **Muscu B reportée en S4** |
-| Sam 8 | 🏔️ **Pilat 4 h / ~2 300 m — seule séance non négociable** |
-| Dim 9 | 1h30 Z2 sur fatigue (couper à 1 h si le Pilat a été gros) |
+| Jeu 6 | ⏭️ **Over-unders annulées** pour protéger le Pilat. **Muscu B reportée en S4**. Jour off franc |
+| Ven 7 | Ouverture courte 45 min–1 h + **3 × 30 s à 250–270 W** (au lieu du repos : évite 2 jours plats avant le Pilat) |
+| Sam 8 | 🏔️ **Pilat 4 h 30 / ~2 300–2 500 m — seule séance non négociable.** Allongée de 4 h→4h30 car dimanche est off. Plafond dur : la sortie reine (5 h / 3 000 m) reste en S7 |
+| Dim 9 | 🛑 **Repos** (endurance 1h30 annulée — il a annoncé dimanche off) |
+
+**Total S3 : ~410 TSS / 8 h 45 de vélo + 1 muscu.** Jours off = 2 (jeu + dim), soit le même compte que le plan
+d'origine (lun + ven) : ils se sont déplacés, il ne s'en est pas ajouté.
 
 **Lecture du seuil du 4/08** : 🟢 coût cardiaque en baisse vs 28/07 (HR max 177 contre 181) → le week-end off a payé.
 🟠 mais la puissance décroche de 14 W entre les 2 blocs alors qu'elle *montait* le 28/07 — explication : « récup » à 190 W + les 2 h 20 de la veille.
