@@ -531,7 +531,7 @@
       "dates": "3 – 9 août",
       "phase": "Développement",
       "focus": "Seuil + sortie longue Pilat",
-      "tss": 425,
+      "tss": 455,
       "longRide": "4 h / ~2 300 m",
       "sessions": [
         {
@@ -596,10 +596,10 @@
           "id": "w3-jeu",
           "day": "Jeu",
           "type": "velo",
-          "title": "⏭️ Over-unders — annulées (protéger le Pilat)",
+          "title": "⏭️ Over-unders annulées — jeudi off",
           "duration": "—",
           "tss": 0,
-          "detail": "🛑 Annulées, et c'est un choix, pas un renoncement. Tu as déjà 160 TSS dans les jambes en 2 jours, la puissance décrochait déjà en fin de séance mardi, et samedi tu as 4 h / 2 300 m au Pilat — LA séance qui ressemble au Vercors. Une 2ᵉ séance de qualité aujourd'hui te coûterait le samedi pour un gain nul. 🚲 Si tu as vraiment besoin de tourner les jambes : 45 min à 1 h à moins de 130 W, HR sous 135, terrain plat, zéro bosse. Sinon : rien du tout, c'est mieux. Les over-unders reviennent en S5 (elles y sont déjà au programme)."
+          "detail": "🛑 Annulées : 160 TSS déjà faits en 2 jours, la puissance décrochait déjà en fin de séance mardi, et samedi c'est le Pilat. ⚠️ Et non, ça ne fait pas « beaucoup de repos » : le plan prévoyait déjà 2 jours off (lundi + vendredi). Tu as roulé lundi → le jour off s'est simplement déplacé à jeudi. Même compte, autre place. Aujourd'hui : rien. L'ouverture des jambes, c'est demain, pas ce soir."
         },
         {
           "id": "w3-jeu-m",
@@ -611,11 +611,32 @@
           "detail": "Sautée cette semaine. De la force max lourde 2 jours avant une sortie de 4 h / 2 300 m, c'est le meilleur moyen d'arriver au Pilat avec des jambes de bois pour zéro bénéfice. Elle reprend en S4."
         },
         {
-          "id": "",
+          "id": "w3-ven",
           "day": "Ven",
-          "type": "repos",
-          "title": "Repos",
-          "detail": "Récupération complète — vraiment. C'est ce repos qui rend les 4 h du Pilat possibles demain."
+          "type": "velo",
+          "title": "Ouverture courte — déverrouiller les jambes",
+          "duration": "45 min – 1h",
+          "tss": 30,
+          "detail": "Mieux que deux jours plats d'affilée : 45 min à 1 h vraiment facile (115–145 W), plat, puis **3 × 30 s à ~250–270 W** avec 3 min de récup complète entre chaque. Ça réveille le système nerveux sans créer une miette de fatigue — tu partiras au Pilat avec les jambes ouvertes plutôt que endormies. 🛑 Rien d'autre : pas de bosse, pas de sprint de panneau, pas de « juste le Verdun vite fait ».  Si tu es en retard ou que tu sens vraiment le besoin de rester couché, saute-la sans regret.",
+          "steps": [
+            {
+              "k": "wu",
+              "min": 15
+            },
+            {
+              "k": "int",
+              "reps": 3,
+              "on": 0.5,
+              "off": 3,
+              "lo": 109,
+              "hi": 117,
+              "label": "Ouvertures 30 s"
+            },
+            {
+              "k": "cd",
+              "min": 15
+            }
+          ]
         },
         {
           "id": "w3-sam",
@@ -666,7 +687,7 @@
           ]
         }
       ],
-      "note": "📊 Bilan à jeudi soir : ~160 TSS déjà faits (lundi 70 + mardi 90). ⚠️ Le lundi de repos est encore devenu 2 h 20 de vélo — 3ᵉ fois d'affilée. Conséquence directe et assumée : **les over-unders de jeudi sautent**. La semaine atterrit quand même à ~425 TSS (160 + Pilat 200 + dimanche 65) parce que le vélo de lundi a déjà payé la facture. Le vrai gain, c'est que le Pilat arrive avec **2 jours de fraîcheur** au lieu d'un. 🎯 Samedi est la seule séance non négociable de la semaine."
+      "note": "📊 Bilan à jeudi soir : ~160 TSS faits (lundi 70 + mardi 90). ⚠️ Le lundi de repos est encore devenu 2 h 20 de vélo — 3ᵉ fois d'affilée. Conséquence : les over-unders de jeudi sautent. 🧮 Et non, la semaine n'est pas devenue une semaine de repos : **9 h 15 de vélo + 1 muscu, ~455 TSS**, soit le haut de ton budget de 8–10 h. Le plan prévoyait déjà 2 jours off (lundi + vendredi) ; tu as roulé lundi, donc **le jour off s'est déplacé à jeudi, il ne s'en est pas ajouté un**. Vendredi devient même une ouverture courte plutôt qu'un repos. 🎯 Samedi (Pilat) reste la seule séance non négociable."
     },
     {
       "n": 4,
