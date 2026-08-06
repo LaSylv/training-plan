@@ -512,8 +512,8 @@
       "dates": "3 – 9 août",
       "phase": "Développement",
       "focus": "Seuil + sortie longue Pilat",
-      "tss": 455,
-      "longRide": "4 h / ~2 300 m",
+      "tss": 485,
+      "longRide": "4 h 50 / 95 km / 2 617 m",
       "sessions": [
         {
           "id": "w3-lun",
@@ -623,10 +623,10 @@
           "id": "w3-sam",
           "day": "Sam",
           "type": "velo",
-          "title": "🏔️ Sortie longue — Chartreuse : Porte + Cucheron + Granier",
-          "duration": "4h – 4h30",
-          "tss": 200,
-          "detail": "**~85–90 km / ~2 000–2 300 m.** Départ **Saint-Laurent-du-Pont** (~1 h 15 de Lyon).\n\n📍 **Base = le Tour de Chartreuse documenté (RideOut, rideout.fr/itineraires/6)** : boucle de 100 km / 2 770 m, cols dans l'ordre **Col de Porte (1 326 m) → Col du Cucheron (1 140 m) → Col du Granier (1 134 m) → Col de Marcieu (1 064 m) → Col de Palaquit (1 154 m)**, passage par Saint-Pierre-de-Chartreuse et Saint-Pierre-d'Entremont.\n\n✂️ **Tu coupes le dernier tiers** : les 3 premiers cols seulement, **pas le retour par les balcons** (Marcieu + Palaquit). C'est ce retour qui pousse à 2 770 m et 5 h 15 — soit la sortie reine de S7, six semaines trop tôt. Charge le GPX depuis RideOut et coupe la section balcons sur le profil : tu pars d'un tracé réel, pas d'une reconstruction.\n\n📏 **Repère chiffré** : le Col de Porte depuis Saint-Laurent-du-Pont = **17,8 km à 5,12 % pour 911 m**. Montée longue et régulière = le terrain parfait pour tenir 180 W sans jamais être forcé d'en sortir. ⚠️ **Évite le Col du Coq** (1 434 m) : trop raide, impossible à rouler en tempo.\n\n⚡ **Cibles (FTP 230 W)** — vallée 130–150 W · Porte et Cucheron **170–190 W**, **plafond 200 W** · HR sous 155–160 (si tu vois 170, tu es hors sujet) · **Granier seulement : 195–210 W**.\n\n🎯 **Le Granier arrive en 3ᵉ position : c'est ta Portette.** Critère de réussite = il doit être ta montée la plus forte de la journée. Pas le chrono, pas les PR. Le 19 septembre la Portette tombe après Rousset et Combe Laval — c'est cette compétence qu'on construit. 🍌 60–80 g de glucides par heure dès la 1ʳᵉ heure. 🛑 Pas plus de 4 h 30.",
+          "title": "🏔️ Sortie longue — Chartreuse, boucle du Col du Coq",
+          "duration": "4h50 – 5h",
+          "tss": 230,
+          "detail": "**95 km / 2 617 m** — boucle validée sur trace, sens horaire, départ côté ouest du massif.\n\n🎯 **Pourquoi ce parcours est le bon** : le point haut à **1 430 m au km 71, c'est le Col du Coq** (1 434 m), et il arrive **après 2 000 m déjà grimpés**, à 3 h 30 de vélo. C'est exactement la forme du Vercors — la Portette est raide et tombe après Rousset et Combe Laval. Meilleure répétition impossible.\n\n🔧 **Col du Coq : tu peux le monter en contrôle.** À 57 kg, sur du 12 %, 200 W te font encore avancer à ~9,5 km/h — un gabarit lourd calerait, pas toi. ⚠️ **Vérifie ton développement avant de partir : 34×30 minimum** pour rester assis et à cadence.\n\n⏱️ **Durée réelle : 4 h 50 – 5 h**, pas 4 h 30 (calcul basé sur tes 82 km / 2 443 m en 4h23 au Grand Colombier). C'est 30 min au-dessus du plafond prévu. Accepté **à une condition ferme : lundi 10/08 est un vrai jour off.** Pas « juste 2 h dans les Dombes ». Si tu veux rester dans les clous, coupe ~10 km sur la section vallonnée entre le km 40 et le km 60 — le plus de kilomètres pour le moins de valeur.\n\n⚡ **Pilotage dans l'ordre** — km 0–65, toutes les montées : **170–190 W, plafond 200**, HR sous 155–160 · **Col du Coq (km 65–73) : 195–215 W**, et là tu as le droit d'y aller · km 73–95 : tu roules, tu ne cours pas après le chrono.\n\n🪤 **Le piège de ce profil** : le gros morceau du km 21 puis la descente à 450 m. Tu arriveras au km 30 avec des sensations de fraîcheur trompeuses. **C'est là que tu perds la séance si tu accélères.** Tout se joue au km 71.\n\n🍌 60–80 g de glucides par heure dès la 1ʳᵉ heure — sur 5 h c'est non négociable.",
           "steps": [
             {
               "k": "wu",
