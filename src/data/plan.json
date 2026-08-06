@@ -411,9 +411,9 @@
       "dates": "27 juil – 2 août",
       "phase": "Développement",
       "focus": "Payer la dette de S1 — récupération réelle",
-      "tss": 250,
+      "tss": 215,
       "longRide": "aucune (week-end de repos)",
-      "note": "✅ FTP 230 W confirmée par le 3×10' de mardi (217 / 219 / 220 W, la puissance monte bloc après bloc). 🛑 Mais la semaine se termine en récup, pas en séance : les over-unders de jeudi ont été sautées et le week-end passe en repos. Bilan réel : ~5 h 30 de vélo / ~1 510 m / ~215 TSS, contre 12 h 10 / 4 800 m / 630 TSS en S1. C'est exactement le ratio qu'il fallait — et ça ne suffit pas encore, d'où le samedi off. Bonne nouvelle dans les chiffres : aucun signe de dérive cardiaque (vendredi, 165 W dans le Verdun à 139 de HR moyenne, HR max 161 sur toute la sortie). Le moteur aérobie va bien ; c'est la fraîcheur qui manque.",
+      "note": "✅ FTP 230 W confirmée par le 3×10' de mardi (217 / 219 / 220 W, la puissance monte bloc après bloc). 🛑 Mais la semaine se termine en récup, pas en séance : les over-unders de jeudi ont été sautées et le week-end a été **totalement off** (samedi ET dimanche, confirmé). Bilan réel : ~5 h 30 de vélo / ~1 510 m / ~215 TSS, contre 12 h 10 / 4 800 m / 630 TSS en S1. C'est exactement le ratio qu'il fallait — et ça ne suffit pas encore, d'où le samedi off. Bonne nouvelle dans les chiffres : aucun signe de dérive cardiaque (vendredi, 165 W dans le Verdun à 139 de HR moyenne, HR max 161 sur toute la sortie). Le moteur aérobie va bien ; c'est la fraîcheur qui manque.",
       "sessions": [
         {
           "id": "",
@@ -492,30 +492,11 @@
           "detail": "Le Sweet Spot 2×12' est annulé. Tu es cramé, et les chiffres te donnent raison de couper : rien à gagner à faire 60 TSS de plus dans une semaine dont le seul objectif est d'absorber S1. Zéro vélo, zéro course, zéro muscu. Marche, mange, dors."
         },
         {
-          "id": "w2-dim",
+          "id": "",
           "day": "Dim",
-          "type": "velo",
-          "title": "Facultatif — 1 h très facile, ou rien",
-          "duration": "0 – 1h",
-          "tss": 30,
-          "detail": "Par défaut : rien. Si tu as une heure et l'envie, une sortie de récup vraiment plate — 115–143 W, HR sous 135, pas un seul coup de pédale au-dessus. Aucune bosse, aucun sprint de panneau. 🚦 Règle simple : si au réveil tu hésites, c'est non. Rater 30 TSS ne change rien à ta forme du 19 septembre ; arriver cuit en S3 la change beaucoup.",
-          "steps": [
-            {
-              "k": "wu",
-              "min": 10
-            },
-            {
-              "k": "steady",
-              "min": 40,
-              "lo": 50,
-              "hi": 62,
-              "label": "Récup Z1–Z2 basse"
-            },
-            {
-              "k": "cd",
-              "min": 5
-            }
-          ]
+          "type": "repos",
+          "title": "🛑 Rien fait — week-end 100 % off",
+          "detail": "Confirmé : ni samedi ni dimanche. L'heure facultative n'a pas été prise, et c'est le bon choix — c'est le premier vrai week-end complet depuis le début du bloc. Ça se voit dans les données de la semaine suivante : le seuil du mardi 4/08 est passé avec un coût cardiaque en baisse (HR max 177 contre 181 le 28/07). Le repos a fait exactement ce qu'on lui demandait."
         },
         {
           "id": "",
@@ -531,8 +512,8 @@
       "dates": "3 – 9 août",
       "phase": "Développement",
       "focus": "Seuil + sortie longue Pilat",
-      "tss": 410,
-      "longRide": "4 h 30 / ~2 300–2 500 m",
+      "tss": 455,
+      "longRide": "4 h / ~2 300 m",
       "sessions": [
         {
           "id": "w3-lun",
@@ -643,9 +624,9 @@
           "day": "Sam",
           "type": "velo",
           "title": "🏔️ Sortie longue — Pilat (LA séance de la semaine)",
-          "duration": "4h30",
-          "tss": 225,
-          "detail": "**~2 300–2 500 m.** Pilat (Crêt de l'Œillon) ou Vercors. 🔧 Allongée de 4 h à 4 h 30 puisque dimanche est off : mieux vaut concentrer le week-end sur une seule grosse sortie que le couper en deux. Tu y arrives frais (jeudi off, vendredi juste une ouverture) et tu récupères tout dimanche. 🛑 **Et pas plus de 4 h 30.** La sortie reine (5 h / ~3 000 m) est en S7 — tu ne la dépenses pas maintenant, six semaines trop tôt. Les cols en tempo/sweet spot (133–172 W en fond, jusqu'à ~190 W dans les montées), **jamais à bloc**. 🎯 Le vrai test : pouvoir encore pousser dans la dernière montée — c'est exactement la compétence à avoir sur la Portette. Mange et bois dès la 1ʳᵉ heure.",
+          "duration": "4h",
+          "tss": 200,
+          "detail": "**~2 300 m.** Pilat (Crêt de l'Œillon) ou Vercors. 🎯 Toute la semaine a été aménagée pour que tu arrives frais ici : jeudi off, vendredi juste une ouverture. Les cols en tempo/sweet spot (133–172 W en fond, jusqu'à ~190 W dans les montées), **jamais à bloc**. Le vrai test : pouvoir encore pousser dans la dernière montée — c'est exactement la compétence à avoir sur la Portette le 19 septembre. Mange et bois dès la 1ʳᵉ heure, n'attends pas d'avoir faim.",
           "steps": [
             {
               "k": "wu",
@@ -653,7 +634,7 @@
             },
             {
               "k": "steady",
-              "min": 260,
+              "min": 230,
               "lo": 58,
               "hi": 75,
               "label": "Sortie longue — cols en tempo/SS"
@@ -661,14 +642,33 @@
           ]
         },
         {
-          "id": "",
+          "id": "w3-dim",
           "day": "Dim",
-          "type": "repos",
-          "title": "🛑 Repos — dimanche off",
-          "detail": "L'endurance de 1 h 30 « sur fatigue » est annulée. Ce qu'on perd : un peu de durabilité (rouler sur les jambes de la veille, une compétence utile pour le Vercors). Ce qu'on gagne : tu attaques S4 vraiment reposé, et le stimulus du week-end est concentré sur une seule grosse sortie au lieu d'être coupé en deux. À ce stade du bloc c'est un bon échange — la durabilité se travaillera en S5 et S7, où les week-ends complets sont déjà prévus."
+          "type": "velo",
+          "title": "Endurance sur fatigue",
+          "duration": "1h30",
+          "tss": 65,
+          "detail": "Z2, durabilité — rouler sur la fatigue de la veille, c'est le but. À couper à 1 h si le Pilat a été gros.",
+          "steps": [
+            {
+              "k": "wu",
+              "min": 10
+            },
+            {
+              "k": "steady",
+              "min": 72,
+              "lo": 58,
+              "hi": 73,
+              "label": "Endurance Z2"
+            },
+            {
+              "k": "cd",
+              "min": 8
+            }
+          ]
         }
       ],
-      "note": "📊 Semaine finalisée : **~410 TSS pour 8 h 45 de vélo + 1 muscu** — le haut de ton budget de 8–10 h. ⚠️ Le lundi de repos est encore devenu 2 h 20 de vélo (3ᵉ fois d'affilée) → les over-unders de jeudi sautent. Dimanche est off aussi, donc le week-end se concentre sur **une seule grosse sortie allongée à 4 h 30** plutôt que 4 h + 1 h 30. 🧮 À noter : le plan prévoyait déjà 2 jours off (lundi + vendredi) ; il n'y en a pas plus, ils se sont juste déplacés — et vendredi est même devenu une ouverture courte. 🎯 Samedi est la seule séance non négociable de la semaine."
+      "note": "📊 Bilan à jeudi soir : ~160 TSS faits (lundi 70 + mardi 90). ⚠️ Le lundi de repos est encore devenu 2 h 20 de vélo — 3ᵉ fois d'affilée. Conséquence : les over-unders de jeudi sautent. 🧮 Et non, la semaine n'est pas pour autant devenue une semaine de repos : **9 h 15 de vélo + 1 muscu, ~455 TSS**, le haut de ton budget de 8–10 h. Le plan prévoyait déjà 2 jours off (lundi + vendredi) ; tu as roulé lundi, donc **le jour off s'est déplacé à jeudi, il ne s'en est pas ajouté un** — et vendredi est même devenu une ouverture courte. 🎯 Samedi (Pilat) reste la seule séance non négociable."
     },
     {
       "n": 4,

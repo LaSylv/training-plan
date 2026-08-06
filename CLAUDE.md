@@ -76,7 +76,7 @@ Prévue à 335 TSS, ramenée à ~250 : **il s'est déclaré « cramé » le vend
 | Jeu 30 | ⏭️ **Over-unders sautée** (jour off complet) — reportées en S3 |
 | Ven 31 | ✅ **figé** — Monts d'Or + Mont Verdun, 43,8 km / 526 m / 2h11 (113 W moy, HR 121/161). Verdun par Poleymieux : 442 m à **165 W pour 139 de HR** — **pas de dérive cardiaque**. Meilleurs 20 min : 181 W → sortie vraiment facile |
 | Sam 1/08 | 🛑 **Repos total** (Sweet Spot 2×12' annulé) |
-| Dim 2/08 | Facultatif — 1 h très facile (115–143 W, HR < 135) **ou rien** |
+| Dim 2/08 | 🛑 **Rien fait** — l'heure facultative n'a pas été prise. **Premier week-end 100 % off du bloc** |
 
 **Diagnostic du « cramé » (31/07)** : ce n'est pas la charge de S2 (~5 h 30 / 1 510 m / 215 TSS) mais la dette de S1.
 Sur 12 jours : **8 sorties, ~17 h 40, ~6 300 m D+** pour un budget de 8–10 h/sem. Le moteur aérobie va bien
@@ -92,11 +92,11 @@ Réécrite de 500 → 430 avant le début (week-end de récup), puis ajustée je
 | Mer 5 | ✅ Muscu (A supposée) faite « pas trop forcé », décalée du mardi. **Footing sauté** |
 | Jeu 6 | ⏭️ **Over-unders annulées** pour protéger le Pilat. **Muscu B reportée en S4**. Jour off franc |
 | Ven 7 | Ouverture courte 45 min–1 h + **3 × 30 s à 250–270 W** (au lieu du repos : évite 2 jours plats avant le Pilat) |
-| Sam 8 | 🏔️ **Pilat 4 h 30 / ~2 300–2 500 m — seule séance non négociable.** Allongée de 4 h→4h30 car dimanche est off. Plafond dur : la sortie reine (5 h / 3 000 m) reste en S7 |
-| Dim 9 | 🛑 **Repos** (endurance 1h30 annulée — il a annoncé dimanche off) |
+| Sam 8 | 🏔️ **Pilat 4 h / ~2 300 m — seule séance non négociable** |
+| Dim 9 | Endurance sur fatigue 1h30 Z2 (couper à 1 h si le Pilat a été gros) |
 
-**Total S3 : ~410 TSS / 8 h 45 de vélo + 1 muscu.** Jours off = 2 (jeu + dim), soit le même compte que le plan
-d'origine (lun + ven) : ils se sont déplacés, il ne s'en est pas ajouté.
+**Total S3 : ~455 TSS / 9 h 15 de vélo + 1 muscu.** Jours off = 2 (jeu + ven→ouverture courte), soit le même
+compte que le plan d'origine (lun + ven) : ils se sont déplacés, il ne s'en est pas ajouté.
 
 **Lecture du seuil du 4/08** : 🟢 coût cardiaque en baisse vs 28/07 (HR max 177 contre 181) → le week-end off a payé.
 🟠 mais la puissance décroche de 14 W entre les 2 blocs alors qu'elle *montait* le 28/07 — explication : « récup » à 190 W + les 2 h 20 de la veille.
