@@ -580,7 +580,7 @@
           "title": "⏭️ Over-unders annulées — jeudi off",
           "duration": "—",
           "tss": 0,
-          "detail": "🛑 Annulées : 160 TSS déjà faits en 2 jours, la puissance décrochait déjà en fin de séance mardi, et samedi c'est le Pilat. ⚠️ Et non, ça ne fait pas « beaucoup de repos » : le plan prévoyait déjà 2 jours off (lundi + vendredi). Tu as roulé lundi → le jour off s'est simplement déplacé à jeudi. Même compte, autre place. Aujourd'hui : rien. L'ouverture des jambes, c'est demain, pas ce soir."
+          "detail": "🛑 Annulées : 160 TSS déjà faits en 2 jours, la puissance décrochait déjà en fin de séance mardi, et samedi c'est le Pilat. ⚠️ Et non, ça ne fait pas « beaucoup de repos » : le plan prévoyait déjà 2 jours off (lundi + vendredi). Tu as roulé lundi → le jour off s'est simplement déplacé à jeudi. Même compte, autre place. 🏃 **Et pas de footing ce soir non plus.** Ton dernier run date du 24/07 : un premier retour après 13 jours donne des mollets cartonnés à 24–48 h, soit pile samedi dans le Pilat — et tu empilerais ça sur la muscu d'hier. Si tu ne tiens vraiment pas en place : **25–30 min maximum, bitume plat, allure conversation, zéro ligne droite accélérée**. C'est un compromis, pas la bonne option. Le footing est replacé dimanche, où il ne coûte rien."
         },
         {
           "id": "w3-jeu-m",
@@ -645,10 +645,10 @@
           "id": "w3-dim",
           "day": "Dim",
           "type": "velo",
-          "title": "Endurance sur fatigue",
-          "duration": "1h30",
+          "title": "Endurance sur fatigue (+ footing en option)",
+          "duration": "1h30 vélo (+ 30 min de course)",
           "tss": 65,
-          "detail": "Z2, durabilité — rouler sur la fatigue de la veille, c'est le but. À couper à 1 h si le Pilat a été gros.",
+          "detail": "Z2 sur le vélo, durabilité — rouler sur les jambes de la veille, c'est le but. À couper à 1 h si le Pilat a été gros. 🏃 **C'est ici que revient ton footing** : 30 min très faciles, après le vélo ou en fin de journée. Placé le dimanche, le retour à la course ne met en danger aucune séance — les courbatures tomberont lundi (repos) et non avant une sortie clé. Reste vraiment lent : c'est un premier run après deux semaines, pas un test.",
           "steps": [
             {
               "k": "wu",
