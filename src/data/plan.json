@@ -577,10 +577,11 @@
           "id": "w3-jeu",
           "day": "Jeu",
           "type": "velo",
-          "title": "⏭️ Over-unders annulées — jeudi off",
+          "title": "✅ Jeudi off — respecté",
           "duration": "—",
           "tss": 0,
-          "detail": "🛑 Annulées : 160 TSS déjà faits en 2 jours, la puissance décrochait déjà en fin de séance mardi, et samedi c'est le Pilat. ⚠️ Et non, ça ne fait pas « beaucoup de repos » : le plan prévoyait déjà 2 jours off (lundi + vendredi). Tu as roulé lundi → le jour off s'est simplement déplacé à jeudi. Même compte, autre place. 🏃 **Et pas de footing ce soir non plus.** Ton dernier run date du 24/07 : un premier retour après 13 jours donne des mollets cartonnés à 24–48 h, soit pile samedi dans le Pilat — et tu empilerais ça sur la muscu d'hier. Si tu ne tiens vraiment pas en place : **25–30 min maximum, bitume plat, allure conversation, zéro ligne droite accélérée**. C'est un compromis, pas la bonne option. Le footing est replacé dimanche, où il ne coûte rien."
+          "detail": "✅ Jeudi 6/08 : **rien du tout**, comme prévu. Over-unders annulées, footing écarté, muscu B reportée. 🎯 **C'est la première fois du bloc qu'un jour de repos est réellement rendu.** Les trois lundis précédents sont devenus des sorties (dont 2 h 20 dans les Dombes le 3/08), et à chaque fois la séance de qualité du lendemain a sous-délivré. Là, tu arrives à la sortie de samedi avec deux jours quasi vides derrière — c'est exactement ce qui manquait depuis trois semaines.",
+          "done": true
         },
         {
           "id": "w3-jeu-m",
@@ -589,7 +590,7 @@
           "title": "⏭️ Muscu B — reportée en S4",
           "seance": "B",
           "mainScheme": "—",
-          "detail": "Sautée cette semaine. De la force max lourde 2 jours avant une sortie de 4 h / 2 300 m, c'est le meilleur moyen d'arriver au Pilat avec des jambes de bois pour zéro bénéfice. Elle reprend en S4."
+          "detail": "Sautée cette semaine, reportée en S4. De la force max lourde 2 jours avant 95 km / 2 617 m, c'est arriver en Chartreuse avec des jambes de bois pour zéro bénéfice."
         },
         {
           "id": "w3-ven",
@@ -668,7 +669,7 @@
           ]
         }
       ],
-      "note": "📊 Bilan à jeudi soir : ~160 TSS faits (lundi 70 + mardi 90). ⚠️ Le lundi de repos est encore devenu 2 h 20 de vélo — 3ᵉ fois d'affilée. Conséquence : les over-unders de jeudi sautent. 🧮 Et non, la semaine n'est pas pour autant devenue une semaine de repos : **9 h 15 de vélo + 1 muscu, ~455 TSS**, le haut de ton budget de 8–10 h. Le plan prévoyait déjà 2 jours off (lundi + vendredi) ; tu as roulé lundi, donc **le jour off s'est déplacé à jeudi, il ne s'en est pas ajouté un** — et vendredi est même devenu une ouverture courte. 🎯 Samedi (Pilat) reste la seule séance non négociable."
+      "note": "📊 Semaine : **~485 TSS**. ⚠️ Le lundi de repos est encore devenu 2 h 20 de vélo (3ᵉ fois d'affilée) → over-unders de jeudi annulées. ✅ **Mais jeudi off a été respecté — une première sur ce bloc.** Tu arrives donc à la Chartreuse (95 km / 2 617 m) avec deux jours quasi vides derrière, ce qui n'était jamais arrivé avant une sortie longue. 🎯 Samedi est la seule séance non négociable, et lundi 10/08 doit être un vrai jour off — c'est la contrepartie des 30 min au-dessus du plafond."
     },
     {
       "n": 4,
