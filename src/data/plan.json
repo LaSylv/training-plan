@@ -646,10 +646,10 @@
           "id": "w3-dim",
           "day": "Dim",
           "type": "velo",
-          "title": "Endurance sur fatigue — Colombière tranquille (Le Grand-Bornand)",
-          "duration": "2h",
+          "title": "Endurance sur fatigue",
+          "duration": "1h30 – 2h",
           "tss": 65,
-          "detail": "🏔️ Tu es au Grand-Bornand : le 1 h 30 de Z2 plat n'a aucun sens là-bas, il n'y a pas de plat. À la place, monte la **Col de la Colombière tranquille** — 11 km à 6,2 %, 690 m — à **150–170 W**, soit ~50 min de montée et 2 h en tout. C'est de l'endurance sur fatigue au lendemain de 4 h 50, et c'est même meilleur que du plat pour la durabilité. 🛑 **150–170 W, pas un watt de plus** : ce n'est pas une deuxième séance, c'est un déblocage en altitude. 🏃 Le footing de 30 min saute cette semaine — pas de premier retour à la course après un week-end pareil.",
+          "detail": "Z2, durabilité — rouler sur les jambes de la veille, c'est le but.\n\n📍 **Si tu es rentré à Lyon** : 1 h 30 de Z2 plat, 133–168 W. Couper à 1 h si la Chartreuse a été grosse.\n🏔️ **Si tu es déjà au Grand-Bornand** : il n'y a pas de plat là-bas — monte la Colombière tranquille (11 km à 6,2 %) à **150–170 W**, ~2 h en tout. Meilleur que du plat pour la durabilité.\n\n🏃 Footing supprimé cette semaine : pas de premier retour à la course après un week-end pareil.",
           "steps": [
             {
               "k": "wu",
@@ -675,43 +675,60 @@
       "n": 4,
       "dates": "10 – 16 août",
       "phase": "Récupération",
-      "focus": "Absorber — mais lundi roulé, donc mardi off",
-      "tss": 425,
-      "longRide": "3 h / ~1 500 m",
+      "focus": "Absorber — volume montagne en début de semaine",
+      "tss": 410,
+      "longRide": "3 h / ~1 500 m (mardi, Grand-Bornand)",
       "sessions": [
         {
           "id": "w4-lun",
           "day": "Lun",
           "type": "velo",
-          "title": "⚠️ Vélo facile au Grand-Bornand (jour de repos négocié)",
+          "title": "🏔️ Grand-Bornand — récupération active",
           "duration": "1h30 max",
           "tss": 45,
-          "detail": "Le repos du lundi devient une sortie facile puisque tu es au Grand-Bornand. Les termes : **1 h 30 maximum, vallée, sous 150 W, aucun col.** Thônes, Saint-Jean-de-Sixt, ou descente au lac. 🛑 Pas les Aravis, pas la Croix Fry, pas la Colombière une deuxième fois. La contrepartie est immédiate : le Sweet Spot de mardi saute et repart au mercredi."
+          "detail": "Tu arrives avec la Chartreuse (samedi) et dimanche dans les jambes. **1 h 30 maximum, vallée, sous 150 W.** Thônes, Saint-Jean-de-Sixt, ou descente vers le lac. 🛑 **Aucun col aujourd'hui** — c'est le prix à payer pour que mardi soit une vraie séance et pas une troisième journée molle."
+        },
+        {
+          "id": "w4-mar",
+          "day": "Mar",
+          "type": "velo",
+          "title": "🏔️ Grand-Bornand — LA séance de la semaine",
+          "duration": "3h",
+          "tss": 130,
+          "detail": "**~1 200–1 500 m en tempo.** Deux formats au choix :\n\n🅰️ **Aravis + Croix Fry** — Le Grand-Bornand → Saint-Jean-de-Sixt → La Clusaz → **Col des Aravis** (1 486 m) → retour La Clusaz → **Col de la Croix Fry** (1 477 m) → Manigod → Thônes → Le Grand-Bornand.\n🅱️ **Colombière** (11 km à 6,2 %, 690 m) en aller-retour + une boucle vallée pour compléter.\n\n⚡ **165–185 W** sur les montées, **la dernière un peu plus fort : 195–205 W**. Même principe que la Chartreuse — la dernière montée doit être la plus solide. 🍌 Ravito dès la 1ʳᵉ heure.",
+          "steps": [
+            {
+              "k": "wu",
+              "min": 15
+            },
+            {
+              "k": "steady",
+              "min": 150,
+              "lo": 58,
+              "hi": 75,
+              "label": "Cols en tempo"
+            },
+            {
+              "k": "cd",
+              "min": 15
+            }
+          ]
         },
         {
           "id": "",
-          "day": "Mar",
-          "type": "repos",
-          "title": "🛑 Repos — contrepartie du lundi roulé",
-          "detail": "Le Sweet Spot prévu ici est déplacé au mercredi. Tu ne peux pas enchaîner samedi 4 h 50, dimanche un col, lundi du vélo et mardi de la qualité — c'est exactement la séquence qui t'a laissé cramé fin juillet. Ce qui compte ici n'est pas le TSS, c'est l'espacement."
-        },
-        {
-          "id": "w4-mar-m",
-          "day": "Mar",
-          "type": "muscu",
-          "title": "Muscu A — entretien léger",
-          "seance": "A",
-          "mainScheme": "3 × 5 léger",
-          "detail": "Semaine de récup : charge allégée, seule séance muscu de la semaine."
-        },
-        {
-          "id": "w4-mer",
           "day": "Mer",
+          "type": "repos",
+          "title": "🛑 Repos — route du retour",
+          "detail": "Récupération complète après deux jours en montagne. Rien, même si les jambes vont bien."
+        },
+        {
+          "id": "w4-jeu",
+          "day": "Jeu",
           "type": "velo",
-          "title": "Qualité #1 — Sweet Spot (décalé du mardi)",
+          "title": "Qualité #1 — Sweet Spot",
           "duration": "1h15",
           "tss": 70,
-          "detail": "Déplacé du mardi pour laisser 48 h après le lundi roulé. Sur une bosse : 202–216 W.",
+          "detail": "Sur une bosse : 202–216 W. Seule séance de qualité de la semaine — les cols de mardi ont fait le reste du travail.",
           "steps": [
             {
               "k": "wu",
@@ -733,55 +750,29 @@
           ]
         },
         {
-          "id": "",
+          "id": "w4-mar-m",
           "day": "Jeu",
-          "type": "repos",
-          "title": "Repos",
-          "detail": "Récupération complète — **non négociable cette semaine**, c'est la contrepartie du lundi roulé au Grand-Bornand. Un jour off rendu sur deux, c'est le minimum pour que S4 absorbe les 485 TSS de S3."
+          "type": "muscu",
+          "title": "Muscu A — entretien léger",
+          "seance": "A",
+          "mainScheme": "3 × 8 léger",
+          "detail": "Décalée au retour du Grand-Bornand. Charge légère, entretien pur : la force max reprend en S5."
         },
         {
-          "id": "w4-ven",
+          "id": "",
           "day": "Ven",
-          "type": "velo",
-          "title": "Ouverture",
-          "duration": "1h",
-          "tss": 45,
-          "detail": "Garder du jus.",
-          "steps": [
-            {
-              "k": "wu",
-              "min": 10
-            },
-            {
-              "k": "steady",
-              "min": 25,
-              "lo": 58,
-              "hi": 70,
-              "label": "Endurance Z2"
-            },
-            {
-              "k": "int",
-              "reps": 3,
-              "on": 3,
-              "off": 3,
-              "lo": 82,
-              "hi": 90,
-              "label": "Tempo"
-            },
-            {
-              "k": "cd",
-              "min": 8
-            }
-          ]
+          "type": "repos",
+          "title": "🛑 Repos",
+          "detail": "Récupération complète."
         },
         {
           "id": "w4-sam",
           "day": "Sam",
           "type": "velo",
-          "title": "Sortie longue",
-          "duration": "3h",
-          "tss": 150,
-          "detail": "~1 500 m, sortie plaisir (semaine allégée).",
+          "title": "Sortie longue — réduite",
+          "duration": "2h30",
+          "tss": 110,
+          "detail": "~1 000 m. 🔧 Ramenée de 3 h à 2 h 30 : tu as déjà eu ton volume montagne lundi-mardi au Grand-Bornand. Réempiler une grosse sortie le week-end, c'est exactement comme ça qu'on refait juillet. Z2 franc, rien au-dessus de 180 W.",
           "steps": [
             {
               "k": "wu",
@@ -789,10 +780,10 @@
             },
             {
               "k": "steady",
-              "min": 170,
+              "min": 140,
               "lo": 58,
               "hi": 75,
-              "label": "Sortie longue — cols en tempo/SS"
+              "label": "Sortie longue Z2"
             }
           ]
         },
@@ -801,9 +792,9 @@
           "day": "Dim",
           "type": "velo",
           "title": "Endurance",
-          "duration": "1h30",
-          "tss": 65,
-          "detail": "Z2.",
+          "duration": "1h15",
+          "tss": 55,
+          "detail": "Z2 facile. Si les jambes tirent encore de mardi, coupe à 45 min.",
           "steps": [
             {
               "k": "wu",
@@ -811,19 +802,19 @@
             },
             {
               "k": "steady",
-              "min": 72,
-              "lo": 58,
-              "hi": 73,
+              "min": 55,
+              "lo": 56,
+              "hi": 70,
               "label": "Endurance Z2"
             },
             {
               "k": "cd",
-              "min": 8
+              "min": 10
             }
           ]
         }
       ],
-      "note": "⚠️ Semaine réaménagée : le lundi de repos devient une sortie facile au Grand-Bornand (1 h 30 max, sous 150 W, aucun col). **En échange, mardi passe en repos et la qualité glisse au mercredi.** Tu arrives de 485 TSS en S3 : cette semaine doit absorber. Elle peut encaisser un lundi facile en montagne, elle ne peut pas encaisser un lundi *plus* un mardi de qualité. 🛑 Le jeudi off devient non négociable."
+      "note": "🏔️ **Semaine réécrite autour de lundi + mardi au Grand-Bornand.** Ces deux jours deviennent le vrai contenu de la semaine : lundi en récup active (1 h 30, vallée, < 150 W, aucun col), mardi la séance principale (3 h de cols en tempo). ⚖️ **Contrepartie sur le week-end** : mercredi et vendredi off, une seule séance de qualité (jeudi), et la sortie longue de samedi ramenée de 3 h à 2 h 30. Résultat : **~410 TSS contre 485 en S3** — une vraie décrue, sans te demander de rester au chalet."
     },
     {
       "n": 5,
