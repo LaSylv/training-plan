@@ -23,11 +23,24 @@ App web **statique** de consultation d'un plan d'entraînement cycliste, pour l'
 
 ## 🚴 L'athlète (calibration durement acquise — NE PAS sous-estimer)
 
-- **Grimpeur costaud + coureur à pied** (athlète mixte). Basé à **Lyon**. Accès **salle de muscu**.
+- **Grimpeur costaud + coureur à pied + ULTRA-DISTANCE** (athlète mixte). Basé à **Lyon**. Accès **salle de muscu**.
 - 57 kg · **FTP 230 W** (test 20 min du 25/07, cf. État d'avancement) → **4,04 W/kg**. CTL ~73.
+- ⚠️ **Palmarès ultra 2026 — NE JAMAIS sous-estimer sa durabilité** :
+  **Race Across France** (24/06) = **862 km / 14 713 m / 45 h 44** en mouvement ·
+  **Grande Traversée du Jura** (29/05) = **348 km / 5 332 m / 17 h 22**.
+  → Une sortie de 5–6 h n'est PAS un territoire inconnu pour lui. Son facteur limitant est
+  la **W/kg pure** et les **230 W en absolu** (il décroche des groupes lourds sur le plat), **pas l'endurance**.
 - Grosses sorties montagne régulières : **Col de la Loze**, Pilat 7h41/156 km, **~5 800 m D+/semaine**.
   Sortie longue habituelle **1 500–2 500 m**, plafond **~4 000 m**, distances **110–140 km**.
   → Les 2 900 m du Vercors sont une **sortie normale** pour lui, pas un défi.
+- 🗺️ **Terrains déjà faits** (vérifier avant de proposer du « neuf ») : Vercors/Combe Laval (5/04, 137 km/2 055 m),
+  **col d'Évosges & Bugey** (1/03, 105 km/2 046 m), Grand Colombier ×2, Col de la Loze, Pilat, Majorque
+  (Sa Calobra, Soller, Formentor), Chartreuse à venir.
+
+### 📐 Modèle de durée (régression sur 18 sorties montagne, mars→août 2026)
+**T(h) = km / 29,9 + D+ / 1 401** — vitesse « à plat » 29,9 km/h, **vitesse ascensionnelle 1 401 m/h**.
+Erreur moyenne 18 min, max 61 min. Utiliser ça pour estimer une durée, **pas une sortie de référence unique**.
+> Application : Vercors 130 km / 2 900 m → **~6 h 25 en mouvement**.
 - Pour CE bloc : **~8–10 h/sem TOTAL (vélo + course)**. Il **réduit** la course à pied mais garde **1–2 footings faciles**.
 
 ## 🏔️ L'événement
