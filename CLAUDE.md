@@ -105,16 +105,37 @@ Réécrite de 500 → 430 avant le début (week-end de récup), puis ajustée je
 | Mer 5 | ✅ Muscu (A supposée) faite « pas trop forcé », décalée du mardi. **Footing sauté** |
 | Jeu 6 | ⏭️ **Over-unders annulées** pour protéger le Pilat. **Muscu B reportée en S4**. Jour off franc |
 | Ven 7 | Ouverture courte 45 min–1 h + **3 × 30 s à 250–270 W** (au lieu du repos : évite 2 jours plats avant le Pilat) |
-| Sam 8 | 🏔️ **Pilat 4 h / ~2 300 m — seule séance non négociable** |
-| Dim 9 | Endurance sur fatigue 1h30 Z2 (couper à 1 h si le Pilat a été gros) |
+| Ven 7 | ⏭️ Ouverture non faite |
+| Sam 8 | ⏭️ **Chartreuse annulée** (95 km / 2 617 m) — seulement 19,5 km / 64 m / 49 min le soir |
+| Dim 9 | ✅ **Col du Mollard + Lacets de Montvernier** (Maurienne) — 61,5 km / **1 550 m** / 2h55. Mollard 17,6 km/1 531 m en **1h18 à 183 W** (HR 158), puis **Lacets à 195 W / HR 168 en fin de sortie**. Structure Portette exécutée spontanément |
 
-**Total S3 : ~455 TSS / 9 h 15 de vélo + 1 muscu.** Jours off = 2 (jeu + ven→ouverture courte), soit le même
-compte que le plan d'origine (lun + ven) : ils se sont déplacés, il ne s'en est pas ajouté.
+**Total S3 réalisé : ~325 TSS / 7 h 30 de vélo** (contre 485 prévus).
+
+#### S4 (10 – 16 août) — en cours, ~425 TSS
+| Jour | État |
+|---|---|
+| Lun 10 | ✅ Trail Charmieux — 4 km / **585 m D+** au Grand-Bornand (au lieu du vélo facile) |
+| Mar 11 | ✅ **Col de la Colombière par Le Reposoir** — 59,3 km / 1 231 m / 2h31. **1h05 à 207 W**, finish à 226 W (cf. FTP ci-dessus) |
+| Mer 12 | Repos (retour) |
+| Jeu 13 | ⏭️ **Sweet Spot annulé** — la qualité a été faite mardi. Footing + muscu A légère |
+| Sam 15 | 🏔️ **Sortie longue remontée de 2h30 à 4 h / ~2 000 m — LA priorité** |
+| Dim 16 | Endurance 1h15 |
 
 **Lecture du seuil du 4/08** : 🟢 coût cardiaque en baisse vs 28/07 (HR max 177 contre 181) → le week-end off a payé.
 🟠 mais la puissance décroche de 14 W entre les 2 blocs alors qu'elle *montait* le 28/07 — explication : « récup » à 190 W + les 2 h 20 de la veille.
-📌 **Signal à suivre** : 2 séances de seuil d'affilée il atterrit à **207–221 W** alors que la cible est 225–235 W.
-FTP laissée à 230 (le coût cardiaque baisse, incohérent avec une FTP trop haute). **Si ça se reproduit à froid en S5 → redescendre à 225.**
+
+#### ✅ FTP 230 W définitivement validée par la Colombière (11/08)
+**1 h 05 à 207 W** (90 % FTP) dans le col de la Colombière, HR 167, **au 3ᵉ jour d'un bloc montagne** — et il
+**accélère** à la fin : derniers 2,5 km à **225 W**, dernier km à **226 W** (HR 179, max 183).
+Meilleure heure : **208 W** · meilleurs 20 min : **221 W**. La piste « redescendre à 225 » est abandonnée.
+> 📌 **Profil diesel confirmé** : il est nettement meilleur sur une longue montée continue (207 W sur 65 min)
+> que sur des blocs de seuil courts (207–221 W sur 10 min). Cohérent avec son palmarès ultra.
+> **Privilégier les longues montées en tempo aux intervalles courts.**
+
+#### 🚨 LE TROU DU BLOC : la sortie longue
+**Dernière sortie de plus de 4 h = le Pilat, le 14/07.** Depuis : S2 sans sortie longue, Chartreuse tombée en S3
+(remplacée par 2 h 55), plus long de S4 à 2 h 31. Or le modèle prédit **~6 h 25 pour le Vercors**.
+L'intensité va très bien — **c'est la durée qui manque**. Prioriser les sorties longues en S5→S7.
 
 > 🔁 **Tendance confirmée (3 semaines de suite)** : le jour de repos du lundi/vendredi devient systématiquement 2 h de vélo,
 > et ça se paie le lendemain sur la séance de qualité. Le levier n'est pas d'ajouter de la charge, c'est de **faire respecter les jours off**.

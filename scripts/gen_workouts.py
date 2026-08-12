@@ -42,6 +42,24 @@ def step(name, sec, lo, hi, intensity):
     return {'name': name, 'sec': sec, 'lo': lo, 'hi': hi, 'int': intensity}
 
 
+# `duration_value` est encodé en uint32 après une mise à l'échelle interne de fit-tool
+# (secondes × 10^6) : un pas unique au-delà de ~71 min déborde. On découpe.
+MAX_STEP_SEC = 60 * 60
+
+
+def split(name, sec, lo, hi, intensity):
+    """Découpe un pas trop long en tranches encodables, numérotées si besoin."""
+    if sec <= MAX_STEP_SEC:
+        return [step(name, sec, lo, hi, intensity)]
+    n = -(-sec // MAX_STEP_SEC)          # ceil
+    chunk, rest = divmod(sec, n)
+    out = []
+    for i in range(n):
+        d = chunk + (1 if i < rest else 0)
+        out.append(step(f"{name} {i + 1}/{n}", d, lo, hi, intensity))
+    return out
+
+
 def expand(steps, ftp):
     """Convertit les blocs (% FTP) en étapes atomiques (watts absolus)."""
     def w(p):
@@ -57,7 +75,7 @@ def expand(steps, ftp):
         elif k == 'rec':
             out.append(step("Récup", b['min'] * 60, w(REC[0]), w(REC[1]), Intensity.RECOVERY))
         elif k == 'steady':
-            out.append(step(b.get('label', 'Endurance'), b['min'] * 60, w(b['lo']), w(b['hi']), Intensity.ACTIVE))
+            out += split(b.get('label', 'Endurance'), b['min'] * 60, w(b['lo']), w(b['hi']), Intensity.ACTIVE)
         elif k == 'int':
             label = b.get('label', 'Intervalle')
             if b.get('cad'):
