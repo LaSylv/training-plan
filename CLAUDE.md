@@ -124,10 +124,14 @@ Réécrite de 500 → 430 avant le début (week-end de récup), puis ajustée je
 **Lecture du seuil du 4/08** : 🟢 coût cardiaque en baisse vs 28/07 (HR max 177 contre 181) → le week-end off a payé.
 🟠 mais la puissance décroche de 14 W entre les 2 blocs alors qu'elle *montait* le 28/07 — explication : « récup » à 190 W + les 2 h 20 de la veille.
 
-#### ✅ FTP 230 W définitivement validée par la Colombière (11/08)
+#### ✅ FTP 230 W conservée — la Colombière (11/08) exclut l'hypothèse basse
 **1 h 05 à 207 W** (90 % FTP) dans le col de la Colombière, HR 167, **au 3ᵉ jour d'un bloc montagne** — et il
 **accélère** à la fin : derniers 2,5 km à **225 W**, dernier km à **226 W** (HR 179, max 183).
-Meilleure heure : **208 W** · meilleurs 20 min : **221 W**. La piste « redescendre à 225 » est abandonnée.
+Meilleure heure : **208 W** · meilleurs 20 min : **221 W**.
+**Raisonnement** : si la FTP était 220, 207 W sur 1 h vaudrait 94 % de FTP, soit un effort horaire quasi maximal —
+on ne le termine pas en montant à 103 % pendant 10 min. Donc FTP nettement > 220. ⚠️ **Ce n'est pas un test
+contrôlé** : ça exclut 220, ça ne démontre pas 230 au watt près (vraie valeur entre 225 et 235).
+La piste « redescendre à 225 » est abandonnée, on garde 230.
 > 📌 **Profil diesel confirmé** : il est nettement meilleur sur une longue montée continue (207 W sur 65 min)
 > que sur des blocs de seuil courts (207–221 W sur 10 min). Cohérent avec son palmarès ultra.
 > **Privilégier les longues montées en tempo aux intervalles courts.**
