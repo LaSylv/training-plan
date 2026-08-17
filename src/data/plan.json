@@ -630,8 +630,8 @@
       "dates": "10 – 16 août",
       "phase": "Récupération",
       "focus": "Remettre une vraie sortie longue",
-      "tss": 425,
-      "longRide": "4 h / ~2 000 m (samedi)",
+      "tss": 305,
+      "longRide": "2 h 31 (Colombière, mardi)",
       "sessions": [
         {
           "id": "w4-lun",
@@ -664,8 +664,8 @@
           "id": "",
           "day": "Jeu",
           "type": "course",
-          "title": "Footing facile 40 min",
-          "detail": "🔧 Le Sweet Spot est annulé : tu as fait **1 h 05 à 207 W** mardi dans la Colombière, c'était ta séance de qualité de la semaine. En rajouter une serait redondant et coûterait la sortie de samedi. Footing tranquille + muscu A légère, rien de plus."
+          "title": "✅ Footing + muscu — fait",
+          "detail": "✅ Jeu 13/08 : muscu 1 h le midi + footing 6,2 km / 37 min le soir. Conforme au plan."
         },
         {
           "id": "w4-mar-m",
@@ -677,70 +677,42 @@
           "detail": "Décalée au retour du Grand-Bornand. Charge légère, entretien pur : la force max reprend en S5."
         },
         {
-          "id": "",
+          "id": "w4-ven",
           "day": "Ven",
-          "type": "repos",
-          "title": "🛑 Repos",
-          "detail": "Récupération complète."
+          "type": "velo",
+          "done": true,
+          "title": "⚠️ Sortie du soir 3h05 (jour de repos prévu)",
+          "duration": "3h05",
+          "tss": 90,
+          "detail": "✅ Réalisé ven. 14/08 au soir — 61 km / 778 m / 3 h 05 en mouvement, **96 W de moyenne**, HR 120 / max 161. Meilleure heure : 129 W. Sortie vraiment très facile, aucune intensité.\n\n⚠️ Mais c'était le jour de repos, **et surtout la veille de la sortie longue** — qui n'a pas eu lieu. 3 h de vélo facile le vendredi soir puis rien le samedi, c'est le pire des deux mondes : tu prends la fatigue sans prendre le stimulus de durée."
         },
         {
           "id": "w4-sam",
           "day": "Sam",
           "type": "velo",
-          "title": "🏔️ Sortie longue — LA priorité",
-          "duration": "4h",
-          "tss": 180,
-          "detail": "**~2 000 m.** 🔧 Remontée de 2 h 30 à 4 h, et c'est délibéré.\n\n⚠️ **Ta dernière sortie de plus de 4 h remonte au Pilat, le 14 juillet.** Depuis : S2 sans sortie longue, la Chartreuse tombée en S3, et un plus long de 2 h 55 en montagne. Or le modèle prédit **~6 h 25 pour le Vercors** (130 km / 2 900 m). C'est le seul vrai trou du bloc — pas l'intensité, qui va très bien.\n\n⚡ Montées à **170–190 W**, plafond 200, et **la dernière plus forte à 195–215 W** — exactement ce que tu as fait dimanche au Mollard. 🍌 60–80 g de glucides par heure.",
-          "steps": [
-            {
-              "k": "wu",
-              "min": 10
-            },
-            {
-              "k": "steady",
-              "min": 225,
-              "lo": 58,
-              "hi": 75,
-              "label": "Sortie longue — cols en tempo"
-            }
-          ]
+          "title": "❌ Sortie longue 4 h — NON FAITE",
+          "duration": "—",
+          "tss": 0,
+          "detail": "❌ La sortie de 4 h / ~2 000 m n'a pas eu lieu, ni le samedi ni le dimanche. **C'est la troisième semaine d'affilée que la sortie longue tombe** (S2 aucune, Chartreuse annulée en S3, celle-ci sautée). Voir la note de S5 : ce n'est plus un détail de planning.",
+          "done": false
         },
         {
-          "id": "w4-dim",
+          "id": "",
           "day": "Dim",
-          "type": "velo",
-          "title": "Endurance",
-          "duration": "1h15",
-          "tss": 55,
-          "detail": "Z2 facile. Si les jambes tirent encore de mardi, coupe à 45 min.",
-          "steps": [
-            {
-              "k": "wu",
-              "min": 10
-            },
-            {
-              "k": "steady",
-              "min": 55,
-              "lo": 56,
-              "hi": 70,
-              "label": "Endurance Z2"
-            },
-            {
-              "k": "cd",
-              "min": 10
-            }
-          ]
+          "type": "repos",
+          "title": "⏭️ Rien fait",
+          "detail": "Week-end complet sans vélo."
         }
       ],
-      "note": "🏔️ **Lundi + mardi au Grand-Bornand figés** : trail de 585 m puis la Colombière (1 h 05 à 207 W, finish à 226 W). L'intensité de la semaine est faite — **le Sweet Spot de jeudi est donc annulé**. 🎯 **La priorité est samedi** : la sortie longue remonte de 2 h 30 à 4 h. Ta dernière sortie de 4 h+ date du 14 juillet, et le Vercors demande ~6 h 25. C'est le seul vrai trou du bloc."
+      "note": "📊 **Réalisé : ~305 TSS** contre 425 prévus. ✅ Le bloc du Grand-Bornand a été très bon (trail 585 m lundi, Colombière à 207 W sur 1 h 05 mardi) et le jeudi allégé a été respecté. ❌ **Mais le week-end est vide : la sortie longue de 4 h n'a pas eu lieu**, et le vendredi de repos est devenu 3 h de vélo facile la veille. Troisième semaine de suite sans sortie longue."
     },
     {
       "n": 5,
       "dates": "17 – 23 août",
       "phase": "Spécifique",
-      "focus": "Seuil + over-unders",
-      "tss": 520,
-      "longRide": "4 h / ~2 500 m",
+      "focus": "LA SORTIE LONGUE — tout le reste est secondaire",
+      "tss": 475,
+      "longRide": "4 h 30 / ~2 300 m (samedi 22)",
       "sessions": [
         {
           "id": "",
@@ -753,27 +725,27 @@
           "id": "w5-mar",
           "day": "Mar",
           "type": "velo",
-          "title": "Qualité #1 — Sweet Spot long",
+          "title": "Qualité — Tempo long en côte (format diesel)",
           "duration": "1h45",
-          "tss": 90,
-          "detail": "+ Muscu A (force max).",
+          "tss": 100,
+          "detail": "🔧 Format changé. Tes données sont sans ambiguïté : **207 W sur 65 min** dans la Colombière contre **207–221 W sur des blocs de 10 min**. Tu produis plus en montée longue continue qu'en intervalles courts — donc on arrête les blocs courts.\n\n**2 × 20 min à 200–215 W** (87–93 % FTP) sur une longue montée, 8 min de récup entre les deux. Cherche une côte qui permet 20 min sans interruption : Verdun par Poleymieux, ou le col de la Luère. 🎯 Le 2ᵉ bloc doit être ≥ au 1ᵉʳ. + Muscu A.",
           "steps": [
             {
               "k": "wu",
-              "min": 10
+              "min": 15
             },
             {
               "k": "int",
-              "reps": 3,
+              "reps": 2,
               "on": 20,
-              "off": 5,
-              "lo": 88,
-              "hi": 94,
-              "label": "Sweet Spot"
+              "off": 8,
+              "lo": 87,
+              "hi": 93,
+              "label": "Tempo long"
             },
             {
               "k": "cd",
-              "min": 8
+              "min": 12
             }
           ]
         },
@@ -798,40 +770,34 @@
           "id": "w5-jeu",
           "day": "Jeu",
           "type": "velo",
-          "title": "Qualité #2 — Over-unders + force",
-          "duration": "1h45",
-          "tss": 95,
-          "detail": "+ Muscu B (force max).",
+          "title": "Endurance + relances (allégée)",
+          "duration": "1h15",
+          "tss": 60,
+          "detail": "🔧 **Les over-unders sont supprimées** — c'est précisément le format sur lequel tu sous-performes, et il n'y a aucune raison de dépenser de la fraîcheur là-dessus à 3 jours de la sortie longue.\n\n1 h 15 en Z2 (133–168 W) avec **4 × 2 min à 195–210 W** en fin de sortie, récup libre. Objectif : garder du jus. Muscu B **sautée** cette semaine.",
           "steps": [
             {
               "k": "wu",
-              "min": 10
+              "min": 12
             },
             {
-              "k": "ou",
-              "sets": 3,
-              "reps": 4,
-              "onOver": 2,
-              "onUnder": 2,
-              "oLo": 99,
-              "oHi": 102,
-              "uLo": 88,
-              "uHi": 92,
-              "rec": 5
+              "k": "steady",
+              "min": 40,
+              "lo": 58,
+              "hi": 73,
+              "label": "Endurance Z2"
             },
             {
               "k": "int",
-              "reps": 3,
-              "on": 4,
+              "reps": 4,
+              "on": 2,
               "off": 3,
               "lo": 85,
-              "hi": 93,
-              "label": "Force",
-              "cad": "basse cadence"
+              "hi": 91,
+              "label": "Relances"
             },
             {
               "k": "cd",
-              "min": 8
+              "min": 10
             }
           ]
         },
@@ -839,10 +805,10 @@
           "id": "w5-jeu-m",
           "day": "Jeu",
           "type": "muscu",
-          "title": "Muscu B — force max",
+          "title": "⏭️ Muscu B — sautée cette semaine",
           "seance": "B",
           "mainScheme": "4 × 5 @ ~80% 1RM",
-          "detail": "Phase force max."
+          "detail": "Rien ne doit entamer le samedi. La muscu B reprendra en S6."
         },
         {
           "id": "",
@@ -855,10 +821,10 @@
           "id": "w5-sam",
           "day": "Sam",
           "type": "velo",
-          "title": "Sortie longue — Vercors si possible",
-          "duration": "4h",
-          "tss": 200,
-          "detail": "~2 500 m. Vercors idéalement (Col de Rousset depuis Die).",
+          "title": "🚨 SORTIE LONGUE 4h30 — la séance qui décide du 19 septembre",
+          "duration": "4h30",
+          "tss": 230,
+          "detail": "**~2 300 m. Non négociable, priorité absolue sur tout le reste de la semaine.**\n\n🚨 **Ta dernière sortie de plus de 4 h remonte au 14 juillet — il y a cinq semaines.** Depuis : S2 sans sortie longue, Chartreuse annulée en S3, sortie de 4 h sautée en S4. Pendant ce temps l'intensité progresse très bien (207 W sur une heure dans la Colombière). **Ce n'est pas le moteur qui manque, c'est la durée.**\n\n📐 Le modèle prédit **~6 h 25 pour le Vercors**. Il te reste **trois** sorties longues avant l'affûtage : celle-ci, celle du 29/08, et la reine du 5/09. Si tu en sautes encore une, tu arriveras le 19 septembre avec un plus long de 3 h dans les jambes pour une course de 6 h 30.\n\n📍 Terrain : Chartreuse (la boucle de 95 km / 2 617 m est déjà tracée), Bugey, ou Maurienne. Peu importe — c'est la durée qui compte, pas le décor.\n⚡ Montées à **170–190 W**, plafond 200, **la dernière à 195–215 W**. Exactement ce que tu as fait au Mollard le 9/08. 🍌 60–80 g de glucides par heure dès la 1ʳᵉ heure.\n\n🗓️ **Bloque le créneau maintenant, pas vendredi soir.**",
           "steps": [
             {
               "k": "wu",
@@ -866,10 +832,10 @@
             },
             {
               "k": "steady",
-              "min": 230,
+              "min": 260,
               "lo": 58,
               "hi": 75,
-              "label": "Sortie longue — vrai terrain"
+              "label": "Sortie longue — cols en tempo"
             }
           ]
         },
@@ -880,7 +846,7 @@
           "title": "Endurance",
           "duration": "1h30",
           "tss": 65,
-          "detail": "Z2.",
+          "detail": "Z2 facile sur la fatigue de la veille — c'est le but. Couper à 1 h si samedi a été gros.",
           "steps": [
             {
               "k": "wu",
@@ -899,7 +865,8 @@
             }
           ]
         }
-      ]
+      ],
+      "note": "🚨 **Semaine entièrement réécrite autour du samedi.** Dernière sortie de plus de 4 h : le Pilat, **le 14 juillet — il y a cinq semaines**. Trois sorties longues sautées d'affilée (S2, S3, S4) pendant que l'intensité, elle, progresse très bien. Le Vercors demande **~6 h 25** : le trou n'est pas dans le moteur, il est dans la durée.\n\nConséquences : mardi passe en **tempo long** (2 × 20 min, ton format) au lieu du sweet spot, **les over-unders de jeudi sont supprimées** (format sur lequel tu sous-performes), et la muscu B saute. Tout ça pour qu'il ne reste **aucune excuse samedi**. Il te reste 3 sorties longues avant l'affûtage : 22/08, 29/08, et la reine du 5/09."
     },
     {
       "n": 6,

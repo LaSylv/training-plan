@@ -136,10 +136,18 @@ La piste « redescendre à 225 » est abandonnée, on garde 230.
 > que sur des blocs de seuil courts (207–221 W sur 10 min). Cohérent avec son palmarès ultra.
 > **Privilégier les longues montées en tempo aux intervalles courts.**
 
-#### 🚨 LE TROU DU BLOC : la sortie longue
-**Dernière sortie de plus de 4 h = le Pilat, le 14/07.** Depuis : S2 sans sortie longue, Chartreuse tombée en S3
-(remplacée par 2 h 55), plus long de S4 à 2 h 31. Or le modèle prédit **~6 h 25 pour le Vercors**.
-L'intensité va très bien — **c'est la durée qui manque**. Prioriser les sorties longues en S5→S7.
+#### 🚨 LE TROU DU BLOC : la sortie longue (état au 17/08)
+**Dernière sortie de plus de 4 h = le Pilat, le 14/07 — cinq semaines.**
+S2 aucune · S3 Chartreuse annulée (2 h 55 au Mollard à la place) · **S4 la sortie de 4 h sautée, week-end vide**.
+Or le modèle prédit **~6 h 25 pour le Vercors**. L'intensité progresse très bien (207 W sur 1 h dans la
+Colombière) — **c'est uniquement la durée qui manque**.
+> ⏳ **Il ne reste que 3 sorties longues avant l'affûtage : 22/08, 29/08, et la reine du 5/09.**
+> S5 a été entièrement réécrite autour de celle du 22 (over-unders supprimées, muscu B sautée).
+
+#### S4 (10 – 16 août) — terminée, ~305 TSS (vs 425 prévus)
+Bloc Grand-Bornand très bon (trail 585 m lundi, Colombière 1 h 05 à 207 W mardi), jeudi allégé respecté.
+❌ Mais **vendredi de repos = 3 h de vélo facile (96 W moy) le soir, puis week-end vide** : la fatigue sans le
+stimulus de durée. C'est le pire arbitrage possible la veille d'une sortie longue.
 
 > 🔁 **Tendance confirmée (3 semaines de suite)** : le jour de repos du lundi/vendredi devient systématiquement 2 h de vélo,
 > et ça se paie le lendemain sur la séance de qualité. Le levier n'est pas d'ajouter de la charge, c'est de **faire respecter les jours off**.
