@@ -146,7 +146,8 @@ En semaine : mar 18 sortie punchy avec les copains au lieu du tempo long (Mont T
 > mar 25 seulement 50 min.
 
 #### 🚨 LE TROU DU BLOC : la sortie longue (état au 26/08)
-**Dernière sortie de plus de 4 h = le Pilat, le 14/07 — cinq semaines.**
+**Dernière sortie de plus de 4 h à vélo = Grand Colombier + Biche, le 22/07 (4 h 23) — cinq semaines.**
+⚠️ *Correction du 26/08 : j'annonçais le Pilat du 14/07, c'était faux — le 22/07 fait bien 4 h 23.*
 S2 aucune · S3 Chartreuse annulée (2 h 55 au Mollard à la place) · **S4 la sortie de 4 h sautée, week-end vide**.
 Or le modèle prédit **~6 h 25 pour le Vercors**. L'intensité progresse très bien (207 W sur 1 h dans la
 Colombière) — **c'est uniquement la durée qui manque**.
