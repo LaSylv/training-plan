@@ -136,13 +136,23 @@ La piste « redescendre à 225 » est abandonnée, on garde 230.
 > que sur des blocs de seuil courts (207–221 W sur 10 min). Cohérent avec son palmarès ultra.
 > **Privilégier les longues montées en tempo aux intervalles courts.**
 
-#### 🚨 LE TROU DU BLOC : la sortie longue (état au 17/08)
+#### S5 (17 – 23 août) — terminée, ~590 TSS. 🥾 **Week-end trail massif**
+Sam 22 : **24,2 km / 2 121 m** (4 h 55 mvt, 7 h 47 écoulées) · Dim 23 : **26,3 km / 1 307 m** (4 h 25 mvt).
+**Total : 9 h 20 en mouvement, 3 428 m D+.** Écrins / vallée de la Clarée.
+En semaine : mar 18 sortie punchy avec les copains au lieu du tempo long (Mont Thou à 315-341 W, meilleurs
+2 min **342 W**, mais meilleurs 20 min seulement 167 W — **HR max 187, nouveau maximum**), jeu 20 roulant 2 h 15.
+> ⚠️ Le trail donne l'endurance mais **rien** de la tolérance de position vélo (selle, dos, nuque, mains sur 6 h)
+> ni de la spécificité du pédalage. Et 3 428 m de descente à pied = gros dégâts excentriques → lun 24 off,
+> mar 25 seulement 50 min.
+
+#### 🚨 LE TROU DU BLOC : la sortie longue (état au 26/08)
 **Dernière sortie de plus de 4 h = le Pilat, le 14/07 — cinq semaines.**
 S2 aucune · S3 Chartreuse annulée (2 h 55 au Mollard à la place) · **S4 la sortie de 4 h sautée, week-end vide**.
 Or le modèle prédit **~6 h 25 pour le Vercors**. L'intensité progresse très bien (207 W sur 1 h dans la
 Colombière) — **c'est uniquement la durée qui manque**.
-> ⏳ **Il ne reste que 3 sorties longues avant l'affûtage : 22/08, 29/08, et la reine du 5/09.**
-> S5 a été entièrement réécrite autour de celle du 22 (over-unders supprimées, muscu B sautée).
+> ⏳ **Il ne reste que DEUX fenêtres : samedi 29/08 et la reine du 5/09.** Si le 29 saute, la reine devient
+> un saut de 3 h à 5 h à quinze jours de la course. S6 est entièrement sacrifiée pour le samedi
+> (seuil abandonné, Sweet Spot du jeudi ramené à une ouverture, muscu B sautée).
 
 #### S4 (10 – 16 août) — terminée, ~305 TSS (vs 425 prévus)
 Bloc Grand-Bornand très bon (trail 585 m lundi, Colombière 1 h 05 à 207 W mardi), jeudi allégé respecté.

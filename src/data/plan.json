@@ -710,9 +710,9 @@
       "n": 5,
       "dates": "17 – 23 août",
       "phase": "Spécifique",
-      "focus": "LA SORTIE LONGUE — tout le reste est secondaire",
-      "tss": 475,
-      "longRide": "4 h 30 / ~2 300 m (samedi 22)",
+      "focus": "Gros week-end trail (pas de sortie longue vélo)",
+      "tss": 590,
+      "longRide": "Week-end trail : 9 h 20 / 3 428 m (22-23/08)",
       "sessions": [
         {
           "id": "",
@@ -725,29 +725,11 @@
           "id": "w5-mar",
           "day": "Mar",
           "type": "velo",
-          "title": "Qualité — Tempo long en côte (format diesel)",
+          "title": "⚠️ Sortie punchy avec les copains (au lieu du tempo long)",
           "duration": "1h45",
-          "tss": 100,
-          "detail": "🔧 Format changé. Tes données sont sans ambiguïté : **207 W sur 65 min** dans la Colombière contre **207–221 W sur des blocs de 10 min**. Tu produis plus en montée longue continue qu'en intervalles courts — donc on arrête les blocs courts.\n\n**2 × 20 min à 200–215 W** (87–93 % FTP) sur une longue montée, 8 min de récup entre les deux. Cherche une côte qui permet 20 min sans interruption : Verdun par Poleymieux, ou le col de la Luère. 🎯 Le 2ᵉ bloc doit être ≥ au 1ᵉʳ. + Muscu A.",
-          "steps": [
-            {
-              "k": "wu",
-              "min": 15
-            },
-            {
-              "k": "int",
-              "reps": 2,
-              "on": 20,
-              "off": 8,
-              "lo": 87,
-              "hi": 93,
-              "label": "Tempo long"
-            },
-            {
-              "k": "cd",
-              "min": 12
-            }
-          ]
+          "tss": 85,
+          "detail": "✅ Réalisé mar. 18/08 — 38 km / 752 m / 1 h 45, 129 W moy, HR 141 / **max 187** (nouveau maximum, au-dessus des 183 relevés jusqu'ici).\n\n⚠️ Ce n'était **pas** le tempo long prescrit. Sortie de groupe dans les Monts d'Or, faite de coups de cul courts : Mont Thou à **315, 329 et 341 W**, meilleurs 2 min à **342 W**, 3 min à 303 W. Mais meilleurs 20 min à seulement **167 W**. Exactement le format inverse de celui qui te convient — beaucoup de pointes, aucune montée soutenue. Sans gravité (c'était sympa et court), mais la séance de tempo long n'a pas eu lieu.",
+          "done": true
         },
         {
           "id": "w5-mar-m",
@@ -762,44 +744,19 @@
           "id": "w5-mer",
           "day": "Mer",
           "type": "course",
-          "title": "Footing facile",
+          "title": "✅ Muscu + footing — fait",
           "duration": "45 min",
-          "detail": "Course à pied facile en Z2, terrain souple."
+          "detail": "✅ Mer 19/08 : muscu 52 min le matin + footing 6,2 km / 37 min le soir."
         },
         {
           "id": "w5-jeu",
           "day": "Jeu",
           "type": "velo",
-          "title": "Endurance + relances (allégée)",
-          "duration": "1h15",
-          "tss": 60,
-          "detail": "🔧 **Les over-unders sont supprimées** — c'est précisément le format sur lequel tu sous-performes, et il n'y a aucune raison de dépenser de la fraîcheur là-dessus à 3 jours de la sortie longue.\n\n1 h 15 en Z2 (133–168 W) avec **4 × 2 min à 195–210 W** en fin de sortie, récup libre. Objectif : garder du jus. Muscu B **sautée** cette semaine.",
-          "steps": [
-            {
-              "k": "wu",
-              "min": 12
-            },
-            {
-              "k": "steady",
-              "min": 40,
-              "lo": 58,
-              "hi": 73,
-              "label": "Endurance Z2"
-            },
-            {
-              "k": "int",
-              "reps": 4,
-              "on": 2,
-              "off": 3,
-              "lo": 85,
-              "hi": 91,
-              "label": "Relances"
-            },
-            {
-              "k": "cd",
-              "min": 10
-            }
-          ]
+          "title": "✅ Sortie roulante 2h15",
+          "duration": "2h15",
+          "tss": 95,
+          "detail": "✅ Réalisé jeu. 20/08 — 59,5 km / 457 m / 2 h 15 à **26,4 km/h de moyenne**. Sortie roulante rapide sur le plat plutôt que l'endurance + relances prévue. Stress comparable, pas de souci.",
+          "done": true
         },
         {
           "id": "w5-jeu-m",
@@ -821,10 +778,126 @@
           "id": "w5-sam",
           "day": "Sam",
           "type": "velo",
-          "title": "🚨 SORTIE LONGUE 4h30 — la séance qui décide du 19 septembre",
+          "title": "🥾 TRAIL — Vallée de la Clarée (au lieu du vélo)",
+          "duration": "4h55 (7h47 écoulé)",
+          "tss": 230,
+          "detail": "🥾 Réalisé sam. 22/08 — **24,2 km / 2 121 m D+** en trail, 4 h 55 en mouvement, **7 h 47 écoulées**. « Grand Area into Vallée de la Clarée ». Ce n'est pas la sortie vélo de 4 h 30 prévue, mais en termes de durée et de dénivelé c'est au moins équivalent — et probablement plus dur.",
+          "done": true
+        },
+        {
+          "id": "w5-dim",
+          "day": "Dim",
+          "type": "velo",
+          "title": "🥾 TRAIL — Col des Béraudes → Le Monêtier",
+          "duration": "4h25 (6h12 écoulé)",
+          "tss": 180,
+          "detail": "🥾 Réalisé dim. 23/08 — **26,3 km / 1 307 m D+**, 4 h 25 en mouvement, 6 h 12 écoulées. Deuxième grosse journée d'affilée.\n\n📊 **Total du week-end : 50,5 km, 3 428 m D+, 9 h 20 en mouvement, ~14 h écoulées.** C'est un énorme stimulus d'endurance.",
+          "done": true
+        }
+      ],
+      "note": "🥾 **Week-end trail massif dans les Écrins** : samedi 24,2 km / 2 121 m (4 h 55) et dimanche 26,3 km / 1 307 m (4 h 25) — **9 h 20 en mouvement et 3 428 m D+**. La sortie longue vélo n'a donc toujours pas eu lieu, mais le stimulus d'endurance et de durée, lui, est bien là.\n\n⚠️ Deux nuances : le trail ne donne **rien** de la tolérance de position sur le vélo (selle, dos, nuque, mains sur 6 h) ni de la spécificité du pédalage, et **3 428 m de descente à pied = beaucoup de dégâts musculaires excentriques** — d'où le lundi off et les 50 min de mardi. En semaine : mardi punchy avec les copains au lieu du tempo long (max HR **187**, nouveau max), jeudi roulant 2 h 15."
+    },
+    {
+      "n": 6,
+      "dates": "24 – 30 août",
+      "phase": "Spécifique",
+      "focus": "Récupérer du trail, puis LA sortie longue vélo",
+      "tss": 390,
+      "longRide": "4 h 30 / ~2 000–2 300 m (samedi 29)",
+      "sessions": [
+        {
+          "id": "",
+          "day": "Lun",
+          "type": "repos",
+          "title": "✅ Repos — fait",
+          "detail": "Lun 24/08 : rien. Logique après 9 h 20 de trail sur le week-end."
+        },
+        {
+          "id": "w6-mar",
+          "day": "Mar",
+          "type": "velo",
+          "title": "✅ Récup active 50 min",
+          "duration": "50 min",
+          "tss": 20,
+          "detail": "✅ Mar 25/08 — 20,6 km / 83 m / 50 min. Récupération, pas la séance de seuil prévue. Bon choix : au 3ᵉ jour après 3 428 m de descente à pied, les quadriceps ne sont pas disponibles pour du seuil.",
+          "done": true
+        },
+        {
+          "id": "w6-mar-m",
+          "day": "Mar",
+          "type": "muscu",
+          "title": "Muscu A — allégée",
+          "seance": "A",
+          "mainScheme": "3 × 8 modéré",
+          "detail": "Charge modérée seulement : les jambes sortent d'un gros week-end excentrique. Pas de force max cette semaine."
+        },
+        {
+          "id": "w6-mer",
+          "day": "Mer",
+          "type": "course",
+          "title": "Footing facile",
+          "duration": "45 min",
+          "detail": "Course à pied facile en Z2, terrain souple."
+        },
+        {
+          "id": "w6-jeu",
+          "day": "Jeu",
+          "type": "velo",
+          "title": "Ouverture — réveil des jambes",
+          "duration": "1h",
+          "tss": 45,
+          "detail": "🔧 Le Sweet Spot est remplacé par une ouverture courte. Objectif unique : arriver frais samedi. 1 h en Z2 (133–168 W) + **4 × 2 min à 195–210 W** en fin de sortie. Rien de plus.",
+          "steps": [
+            {
+              "k": "wu",
+              "min": 12
+            },
+            {
+              "k": "steady",
+              "min": 25,
+              "lo": 58,
+              "hi": 73,
+              "label": "Endurance Z2"
+            },
+            {
+              "k": "int",
+              "reps": 4,
+              "on": 2,
+              "off": 3,
+              "lo": 85,
+              "hi": 91,
+              "label": "Relances"
+            },
+            {
+              "k": "cd",
+              "min": 10
+            }
+          ]
+        },
+        {
+          "id": "w6-jeu-m",
+          "day": "Jeu",
+          "type": "muscu",
+          "title": "⏭️ Muscu B — sautée",
+          "seance": "B",
+          "mainScheme": "4 × 5 @ ~80% 1RM",
+          "detail": "Rien ne doit entamer le samedi."
+        },
+        {
+          "id": "",
+          "day": "Ven",
+          "type": "repos",
+          "title": "Repos",
+          "detail": "Récupération complète."
+        },
+        {
+          "id": "w6-sam",
+          "day": "Sam",
+          "type": "velo",
+          "title": "🚨 SORTIE LONGUE VÉLO — l'avant-dernière fenêtre",
           "duration": "4h30",
           "tss": 230,
-          "detail": "**~2 300 m. Non négociable, priorité absolue sur tout le reste de la semaine.**\n\n🚨 **Ta dernière sortie de plus de 4 h remonte au 14 juillet — il y a cinq semaines.** Depuis : S2 sans sortie longue, Chartreuse annulée en S3, sortie de 4 h sautée en S4. Pendant ce temps l'intensité progresse très bien (207 W sur une heure dans la Colombière). **Ce n'est pas le moteur qui manque, c'est la durée.**\n\n📐 Le modèle prédit **~6 h 25 pour le Vercors**. Il te reste **trois** sorties longues avant l'affûtage : celle-ci, celle du 29/08, et la reine du 5/09. Si tu en sautes encore une, tu arriveras le 19 septembre avec un plus long de 3 h dans les jambes pour une course de 6 h 30.\n\n📍 Terrain : Chartreuse (la boucle de 95 km / 2 617 m est déjà tracée), Bugey, ou Maurienne. Peu importe — c'est la durée qui compte, pas le décor.\n⚡ Montées à **170–190 W**, plafond 200, **la dernière à 195–215 W**. Exactement ce que tu as fait au Mollard le 9/08. 🍌 60–80 g de glucides par heure dès la 1ʳᵉ heure.\n\n🗓️ **Bloque le créneau maintenant, pas vendredi soir.**",
+          "detail": "**~2 000–2 300 m. Sur le vélo, pas en trail.**\n\n🚨 **Ta dernière sortie de plus de 4 h à VÉLO date du 14 juillet — six semaines.** Le week-end trail du 22-23 a été énorme (9 h 20, 3 428 m) et ton endurance n'est pas en cause. Mais le trail ne t'apprend **rien** sur ce qui va te faire mal le 19 septembre : tenir la position 6 h 30, la selle, le dos, les mains, et pédaler à 170–190 W après quatre heures.\n\n⏳ **Il ne reste que deux fenêtres : aujourd'hui-samedi 29/08, et la reine du 5/09.** Si celle-ci saute, la reine devient un saut de 3 h à 5 h à quinze jours de la course.\n\n⚡ Montées **170–190 W**, plafond 200, **la dernière à 195–215 W**. 🍌 60–80 g de glucides par heure. 🗓️ Bloque le créneau maintenant.",
           "steps": [
             {
               "k": "wu",
@@ -840,168 +913,13 @@
           ]
         },
         {
-          "id": "w5-dim",
-          "day": "Dim",
-          "type": "velo",
-          "title": "Endurance",
-          "duration": "1h30",
-          "tss": 65,
-          "detail": "Z2 facile sur la fatigue de la veille — c'est le but. Couper à 1 h si samedi a été gros.",
-          "steps": [
-            {
-              "k": "wu",
-              "min": 10
-            },
-            {
-              "k": "steady",
-              "min": 72,
-              "lo": 58,
-              "hi": 73,
-              "label": "Endurance Z2"
-            },
-            {
-              "k": "cd",
-              "min": 8
-            }
-          ]
-        }
-      ],
-      "note": "🚨 **Semaine entièrement réécrite autour du samedi.** Dernière sortie de plus de 4 h : le Pilat, **le 14 juillet — il y a cinq semaines**. Trois sorties longues sautées d'affilée (S2, S3, S4) pendant que l'intensité, elle, progresse très bien. Le Vercors demande **~6 h 25** : le trou n'est pas dans le moteur, il est dans la durée.\n\nConséquences : mardi passe en **tempo long** (2 × 20 min, ton format) au lieu du sweet spot, **les over-unders de jeudi sont supprimées** (format sur lequel tu sous-performes), et la muscu B saute. Tout ça pour qu'il ne reste **aucune excuse samedi**. Il te reste 3 sorties longues avant l'affûtage : 22/08, 29/08, et la reine du 5/09."
-    },
-    {
-      "n": 6,
-      "dates": "24 – 30 août",
-      "phase": "Spécifique",
-      "focus": "Pic de spécificité",
-      "tss": 540,
-      "longRide": "4 h 30 / ~2 800 m",
-      "sessions": [
-        {
-          "id": "",
-          "day": "Lun",
-          "type": "repos",
-          "title": "Repos",
-          "detail": "Récupération complète."
-        },
-        {
-          "id": "w6-mar",
-          "day": "Mar",
-          "type": "velo",
-          "title": "Qualité #1 — Seuil",
-          "duration": "1h45",
-          "tss": 95,
-          "detail": "+ Muscu A (force max).",
-          "steps": [
-            {
-              "k": "wu",
-              "min": 10
-            },
-            {
-              "k": "int",
-              "reps": 4,
-              "on": 10,
-              "off": 5,
-              "lo": 98,
-              "hi": 102,
-              "label": "Seuil"
-            },
-            {
-              "k": "cd",
-              "min": 8
-            }
-          ]
-        },
-        {
-          "id": "w6-mar-m",
-          "day": "Mar",
-          "type": "muscu",
-          "title": "Muscu A — force max",
-          "seance": "A",
-          "mainScheme": "4 × 5 @ ~80% 1RM",
-          "detail": "Phase force max. Option : squats sautés 3 × 5."
-        },
-        {
-          "id": "w6-mer",
-          "day": "Mer",
-          "type": "course",
-          "title": "Footing facile",
-          "duration": "45 min",
-          "detail": "Course à pied facile en Z2, terrain souple."
-        },
-        {
-          "id": "w6-jeu",
-          "day": "Jeu",
-          "type": "velo",
-          "title": "Qualité #2 — Sweet Spot",
-          "duration": "1h30",
-          "tss": 90,
-          "detail": "Sur montée longue. + Muscu B (force max).",
-          "steps": [
-            {
-              "k": "wu",
-              "min": 10
-            },
-            {
-              "k": "int",
-              "reps": 3,
-              "on": 15,
-              "off": 5,
-              "lo": 88,
-              "hi": 94,
-              "label": "Sweet Spot"
-            },
-            {
-              "k": "cd",
-              "min": 8
-            }
-          ]
-        },
-        {
-          "id": "w6-jeu-m",
-          "day": "Jeu",
-          "type": "muscu",
-          "title": "Muscu B — force max",
-          "seance": "B",
-          "mainScheme": "4 × 5 @ ~80% 1RM",
-          "detail": "Phase force max."
-        },
-        {
-          "id": "",
-          "day": "Ven",
-          "type": "repos",
-          "title": "Repos",
-          "detail": "Récupération complète."
-        },
-        {
-          "id": "w6-sam",
-          "day": "Sam",
-          "type": "velo",
-          "title": "Sortie longue",
-          "duration": "4h30",
-          "tss": 230,
-          "detail": "~2 800 m, gros enchaînement de cols (Vercors ou Pilat).",
-          "steps": [
-            {
-              "k": "wu",
-              "min": 10
-            },
-            {
-              "k": "steady",
-              "min": 260,
-              "lo": 58,
-              "hi": 75,
-              "label": "Sortie longue — double col"
-            }
-          ]
-        },
-        {
           "id": "w6-dim",
           "day": "Dim",
           "type": "velo",
           "title": "Récupération",
           "duration": "1h15",
           "tss": 50,
-          "detail": "Très facile.",
+          "detail": "Z2 très facile sur la fatigue de la veille. Couper à 45 min si samedi a été gros.",
           "steps": [
             {
               "k": "wu",
@@ -1020,7 +938,8 @@
             }
           ]
         }
-      ]
+      ],
+      "note": "⚠️ **Semaine réaménagée** : le week-end trail (9 h 20 / 3 428 m) a laissé des dégâts excentriques, d'où lundi off et 50 min mardi. La séance de seuil est passée à la trappe et **le Sweet Spot de jeudi devient une simple ouverture** — tout est sacrifié pour samedi.\n\n🚨 **Samedi 29 est l'avant-dernière fenêtre pour une sortie longue à vélo.** Dernière sortie de plus de 4 h sur le vélo : le 14 juillet. L'endurance n'est pas le problème — la tolérance de position et la spécificité du pédalage sur 6 h, si."
     },
     {
       "n": 7,
