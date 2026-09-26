@@ -4,7 +4,7 @@
 // ============================================================================
 import data from './plan.json'
 
-export type SessionType = 'velo' | 'muscu' | 'course' | 'repos'
+export type SessionType = 'velo' | 'muscu'
 
 // Bloc d'entraînement vélo. Les intensités sont en % de la FTP (lo/hi, oLo…).
 export interface Block {
@@ -27,31 +27,25 @@ export interface Block {
   rec?: number
 }
 
-export interface Session {
+export interface Workout {
   id: string
-  day: string
   type: SessionType
   title: string
   duration?: string
   tss?: number
   detail: string
+  where?: string          // où la faire autour de Lyon
   steps?: Block[]         // structure vélo en % de FTP → watts calculés depuis athlete.ftp
   seance?: 'A' | 'B'      // pour les séances de muscu : renvoie vers muscuSeances
-  mainScheme?: string     // séries×reps de l'exercice principal cette semaine
+  mainScheme?: string     // séries×reps de l'exercice principal
   homeOption?: boolean    // propose une bascule "sans matériel" dans la séance guidée
-  done?: boolean          // séance RÉALISÉE, figée dans plan.json : toujours "faite"
-                          // (survit au changement de navigateur / vidage du localStorage)
 }
 
-export interface Week {
-  n: number
-  dates: string
-  phase: string
-  focus: string
-  tss: number
-  longRide: string
-  note?: string           // encart affiché en tête de semaine (bilan, adaptation…)
-  sessions: Session[]
+export interface Category {
+  key: string
+  title: string
+  intro: string
+  workouts: Workout[]
 }
 
 export interface ZoneDef {
@@ -89,8 +83,6 @@ export function demoUrl(query: string): string {
   return `https://www.youtube.com/results?search_query=${encodeURIComponent(query + ' technique')}`
 }
 
-export const planStart: string = data.planStart
-
 export const athlete = {
   ...data.athlete,
   wkg: +(data.athlete.eftp / data.athlete.weight).toFixed(2),
@@ -102,7 +94,7 @@ export const strength = data.strength
 export const muscuSeances = data.muscuSeances as Record<'A' | 'B', MuscuSeance>
 export const lyonClimbs = data.lyonClimbs
 export const raceDay = data.raceDay
-export const weeks = data.weeks as Week[]
+export const library = data.library as Category[]
 
 export function zoneWatts(z: ZoneDef, ftp: number): string {
   const lo = Math.round((z.lo / 100) * ftp)
@@ -141,16 +133,11 @@ export function formatBlocks(steps: Block[], ftp: number): string[] {
   })
 }
 
-// Toutes les séances "cochables" (vélo + muscu, hors repos)
-export const allCheckableIds: string[] = weeks.flatMap((w) =>
-  w.sessions.filter((s) => s.type !== 'repos').map((s) => s.id)
-)
-
-// Retrouve une séance (et sa semaine) par id.
-export function findSession(id: string): { session: Session; week: Week } | null {
-  for (const week of weeks) {
-    const session = week.sessions.find((s) => s.id === id)
-    if (session) return { session, week }
+// Retrouve une séance de la bibliothèque par id.
+export function findWorkout(id: string): Workout | null {
+  for (const c of library) {
+    const w = c.workouts.find((x) => x.id === id)
+    if (w) return w
   }
   return null
 }

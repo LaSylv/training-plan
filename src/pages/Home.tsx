@@ -1,74 +1,57 @@
 import { Link } from 'react-router-dom'
-import { athlete, event, weeks, allCheckableIds } from '../data/plan'
-import { currentWeekNumber, daysUntilRace } from '../lib/dates'
-import { useProgress } from '../lib/progress'
-import { ProgressBar } from '../components/ProgressBar'
-import { WeekCard } from '../components/WeekCard'
+import { athlete, event, library } from '../data/plan'
+import { daysUntilRace } from '../lib/dates'
 
 export function Home() {
-  const { done } = useProgress()
   const days = daysUntilRace()
-  const cw = currentWeekNumber()
-  const current = weeks.find((w) => w.n === cw)
-  const doneTotal = allCheckableIds.filter((id) => done[id]).length
 
   return (
     <>
-      <section className="card hero">
-        <div className="count">
-          {days > 0 ? days : days === 0 ? '0' : '—'}
-          <small>{days > 0 ? 'jours avant la course' : days === 0 ? "c'est aujourd'hui 🏁" : 'course passée'}</small>
-        </div>
-        <div className="event-name">{event.name}</div>
-        <div className="event-meta">
-          {event.distance} · {event.elevation} · samedi 19 sept. 2026
-        </div>
-      </section>
+      {days >= 0 && (
+        <section className="card hero">
+          <div className="count">
+            {days}
+            <small>{days > 1 ? 'jours avant la course' : days === 1 ? 'jour avant la course — c’est demain' : "c'est aujourd'hui 🏁"}</small>
+          </div>
+          <div className="event-name">{event.name}</div>
+          <div className="event-meta">
+            {event.distance} · {event.elevation} · {event.dateLabel}
+          </div>
+          <p style={{ marginTop: 12 }}>
+            <Link to="/jour-j">🏁 Voir le plan de course →</Link>
+          </p>
+        </section>
+      )}
 
       <section className="card">
-        <h2>Ton snapshot</h2>
-        <div className="small muted" style={{ marginBottom: 12 }}>
-          Intervals.icu · figé le {athlete.snapshotDate}
-        </div>
+        <h2>Ton profil</h2>
         <div className="stats">
           <div className="stat">
-            <div className="v">{athlete.ctl}</div>
-            <div className="k">CTL (forme)</div>
-          </div>
-          <div className="stat">
-            <div className="v">{athlete.eftp}</div>
-            <div className="k">eFTP (W)</div>
+            <div className="v">{athlete.ftp}</div>
+            <div className="k">FTP (W)</div>
           </div>
           <div className="stat">
             <div className="v">{athlete.wkg}</div>
             <div className="k">W/kg</div>
           </div>
+          <div className="stat">
+            <div className="v">{athlete.weight}</div>
+            <div className="k">kg</div>
+          </div>
         </div>
-        <p className="small muted" style={{ marginTop: 12 }}>
-          {athlete.summary}
-        </p>
       </section>
 
       <section className="card">
-        <h2>Progression globale</h2>
-        <div style={{ marginTop: 10 }}>
-          <ProgressBar value={doneTotal} total={allCheckableIds.length} />
-        </div>
+        <h2>Qu'est-ce qu'on fait aujourd'hui ?</h2>
+        <ul className="clean">
+          {library.map((c) => (
+            <li key={c.key}>
+              <Link to="/seances">{c.title}</Link>{' '}
+              <span className="small muted">· {c.workouts.length} séance{c.workouts.length > 1 ? 's' : ''}</span>
+            </li>
+          ))}
+        </ul>
       </section>
-
-      {current ? (
-        <section>
-          <h2 className="section-title">Cette semaine</h2>
-          <WeekCard week={current} isCurrent defaultOpen />
-        </section>
-      ) : (
-        <section className="card">
-          <p className="muted">
-            Le plan démarre le lundi 20 juillet 2026.{' '}
-            <Link to="/plan">Voir tout le plan →</Link>
-          </p>
-        </section>
-      )}
 
       <p className="small muted" style={{ textAlign: 'center', marginTop: 20 }}>
         App statique · contenu figé, régénéré à la demande.

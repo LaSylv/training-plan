@@ -1,7 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Link, useNavigate, useParams } from 'react-router-dom'
-import { findSession, muscuSeances, demoUrl } from '../data/plan'
-import { useProgress } from '../lib/progress'
+import { findWorkout, muscuSeances, demoUrl } from '../data/plan'
 import { useCountdown } from '../lib/useCountdown'
 
 interface Item {
@@ -30,11 +29,9 @@ const PRESETS = [30, 45, 60, 90, 120, 180]
 export function SeanceGuidee() {
   const { id = '' } = useParams()
   const navigate = useNavigate()
-  const { toggle, done } = useProgress()
   const timer = useCountdown()
 
-  const found = findSession(id)
-  const session = found?.session
+  const session = findWorkout(id)
   const seance = session?.seance ? muscuSeances[session.seance] : null
 
   const homeAvailable = !!seance?.main.home
@@ -77,7 +74,7 @@ export function SeanceGuidee() {
     return (
       <section className="card">
         <p>Séance introuvable.</p>
-        <Link className="btn" to="/plan">← Retour au plan</Link>
+        <Link className="btn" to="/seances">← Retour aux séances</Link>
       </section>
     )
   }
@@ -86,19 +83,15 @@ export function SeanceGuidee() {
   const pct = Math.round((doneCount / items.length) * 100)
 
   const finish = () => {
-    if (!done[id]) toggle(id) // coche la séance dans le plan
     localStorage.removeItem(runKey)
-    navigate('/plan')
+    navigate('/seances')
   }
 
   return (
     <>
       <section className="card">
-        <Link className="small" to="/plan">← Plan</Link>
+        <Link className="small" to="/seances">← Séances</Link>
         <h2 style={{ marginTop: 8 }}>{seance.title}</h2>
-        <p className="small muted">
-          {found?.week.phase} · S{found?.week.n} — {session.title}
-        </p>
         {homeAvailable && (
           <button className={`home-toggle ${useHome ? 'on' : ''}`} onClick={() => setHome((h) => !h)}>
             🏠 Sans matériel {useHome ? '· activé' : ''}

@@ -144,11 +144,14 @@ def main():
     os.makedirs(OUT, exist_ok=True)
 
     n = 0
-    for wk in data['weeks']:
-        for s in wk['sessions']:
+    for f in os.listdir(OUT):
+        if f.endswith('.fit'):
+            os.remove(os.path.join(OUT, f))
+    for cat in data['library']:
+        for s in cat['workouts']:
             if s['type'] != 'velo' or not s.get('steps'):
                 continue
-            name = f"S{wk['n']} {s['day']} · {clean(s['title'])}"
+            name = clean(s['title'].replace('×', 'x'))
             build(s['id'], name, expand(s['steps'], ftp))
             n += 1
             print(f"  {s['id']}.fit  {name}")

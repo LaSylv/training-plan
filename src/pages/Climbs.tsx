@@ -6,7 +6,7 @@ export function Climbs() {
       <section className="card">
         <h2>⛰️ Cols autour de Lyon</h2>
         <p className="small muted">
-          Où faire chaque type de séance. Pour la spécificité maximale, 1–2 samedis dans le Vercors en S5–S7.
+          Où faire chaque type de séance autour de Lyon.
         </p>
       </section>
 

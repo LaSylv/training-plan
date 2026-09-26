@@ -89,28 +89,25 @@ p { margin: 8px 0; }
 .stat .v { font-size: 1.7rem; font-weight: 800; color: var(--accent); }
 .stat .k { font-size: .72rem; color: var(--text-dim); text-transform: uppercase; letter-spacing: .6px; margin-top: 2px; }
 
-/* ---- Progress bar ---- */
+/* ---- Progress bar + case à cocher (séance guidée) ---- */
 .pbar { height: 10px; background: var(--surface-2); border-radius: 99px; overflow: hidden; }
 .pbar > span { display: block; height: 100%; background: linear-gradient(90deg, var(--accent), var(--accent-2)); border-radius: 99px; transition: width .3s; }
-
-/* ---- Week ---- */
-.week { margin: 16px 0; }
-.week-head {
-  width: 100%; text-align: left; cursor: pointer; background: var(--surface);
-  border: 1px solid var(--border); border-radius: var(--radius); padding: 18px;
-  color: var(--text); display: flex; align-items: center; gap: 14px; box-shadow: var(--shadow);
+.check {
+  flex-shrink: 0; width: 30px; height: 30px; border-radius: 9px; border: 2px solid var(--border);
+  background: var(--surface-2); cursor: pointer; display: grid; place-items: center;
+  font-size: 1rem; color: #fff; font-weight: 700; transition: all .15s;
 }
-.week-head.is-current { border-color: var(--accent); box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent) 40%, transparent); }
-.week-num { font-size: 1.6rem; font-weight: 800; color: var(--accent); min-width: 48px; }
-.week-title { flex: 1; }
-.week-title .t { font-weight: 700; font-size: 1.02rem; }
-.week-title .d { font-size: .85rem; color: var(--text-dim); margin-top: 2px; }
-.week-badges { display: flex; gap: 7px; flex-wrap: wrap; margin-top: 10px; }
-.badge { font-size: .72rem; padding: 3px 10px; border-radius: 99px; background: var(--surface-2); color: var(--text-dim); }
-.chev { color: var(--text-dim); font-size: 1.4rem; transition: transform .2s; }
-.chev.open { transform: rotate(90deg); }
+.check.on { background: var(--accent); border-color: var(--accent); }
 
-.sessions { padding: 10px 2px 4px; }
+/* ---- Workout card ---- */
+details.wcard { border-radius: 14px; margin: 10px 0; background: var(--surface); border: 1px solid var(--border); }
+details.wcard > summary { list-style: none; cursor: pointer; padding: 16px; display: flex; gap: 10px; align-items: center; }
+details.wcard > summary::-webkit-details-marker { display: none; }
+details.wcard > summary .ttl { flex: 1; font-weight: 700; }
+details.wcard > summary .meta { font-size: .8rem; color: var(--text-dim); white-space: nowrap; }
+details.wcard[open] > summary { border-bottom: 1px dashed var(--border); }
+details.wcard .wbody { padding: 12px 16px 16px; font-size: .92rem; }
+.cat-intro { font-size: .9rem; color: var(--text-dim); margin: 0 4px 6px; }
 
 /* ---- Session row ---- */
 .srow {
@@ -118,32 +115,13 @@ p { margin: 8px 0; }
   border-radius: 14px; margin: 10px 0; background: var(--surface);
   border: 1px solid var(--border);
 }
-.srow.done { opacity: .5; }
-.srow.repos { background: var(--surface-2); border-style: dashed; }
-.srow.today { border-color: var(--accent); box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent) 30%, transparent); }
-.check {
-  flex-shrink: 0; width: 30px; height: 30px; border-radius: 9px; border: 2px solid var(--border);
-  background: var(--surface-2); cursor: pointer; display: grid; place-items: center;
-  font-size: 1rem; color: #fff; font-weight: 700; transition: all .15s;
-}
-.check.on { background: var(--accent); border-color: var(--accent); }
-.check:disabled { cursor: default; opacity: 1; }
 .srow .body { flex: 1; min-width: 0; }
 .srow .head { display: flex; align-items: center; gap: 9px; flex-wrap: wrap; }
 .srow .day { font-weight: 800; font-size: .78rem; color: var(--text-dim); min-width: 32px; text-transform: uppercase; }
 .srow .ttl { font-weight: 700; font-size: 1rem; }
-.srow .tag { font-size: .64rem; padding: 2px 9px; border-radius: 99px; font-weight: 700; text-transform: uppercase; letter-spacing: .3px; }
+.tag { font-size: .64rem; padding: 2px 9px; border-radius: 99px; font-weight: 700; text-transform: uppercase; letter-spacing: .3px; }
 .tag.velo { background: color-mix(in srgb, var(--velo) 15%, transparent); color: var(--velo); }
 .tag.muscu { background: color-mix(in srgb, var(--muscu) 15%, transparent); color: var(--muscu); }
-.tag.course { background: color-mix(in srgb, var(--warn) 16%, transparent); color: var(--warn); }
-.tag.today-tag { background: var(--accent); color: #fff; }
-.tag.done-tag { background: color-mix(in srgb, #16a34a 16%, transparent); color: #16a34a; }
-.week-note {
-  margin: 4px 4px 12px; padding: 12px 14px; border-radius: 10px;
-  background: color-mix(in srgb, var(--accent) 8%, transparent);
-  border-left: 3px solid var(--accent);
-  font-size: .92rem; line-height: 1.5;
-}
 .srow .meta { font-size: .8rem; color: var(--text-dim); margin-top: 4px; }
 .srow .detail { font-size: .92rem; margin-top: 8px; }
 .steps-list {
