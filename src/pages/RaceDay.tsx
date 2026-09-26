@@ -16,6 +16,12 @@ export function RaceDay() {
           Page officielle de l'événement ↗
         </a>
         <p className="small" style={{ marginTop: 12 }}>{raceDay.summary}</p>
+        <a className="fit-btn" href={`${import.meta.env.BASE_URL}courses/la-bisou-94.fit`} download="la-bisou-94.fit">
+          📥 Parcours Garmin .FIT (trace + alertes)
+        </a>
+        <p className="small muted">
+          À copier dans <code>Garmin/NewFiles/</code> de l'Edge, puis Navigation → Parcours → « La Bisou 94 ».
+        </p>
       </section>
 
       <section className="card">
