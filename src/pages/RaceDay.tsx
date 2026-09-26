@@ -1,4 +1,5 @@
 import { event, raceDay } from '../data/plan'
+import { RaceProfile, badgeStyle } from '../components/RaceProfile'
 
 export function RaceDay() {
   return (
@@ -15,6 +16,11 @@ export function RaceDay() {
           Page officielle de l'événement ↗
         </a>
         <p className="small" style={{ marginTop: 12 }}>{raceDay.summary}</p>
+      </section>
+
+      <section className="card">
+        <h3>⛰️ Profil & consignes par section</h3>
+        <RaceProfile />
       </section>
 
       <section className="card">
@@ -42,8 +48,9 @@ export function RaceDay() {
           <div key={s.km} className="srow">
             <div className="body">
               <div className="head">
-                <span className="day">km {s.km}</span>
+                <span className="num-badge" style={badgeStyle(s.effort)}>{s.n}</span>
                 <span className="ttl">{s.name}</span>
+                <span className="day">km {s.km}</span>
               </div>
               <div className="meta">
                 {s.profile} · {s.wind}

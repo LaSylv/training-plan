@@ -252,3 +252,17 @@ ul.clean li { margin: 8px 0; }
   border: 1px solid var(--border); background: var(--surface-2); color: var(--text);
 }
 .home-toggle.on { background: var(--muscu); color: #fff; border-color: var(--muscu); }
+
+/* ---- Profil de course ---- */
+.race-profile svg { display: block; margin-top: 6px; }
+.race-profile .grid { stroke: var(--border); stroke-width: 1; }
+.race-profile .baseline { stroke: var(--text-dim); stroke-width: 1; }
+.race-profile .wind { stroke: var(--text-dim); stroke-width: 1; stroke-dasharray: 3 3; }
+.race-profile .axis { font-size: 11px; fill: var(--text-dim); }
+.race-profile .marker { font-size: 12px; font-weight: 700; fill: var(--text); }
+.legend { display: flex; flex-wrap: wrap; gap: 8px 16px; margin: 10px 0 4px; font-size: .82rem; color: var(--text-dim); }
+.legend-item { display: inline-flex; align-items: center; gap: 6px; }
+.swatch { width: 14px; height: 14px; border-radius: 4px; display: inline-block; }
+.profile-panel { margin-top: 10px; padding: 12px 14px; border-radius: 12px; background: var(--surface-2); border: 1px solid var(--border); min-height: 64px; display: grid; gap: 4px; }
+.profile-panel .head { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.num-badge { display: inline-grid; place-items: center; width: 24px; height: 24px; border-radius: 99px; font-size: .78rem; font-weight: 800; flex-shrink: 0; }
