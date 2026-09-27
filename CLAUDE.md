@@ -47,6 +47,11 @@ Parcours décodé depuis l'Openrunner officiel : Ramasse km 15 (4,4 km à 5,9 %)
 vallée de l'Ain vent de face km 46–70 (vent de S prévu), Saint-Martin-du-Mont km 70, retour plat vent dans le dos.
 Plan de course complet dans `raceDay` (plan.json).
 
+✅ **Résultat (27/09)** : **3 h 02'14, 216ᵉ / 770** (212ᵉ homme / 703, 63ᵉ / 184 cat. D), 30,95 km/h.
+NP 209 W · IF 0,91 · ~250 TSS · HR moy 168, **max 188 (nouveau max)**. Records en course : 245 W sur 5', 234 W sur 10', 228 W sur 15' → FTP 230 confirmée (plutôt 230–235).
+Ramasse pile dans la cible (224 W / 15'42), Esses et Corveissiat au-dessus (221–226 W), puis Saint-Martin sous la cible (204 W) : il a payé l'excès du milieu de course.
+1ʳᵉ féminine : 2 h 31'40 (22ᵉ scratch) ; il finit devant la 5ᵉ. Vainqueur 2 h 24'55 (38,9 km/h) : la course se joue dans les groupes à 37–39 km/h.
+
 > Le Vercors (19/09) n'a pas été couru : il a fait la **Madeleine** ce jour-là (113 km / 2 263 m, 1 h 38 à 179 W dans le col).
 
 ## 📌 Enseignements du bloc été 2026 (juil. → sept.)
