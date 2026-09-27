@@ -25,6 +25,8 @@ export interface Block {
   uLo?: number
   uHi?: number
   rec?: number
+  overName?: string       // nom des pas « over » / « under » sur le Garmin
+  underName?: string
 }
 
 export interface Workout {
@@ -107,6 +109,8 @@ export function zoneWatts(z: ZoneDef, ftp: number): string {
 export function formatBlocks(steps: Block[], ftp: number): string[] {
   const w = (p?: number) => Math.round(((p ?? 0) / 100) * ftp)
   const range = (lo?: number, hi?: number) => `${w(lo)}–${w(hi)} W`
+  // Durées < 1 min affichées en secondes (0.25 → « 15 s »).
+  const dur = (m?: number) => (m !== undefined && m < 1 ? `${Math.round(m * 60)} s` : `${m} min`)
   return steps.map((b) => {
     switch (b.k) {
       case 'wu':
@@ -118,15 +122,15 @@ export function formatBlocks(steps: Block[], ftp: number): string[] {
       case 'steady':
         return `${b.label} — ${b.min} min · ${range(b.lo, b.hi)}`
       case 'int':
-        return `${b.reps} × ${b.on} min · ${range(b.lo, b.hi)} — ${b.label}${b.cad ? ` (${b.cad})` : ''}${b.off ? ` · récup ${b.off} min` : ''}`
+        return `${b.reps} × ${dur(b.on)} · ${range(b.lo, b.hi)} — ${b.label}${b.cad ? ` (${b.cad})` : ''}${b.off ? ` · récup ${dur(b.off)}` : ''}`
       case 'ou': {
         // Série unique : on écrit « 5 × (…) » plutôt que « 1 × [5 × (…)] ».
-        const rep = `${b.reps} × (${b.onOver} min ${range(b.oLo, b.oHi)} / ${b.onUnder} min ${range(b.uLo, b.uHi)})`
+        const rep = `${b.reps} × (${dur(b.onOver)} ${range(b.oLo, b.oHi)} / ${dur(b.onUnder)} ${range(b.uLo, b.uHi)})`
         const body = b.sets === 1 ? rep : `${b.sets} × [${rep}]`
-        return `${body} — Over-unders`
+        return `${body} — ${b.label ?? 'Over-unders'}${b.rec && (b.sets ?? 1) > 1 ? ` · récup ${dur(b.rec)} entre séries` : ''}`
       }
       case 'open':
-        return `${b.label} — ${b.min} min · effort libre (donne tout)`
+        return `${b.label} — ${dur(b.min)} · effort libre (donne tout)`
       default:
         return ''
     }

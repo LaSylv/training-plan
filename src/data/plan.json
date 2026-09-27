@@ -980,7 +980,7 @@
           "id": "ss-3x12",
           "type": "velo",
           "title": "Sweet Spot 3 × 12'",
-          "duration": "1h15",
+          "duration": "1h05",
           "tss": 80,
           "detail": "Le classique. Cadence 85–90, assis. Si le 3ᵉ bloc passe facilement, la prochaine fois fais 2 × 20'.",
           "where": "Col de la Luère, Croix du Ban, Mont Verdun",
@@ -1008,7 +1008,7 @@
           "id": "ss-2x20",
           "type": "velo",
           "title": "Sweet Spot 2 × 20'",
-          "duration": "1h20",
+          "duration": "1h05",
           "tss": 85,
           "detail": "La version longue : 40 min à 200–215 W. Idéal sur un col long (Luère enchaînée, Pilat).",
           "where": "Col de la Luère, Crêt de l'Œillon",
@@ -1036,7 +1036,7 @@
           "id": "tempo-60",
           "type": "velo",
           "title": "Tempo long 60' en montée",
-          "duration": "1h45",
+          "duration": "1h30",
           "tss": 95,
           "detail": "Une heure continue à 185–200 W, comme la Colombière. Le meilleur exercice pour un moteur diesel. Découpe-la en 2–3 montées enchaînées si pas de col d'une heure.",
           "where": "Pilat (Œillon par Pélussin), Col de la République",
@@ -1069,7 +1069,7 @@
           "id": "seuil-3x10",
           "type": "velo",
           "title": "Seuil 3 × 10'",
-          "duration": "1h10",
+          "duration": "1h",
           "tss": 85,
           "detail": "225–235 W. Référence du 28/07 : 217 → 219 → 220 W sans décrocher. Si la HR dépasse 180 au 3ᵉ bloc, arrête-toi à 2.",
           "where": "Mont Verdun, col du Verdun",
@@ -1097,7 +1097,7 @@
           "id": "seuil-2x15",
           "type": "velo",
           "title": "Seuil 2 × 15'",
-          "duration": "1h05",
+          "duration": "55 min",
           "tss": 80,
           "detail": "Blocs longs juste sous le seuil (220–230 W), plus adaptés à ton profil que les blocs courts.",
           "where": "Col de la Luère, Yzeron par Vaugneray",
@@ -1125,7 +1125,7 @@
           "id": "over-unders",
           "type": "velo",
           "title": "Over-unders",
-          "duration": "1h15",
+          "duration": "50 min",
           "tss": 85,
           "detail": "Simule les changements de pente et les relances en groupe : 1' au-dessus du seuil / 2' en dessous, sans récupérer.",
           "where": "Montée régulière de 10 min+",
@@ -1163,7 +1163,7 @@
           "id": "vo2-5x3",
           "type": "velo",
           "title": "VO2 5 × 3'",
-          "duration": "1h",
+          "duration": "45 min",
           "tss": 70,
           "detail": "253–262 W. Récup vraiment facile entre les blocs. Le dernier doit être aussi fort que le premier.",
           "where": "Mont Thou, Mont Cindre",
@@ -1191,7 +1191,7 @@
           "id": "rampes-6x2",
           "type": "velo",
           "title": "Rampes 6 × 2' en force",
-          "duration": "55 min",
+          "duration": "45 min",
           "tss": 60,
           "detail": "265–275 W sur du 8–10 %, cadence 60–70, assis puis danseuse sur les 20 dernières secondes. Force spécifique pour les murs.",
           "where": "Mur du Mont Thou, chemin des Vondières",
@@ -1213,6 +1213,222 @@
             {
               "k": "cd",
               "min": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "groupe",
+      "title": "🟣 Rouler en groupe & relances",
+      "intro": "Ce qui t'a coûté à la Bisou : les à-coups derrière les gros gabarits (15 relances > 300 W dans la vallée, irrégularité 1,19). Ces séances entraînent à relancer fort puis à tenir la roue sans récupérer. Sur du plat ou du faux-plat, jamais le lendemain d'une grosse sortie.",
+      "workouts": [
+        {
+          "id": "relances-3x10",
+          "type": "velo",
+          "title": "Relances de groupe 3 × 10 × 15\"",
+          "duration": "1h05",
+          "tss": 75,
+          "detail": "15 s à 345–370 W (une sortie de virage derrière un 75 kg), puis 45 s à 185–205 W : la roue, pas la récup. Assis, cadence 100+ sur les relances. Le dernier bloc doit rester aussi fort que le premier.",
+          "where": "Plat : Dombes, bords de Saône, Voie Bleue",
+          "steps": [
+            {
+              "k": "wu",
+              "min": 15
+            },
+            {
+              "k": "ou",
+              "sets": 1,
+              "reps": 10,
+              "onOver": 0.25,
+              "oLo": 150,
+              "oHi": 160,
+              "onUnder": 0.75,
+              "uLo": 80,
+              "uHi": 88,
+              "rec": 0,
+              "label": "Relances",
+              "overName": "Relance",
+              "underName": "Roue"
+            },
+            {
+              "k": "rec",
+              "min": 5
+            },
+            {
+              "k": "ou",
+              "sets": 1,
+              "reps": 10,
+              "onOver": 0.25,
+              "oLo": 150,
+              "oHi": 160,
+              "onUnder": 0.75,
+              "uLo": 80,
+              "uHi": 88,
+              "rec": 0,
+              "label": "Relances",
+              "overName": "Relance",
+              "underName": "Roue"
+            },
+            {
+              "k": "rec",
+              "min": 5
+            },
+            {
+              "k": "ou",
+              "sets": 1,
+              "reps": 10,
+              "onOver": 0.25,
+              "oLo": 150,
+              "oHi": 160,
+              "onUnder": 0.75,
+              "uLo": 80,
+              "uHi": 88,
+              "rec": 0,
+              "label": "Relances",
+              "overName": "Relance",
+              "underName": "Roue"
+            },
+            {
+              "k": "cd",
+              "min": 10
+            }
+          ]
+        },
+        {
+          "id": "tempo-hache",
+          "type": "velo",
+          "title": "Tempo haché (vent de face)",
+          "duration": "1h05",
+          "tss": 80,
+          "detail": "3 blocs de 12' en tempo (195–205 W) avec une relance de 15 s à ~345 W toutes les 2 min. Le profil exact de la vallée de l'Ain : tu ne récupères jamais vraiment.",
+          "where": "Plat venté, Dombes",
+          "steps": [
+            {
+              "k": "wu",
+              "min": 12
+            },
+            {
+              "k": "ou",
+              "sets": 3,
+              "reps": 6,
+              "onOver": 0.25,
+              "oLo": 145,
+              "oHi": 155,
+              "onUnder": 1.75,
+              "uLo": 85,
+              "uHi": 90,
+              "rec": 4,
+              "label": "Tempo haché",
+              "overName": "Relance",
+              "underName": "Tempo"
+            },
+            {
+              "k": "cd",
+              "min": 8
+            }
+          ]
+        },
+        {
+          "id": "elastique-2x4",
+          "type": "velo",
+          "title": "Effet élastique 2 × 4",
+          "duration": "45 min",
+          "tss": 70,
+          "detail": "20 s à 370–400 W pour boucher un trou, puis 2 min à 200–210 W pour rester dans le groupe. Récup 5' entre les deux séries.",
+          "where": "Plat ou faux-plat montant",
+          "steps": [
+            {
+              "k": "wu",
+              "min": 12
+            },
+            {
+              "k": "ou",
+              "sets": 2,
+              "reps": 4,
+              "onOver": 0.3333333333333333,
+              "oLo": 160,
+              "oHi": 175,
+              "onUnder": 2,
+              "uLo": 86,
+              "uHi": 92,
+              "rec": 5,
+              "label": "Effet élastique",
+              "overName": "Boucher le trou",
+              "underName": "Tenir la roue"
+            },
+            {
+              "k": "cd",
+              "min": 10
+            }
+          ]
+        },
+        {
+          "id": "demarrages-6x",
+          "type": "velo",
+          "title": "Démarrages 6 × 10\" max",
+          "duration": "45 min",
+          "tss": 45,
+          "detail": "Lancé à ~25 km/h, gros braquet, 10 s à fond en danseuse, puis 4 min faciles. Pour les sorties de virage et les sprints de fin de course. Qualité maximale, récup complète.",
+          "where": "Ligne droite sûre, sans circulation",
+          "steps": [
+            {
+              "k": "wu",
+              "min": 15
+            },
+            {
+              "k": "open",
+              "min": 0.16666666666666666,
+              "label": "Démarrage max"
+            },
+            {
+              "k": "rec",
+              "min": 4
+            },
+            {
+              "k": "open",
+              "min": 0.16666666666666666,
+              "label": "Démarrage max"
+            },
+            {
+              "k": "rec",
+              "min": 4
+            },
+            {
+              "k": "open",
+              "min": 0.16666666666666666,
+              "label": "Démarrage max"
+            },
+            {
+              "k": "rec",
+              "min": 4
+            },
+            {
+              "k": "open",
+              "min": 0.16666666666666666,
+              "label": "Démarrage max"
+            },
+            {
+              "k": "rec",
+              "min": 4
+            },
+            {
+              "k": "open",
+              "min": 0.16666666666666666,
+              "label": "Démarrage max"
+            },
+            {
+              "k": "rec",
+              "min": 4
+            },
+            {
+              "k": "open",
+              "min": 0.16666666666666666,
+              "label": "Démarrage max"
+            },
+            {
+              "k": "cd",
+              "min": 10
             }
           ]
         }
@@ -1313,7 +1529,7 @@
           "id": "rappel-3x3",
           "type": "velo",
           "title": "Rappel 3 × 3' seuil",
-          "duration": "1h",
+          "duration": "35 min",
           "tss": 55,
           "detail": "2–3 jours avant la course : garde le seuil vif, volume minimal.",
           "where": "Mont Verdun",
@@ -1334,6 +1550,188 @@
             {
               "k": "cd",
               "min": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "home",
+      "title": "🏠 Home trainer",
+      "intro": "Pas de roue libre ni de feux : 1 h de home trainer vaut ~1 h 15 dehors. Charge le .FIT sur l'Edge 530 appairé au home trainer (ANT+ FE-C) : en mode ERG, l'Edge règle la résistance tout seul. Ventilateur devant toi, bidon à portée, serviette sur le guidon.",
+      "workouts": [
+        {
+          "id": "ht-recup-45",
+          "type": "velo",
+          "title": "Récup 45'",
+          "duration": "45 min",
+          "tss": 25,
+          "detail": "Tourner les jambes, cadence 90–95, rien au-dessus de 145 W. Parfait le lendemain d'une course.",
+          "steps": [
+            {
+              "k": "wu",
+              "min": 5
+            },
+            {
+              "k": "steady",
+              "min": 35,
+              "lo": 50,
+              "hi": 62,
+              "label": "Récup"
+            },
+            {
+              "k": "cd",
+              "min": 5
+            }
+          ]
+        },
+        {
+          "id": "ht-ss-4x8",
+          "type": "velo",
+          "title": "Sweet Spot 4 × 8'",
+          "duration": "1h",
+          "tss": 65,
+          "detail": "205–215 W, cadence 90. Version courte et dense du sweet spot : l'ERG empêche de tricher.",
+          "steps": [
+            {
+              "k": "wu",
+              "min": 10
+            },
+            {
+              "k": "int",
+              "reps": 4,
+              "on": 8,
+              "off": 3,
+              "lo": 89,
+              "hi": 94,
+              "label": "Sweet Spot"
+            },
+            {
+              "k": "cd",
+              "min": 8
+            }
+          ]
+        },
+        {
+          "id": "ht-seuil-3x8",
+          "type": "velo",
+          "title": "Seuil 3 × 8'",
+          "duration": "50 min",
+          "tss": 65,
+          "detail": "230–237 W. Sur home trainer le seuil est plus dur que dehors (chaleur, pas d'inertie) : si la HR dépasse 182, baisse de 5 W.",
+          "steps": [
+            {
+              "k": "wu",
+              "min": 12
+            },
+            {
+              "k": "int",
+              "reps": 3,
+              "on": 8,
+              "off": 4,
+              "lo": 100,
+              "hi": 103,
+              "label": "Seuil"
+            },
+            {
+              "k": "cd",
+              "min": 8
+            }
+          ]
+        },
+        {
+          "id": "ht-3015",
+          "type": "velo",
+          "title": "30/15 Rønnestad 3 × 13",
+          "duration": "55 min",
+          "tss": 65,
+          "detail": "3 séries de 13 × (30 s à 275–300 W / 15 s faciles), 3' entre les séries. La meilleure séance pour la puissance 5–10 min : ta marge de progression n°1 vue la Bisou (245 W sur 5').",
+          "steps": [
+            {
+              "k": "wu",
+              "min": 12
+            },
+            {
+              "k": "ou",
+              "sets": 3,
+              "reps": 13,
+              "onOver": 0.5,
+              "oLo": 120,
+              "oHi": 130,
+              "onUnder": 0.25,
+              "uLo": 50,
+              "uHi": 60,
+              "rec": 3,
+              "label": "30/15",
+              "overName": "30 s dur",
+              "underName": "15 s facile"
+            },
+            {
+              "k": "cd",
+              "min": 8
+            }
+          ]
+        },
+        {
+          "id": "ht-force",
+          "type": "velo",
+          "title": "Force basse cadence 5 × 5'",
+          "duration": "55 min",
+          "tss": 60,
+          "detail": "195–207 W à 55–60 rpm, buste immobile, en poussant sur toute la rotation. Remplace les rampes quand il pleut.",
+          "steps": [
+            {
+              "k": "wu",
+              "min": 10
+            },
+            {
+              "k": "int",
+              "reps": 5,
+              "on": 5,
+              "off": 3,
+              "lo": 85,
+              "hi": 90,
+              "label": "Force",
+              "cad": "55–60 rpm"
+            },
+            {
+              "k": "cd",
+              "min": 8
+            }
+          ]
+        },
+        {
+          "id": "ht-velocite",
+          "type": "velo",
+          "title": "Endurance + vélocité",
+          "duration": "55 min",
+          "tss": 45,
+          "detail": "Z2 avec 6 × 1' à 110+ rpm sans monter les watts. Améliore la souplesse pour les relances.",
+          "steps": [
+            {
+              "k": "wu",
+              "min": 10
+            },
+            {
+              "k": "steady",
+              "min": 15,
+              "lo": 60,
+              "hi": 72,
+              "label": "Endurance"
+            },
+            {
+              "k": "int",
+              "reps": 6,
+              "on": 1,
+              "off": 3,
+              "lo": 62,
+              "hi": 72,
+              "label": "Vélocité",
+              "cad": "110+ rpm"
+            },
+            {
+              "k": "cd",
+              "min": 11
             }
           ]
         }

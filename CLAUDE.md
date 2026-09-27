@@ -15,7 +15,7 @@ C'est une **bibliothèque de séances à piocher** quand il en a envie + le **pl
 
 ### Pages
 - Accueil (compte à rebours de l'objectif, profil, raccourcis catégories)
-- **Séances** (`/seances`) : catalogue vélo par catégorie (facile, tempo/SS, seuil, VO2/rampes, sorties longues, avant course) + salle — chaque séance vélo a son **`.FIT`**
+- **Séances** (`/seances`) : catalogue vélo par catégorie (facile, tempo/SS, seuil, VO2/rampes, **groupe & relances**, sorties longues, avant course, **home trainer**) + salle — chaque séance vélo a son **`.FIT`**
 - **Salle** (`/muscu`) : séances A/B + **séance guidée** (`/seance/muscu-a|muscu-b`, chrono, bascule 🏠 sans matériel)
 - Zones + calculateur FTP · **Jour J** (plan de course tronçon par tronçon) · Cols de Lyon
 
@@ -49,7 +49,8 @@ Plan de course complet dans `raceDay` (plan.json).
 
 ✅ **Résultat (27/09)** : **3 h 02'14, 216ᵉ / 770** (212ᵉ homme / 703, 63ᵉ / 184 cat. D), 30,95 km/h.
 NP 209 W · IF 0,91 · ~250 TSS · HR moy 168, **max 188 (nouveau max)**. Records en course : 245 W sur 5', 234 W sur 10', 228 W sur 15' → FTP 230 confirmée (plutôt 230–235).
-Ramasse pile dans la cible (224 W / 15'42), Esses et Corveissiat au-dessus (221–226 W), puis Saint-Martin sous la cible (204 W) : il a payé l'excès du milieu de course.
+Groupe de tête perdu dans la Ramasse **à sa limite** (224 W réguliers sur 15'42, meilleur 15' du jour = 228 W). Esses et Corveissiat montés fort (jusqu'à 243 W) **volontairement pour rattraper un groupe** → bon choix : abrité ~45 % dans les 24 km de vent de face. Prix payé : Saint-Martin à 204 W au lieu de 235–260.
+Groupe de gros gabarits : vallée très hachée (irrégularité NP/moy 1,19, 15 relances > 300 W, HR 188) → d'où la catégorie « Rouler en groupe & relances ».
 1ʳᵉ féminine : 2 h 31'40 (22ᵉ scratch) ; il finit devant la 5ᵉ. Vainqueur 2 h 24'55 (38,9 km/h) : la course se joue dans les groupes à 37–39 km/h.
 
 > Le Vercors (19/09) n'a pas été couru : il a fait la **Madeleine** ce jour-là (113 km / 2 263 m, 1 h 38 à 179 W dans le col).
@@ -73,6 +74,9 @@ Ramasse pile dans la cible (224 W / 15'42), Esses et Corveissiat au-dessus (221�
 
 ### Fichiers Garmin .FIT
 - Générés par **`scripts/gen_workouts.py`** (lit `library` + `athlete.ftp`), sortie `public/workouts/<id>.fit` (cibles watts absolus, anciens `.fit` purgés). Un `.FIT` par séance **vélo** de la bibliothèque.
+- Durées : `m.duration_time = secondes` (fit-tool convertit en ms). ⚠️ Avant le 27/09 le script multipliait par 1 000 → durées ×1000 dans les anciens `.FIT`. Répétitions encodées en étapes Garmin « répéter × N » (blocs `ou`, et `int` à 3 reps ou plus).
+- Blocs : durées < 1 min en fraction de minute (`0.25` = 15 s), affichées en secondes. `ou` accepte `label`, `overName`, `underName`.
+- Parcours de course : `public/courses/la-bisou-94.fit` (trace + alertes), généré hors repo depuis l'Openrunner officiel.
 - Nécessite `fit-tool` (hors deps du repo) :
   ```bash
   uv venv /tmp/fitenv && uv pip install --python /tmp/fitenv fit-tool fitparse

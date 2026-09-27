@@ -39,12 +39,16 @@ OFF = (58, 66)     # récup entre répétitions d'intervalles
 
 
 def step(name, sec, lo, hi, intensity):
-    return {'name': name, 'sec': sec, 'lo': lo, 'hi': hi, 'int': intensity}
+    return {'name': name, 'sec': round(sec), 'lo': lo, 'hi': hi, 'int': intensity}
 
 
-# `duration_value` est encodé en uint32 après une mise à l'échelle interne de fit-tool
-# (secondes × 10^6) : un pas unique au-delà de ~71 min déborde. On découpe.
+# Pas très longs découpés en tranches d'1 h (plus lisible sur le compteur).
 MAX_STEP_SEC = 60 * 60
+
+
+def repeat(first, count):
+    """Étape Garmin « répéter depuis l'étape `first`, `count` fois au total »."""
+    return {'repeat': first, 'count': count}
 
 
 def split(name, sec, lo, hi, intensity):
@@ -80,19 +84,28 @@ def expand(steps, ftp):
             label = b.get('label', 'Intervalle')
             if b.get('cad'):
                 label = f"{label} ({b['cad']})"
-            for i in range(b['reps']):
-                out.append(step(label, b['on'] * 60, w(b['lo']), w(b['hi']), Intensity.INTERVAL))
-                if i < b['reps'] - 1 and b.get('off'):
-                    out.append(step("Récup", b['off'] * 60, w(OFF[0]), w(OFF[1]), Intensity.RECOVERY))
+            on = step(label, b['on'] * 60, w(b['lo']), w(b['hi']), Intensity.INTERVAL)
+            off = step("Récup", b['off'] * 60, w(OFF[0]), w(OFF[1]), Intensity.RECOVERY) if b.get('off') else None
+            if off and b['reps'] >= 3:
+                # (effort + récup) × (n − 1) puis un dernier effort sans récup.
+                first = len(out)
+                out += [on, off, repeat(first, b['reps'] - 1), dict(on)]
+            else:
+                for i in range(b['reps']):
+                    out.append(dict(on))
+                    if off and i < b['reps'] - 1:
+                        out.append(dict(off))
         elif k == 'ou':
             for j in range(b['sets']):
-                for _ in range(b['reps']):
-                    out.append(step("Over", b['onOver'] * 60, w(b['oLo']), w(b['oHi']), Intensity.INTERVAL))
-                    out.append(step("Under", b['onUnder'] * 60, w(b['uLo']), w(b['uHi']), Intensity.ACTIVE))
+                first = len(out)
+                out.append(step(b.get('overName', 'Over'), b['onOver'] * 60, w(b['oLo']), w(b['oHi']), Intensity.INTERVAL))
+                out.append(step(b.get('underName', 'Under'), b['onUnder'] * 60, w(b['uLo']), w(b['uHi']), Intensity.ACTIVE))
+                if b['reps'] > 1:
+                    out.append(repeat(first, b['reps']))
                 if j < b['sets'] - 1 and b.get('rec'):
                     out.append(step("Récup", b['rec'] * 60, w(OFF[0]), w(OFF[1]), Intensity.RECOVERY))
         elif k == 'open':
-            out.append({'name': b.get('label', 'Effort libre'), 'sec': b['min'] * 60,
+            out.append({'name': b.get('label', 'Effort libre'), 'sec': round(b['min'] * 60),
                         'lo': None, 'hi': None, 'int': Intensity.INTERVAL})
     return out
 
@@ -121,10 +134,16 @@ def build(wid, name, atomic):
     for i, st in enumerate(atomic):
         m = WorkoutStepMessage()
         m.message_index = i
+        if 'repeat' in st:
+            m.duration_type = WorkoutStepDuration.REPEAT_UNTIL_STEPS_CMPLT
+            m.duration_step = st['repeat']
+            m.target_repeat_steps = st['count']
+            builder.add(m)
+            continue
         m.workout_step_name = st['name']
         m.intensity = st['int']
         m.duration_type = WorkoutStepDuration.TIME
-        m.duration_value = st['sec'] * 1000
+        m.duration_time = st['sec']  # fit-tool convertit lui-même en ms
         if st['lo'] is None:
             m.target_type = WorkoutStepTarget.OPEN
         else:
